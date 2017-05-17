@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: myhtml
+Description: Fast C/C++ HTML 5 Parser. Using threads.
+Version: 4.0.0
+Cflags: -I{includedir}/mycore -I{includedir}/myencoding -I{includedir}/myhtml
+Libs: -L${libdir} -lmyhtml

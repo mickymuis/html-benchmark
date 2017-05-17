@@ -13,13 +13,18 @@ GUMBO_DIR = gumbo-parser
 MYHTML_DIR = myhtml
 .PHONY: myhtml
 
-# for Lmth parser
+# for Haut parser
 HAUT_DIR = haut
 .PHONY: haut
 
+# for libxml2
+#ifeq ($(LIBXML2_INCLUDE_PATH), '')
+    LIBXML2_INCLUDE_PATH = /usr/include/libxml2
+#endif
+
 # General flags
 CC = gcc
-CFLAGS = -Wall -std=c99 -O2 -g -I/usr/include/libxml2 -I$(MYHTML_DIR)/include
+CFLAGS = -Wall -std=c99 -O2 -g -I$(LIBXML2_INCLUDE_PATH) -I$(MYHTML_DIR)/include
 LDFLAGS = -lpthread -lxml2 -lgumbo -lmyhtml_static -lhaut -L$(GUMBO_DIR) -L$(MYHTML_DIR)/lib -L$(HAUT_DIR)
 
 OBJS = main.o benchmark.o util.o test_dummy.o test_hsp.o test_libxml2.o test_gumbo.o test_myhtml.o test_haut.o htmlstreamparser/htmlstreamparser.o

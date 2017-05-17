@@ -76,7 +76,10 @@ testSetAppend( testset_t *testset, size_t index, const char* filename ) {
     }
 
     char *buf = malloc( size + 1 );
-    fread( buf, size, 1, file );
+    if( fread( buf, size, 1, file ) != size ) {
+        fprintf( stderr, "ERROR: Reading `%s': %s\n", filename, strerror( errno ) );
+        return -1;
+    }
     // We add a \0 for some parsers require it
     buf[size] = 0;
 
@@ -111,9 +114,17 @@ benchmark_loadTestSet( testset_t *testset, const char* path ) {
     struct dirent *entry;
     struct stat sb;
 
+    char fullpath[PATH_MAX];
+    strcpy( fullpath, path );
+    int pathlen =strlen( path );
+    if( fullpath[pathlen-1] != '/' ) {
+        fullpath[pathlen++] ='/';
+    }
+    
     // We count all the entries first, so we can preallocate the array
     while( (entry = readdir( dir )) != NULL ) {
-        if( entry->d_type != DT_DIR ) 
+        strcpy( fullpath + pathlen, entry->d_name );
+        if( stat( fullpath, &sb ) == 0 && S_ISREG( sb.st_mode ) ) 
             testset->count++;
     }
 
@@ -130,12 +141,6 @@ benchmark_loadTestSet( testset_t *testset, const char* path ) {
 
     rewinddir( dir );
 
-    char fullpath[PATH_MAX];
-    strcpy( fullpath, path );
-    int pathlen =strlen( path );
-    if( fullpath[pathlen-1] != '/' ) {
-        fullpath[pathlen++] ='/';
-    }
 
     // Iterate through the directory again and load every file into the test set
     while( index < testset->count && (entry = readdir( dir )) != NULL ) {

@@ -23,6 +23,12 @@ mycore_malloc( size_t size ) {
     return malloc( size );
 }
 
+void*
+mycore_realloc( void* dst, size_t size ) {
+//    k_result->total_bytes +=size;
+    return realloc( dst, size );
+}
+
 static string_t
 innertext( myhtml_tree_node_t* node ) {
     if( !node ) goto empty;
