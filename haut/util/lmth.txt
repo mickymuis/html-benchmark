@@ -1,0 +1,4010 @@
+Loaded test set: 1986 files loaded with a total size of 31.4 MB.
+Parsing `../../../repo_correct/FTPCOj3TUB.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.28.414.html'
+Total images: 7
+Parsing `../../../repo_correct/alumni-bezoeken-hortus-botanicus-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/material-culture-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/education.4.html'
+Total images: 2
+Parsing `../../../repo_correct/research-schools.html'
+Total images: 2
+Parsing `../../../repo_correct/african-studies-centre-leiden.html'
+Total images: 2
+Parsing `../../../repo_correct/preparation-for-the-job-market.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.20.332.html'
+Total images: 0
+Parsing `../../../repo_correct/staff.23.html'
+Total images: 0
+Parsing `../../../repo_correct/tuition-fee.7.html'
+Total images: 1
+Parsing `../../../repo_correct/van-steenis.html'
+Total images: 4
+Parsing `../../../repo_correct/about.13.html'
+Total images: 3
+Parsing `../../../repo_correct/z.html'
+Total images: 4
+Parsing `../../../repo_correct/religie-en-filosofie.2.html'
+Total images: 2
+Parsing `../../../repo_correct/opvoedworkshops-in-samenwerking-met-de-gemeente-den-haag.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.14.57.html'
+Total images: 6
+Parsing `../../../repo_correct/emma-hesselink.html'
+Total images: 7
+Parsing `../../../repo_correct/highvrije-wiet-in-trek-bij-nos-op-3?utm_source=2601017&utm_medium=e-mail&utm_content=highvrije-wiet-in-trek-bij-nos-op-3&utm_campaign=nieuwsbrief.html'
+Total images: 4
+Parsing `../../../repo_correct/johan-huizinga-building.html'
+Total images: 4
+Parsing `../../../repo_correct/s.4.html'
+Total images: 2
+Parsing `../../../repo_correct/nederlandse-taalkunde.1.html'
+Total images: 2
+Parsing `../../../repo_correct/education.14.html'
+Total images: 2
+Parsing `../../../repo_correct/staff.8.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.203.html'
+Total images: 1
+Parsing `../../../repo_correct/asian-studies-research.1.html'
+Total images: 2
+Parsing `../../../repo_correct/modern-contemporary-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/linguistics-research.html'
+Total images: 3
+Parsing `../../../repo_correct/security_safety_justice.html'
+Total images: 2
+Parsing `../../../repo_correct/chemical-biology-lezing-jan-theys.html'
+Total images: 1
+Parsing `../../../repo_correct/historie.html'
+Total images: 3
+Parsing `../../../repo_correct/colonialism-inside-out.html'
+Total images: 7
+Parsing `../../../repo_correct/10.2.html'
+Total images: 0
+Parsing `../../../repo_correct/buitenleden-activiteit-chemisch-dispuut-leiden.html'
+Total images: 1
+Parsing `../../../repo_correct/happy-healthy-homes-the-role-of-parenting-in-early-childhood-overweight.html'
+Total images: 1
+Parsing `../../../repo_correct/vroege-sterrenstelsels.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.32.html'
+Total images: 7
+Parsing `../../../repo_correct/contact.36.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.7.84.html'
+Total images: 4
+Parsing `../../../repo_correct/irankenner-maaike-warnaar-columnist-voor-leidsch-dagblad.html'
+Total images: 5
+Parsing `../../../repo_correct/Links.html'
+Total images: 2
+Parsing `../../../repo_correct/leraar-vho-in-filosofie.html'
+Total images: 3
+Parsing `../../../repo_correct/education.5.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.7.html'
+Total images: 0
+Parsing `../../../repo_correct/faculteitsbureau.html'
+Total images: 37
+Parsing `../../../repo_correct/the-right-to-health.html'
+Total images: 2
+Parsing `../../../repo_correct/innovatie-in-netwerken.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.383.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.20.170.html'
+Total images: 4
+Parsing `../../../repo_correct/hermen-overkleeft-new-scientific-director-of-chemistry-institute-lic.html'
+Total images: 7
+Parsing `../../../repo_correct/praktijkstudies.html'
+Total images: 5
+Parsing `../../../repo_correct/europaeum-programme-european-history-and-civilisation-leiden-oxford-pa.html'
+Total images: 2
+Parsing `../../../repo_correct/onderzoek-naar-autisme-verbindt.html'
+Total images: 9
+Parsing `../../../repo_correct/1681.html'
+Total images: 0
+Parsing `../../../repo_correct/marieke-tollenaar-over-het-effect-van-stress-op-de-levensverwachting.html'
+Total images: 3
+Parsing `../../../repo_correct/tiny-joints-for-reconfigurable-microstructures.html'
+Total images: 5
+Parsing `../../../repo_correct/the-legitimacy-and-effectiveness-of-law--governance-in-a-world-of-multilevel.html'
+Total images: 2
+Parsing `../../../repo_correct/gravensteen-building.html'
+Total images: 4
+Parsing `../../../repo_correct/entrance-exam.html'
+Total images: 0
+Parsing `../../../repo_correct/gedrag-en-maatschappij.1.html'
+Total images: 2
+Parsing `../../../repo_correct/er-valt-heel-veel-te-lachen-in-het-midden-oosten.html'
+Total images: 11
+Parsing `../../../repo_correct/financien.1.html'
+Total images: 13
+Parsing `../../../repo_correct/mathematics.2.html'
+Total images: 0
+Parsing `../../../repo_correct/1631.html'
+Total images: 1
+Parsing `../../../repo_correct/assyriology.1.html'
+Total images: 2
+Parsing `../../../repo_correct/education.6.html'
+Total images: 2
+Parsing `../../../repo_correct/p.1.html'
+Total images: 0
+Parsing `../../../repo_correct/m.1.html'
+Total images: 0
+Parsing `../../../repo_correct/biomarker-discovery-in-high-grade-sarcomas-by-mass-spectrometry-imaging.html'
+Total images: 1
+Parsing `../../../repo_correct/t.2.html'
+Total images: 0
+Parsing `../../../repo_correct/the-subjectively-experienced-severity-of-imprisonment.1.html'
+Total images: 2
+Parsing `../../../repo_correct/tuition-fee.11.html'
+Total images: 1
+Parsing `../../../repo_correct/NGQuuYpG3m.html'
+Total images: 6
+Parsing `../../../repo_correct/global-conflict-in-the-modern-era.html'
+Total images: 2
+Parsing `../../../repo_correct/hortus-wintercollege-uit-de-universiteitsbibliotheek-portretten-van-planten-van-bogor?utm_source=2601017&utm_medium=e-mail&utm_content=hortus-wintercollege-uit-de-universiteitsbibliotheek-portretten-van-planten-van-bogor&utm_campaign=ni.html'
+Total images: 2
+Parsing `../../../repo_correct/wim-van-den-doel-member-of-executive-board-of-nwo.html'
+Total images: 4
+Parsing `../../../repo_correct/communication-and-education.4.html'
+Total images: 2
+Parsing `../../../repo_correct/heritage-management.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.302.html'
+Total images: 17
+Parsing `../../../repo_correct/41-miljoen-voor-onderzoek-dekolonisatieoorlog-nederlands-indie.html'
+Total images: 1
+Parsing `../../../repo_correct/veldwerknl-conferentie-en-bachelor-speckmann-prijs-winnaars-2017.html'
+Total images: 5
+Parsing `../../../repo_correct/physicists-find-way-to-control-fractures.html'
+Total images: 6
+Parsing `../../../repo_correct/korean-studies.1.html'
+Total images: 1
+Parsing `../../../repo_correct/history-arts-and-culture-of-asia.html'
+Total images: 1
+Parsing `../../../repo_correct/a-pre-masters-after-your-study.html'
+Total images: 0
+Parsing `../../../repo_correct/j.html'
+Total images: 4
+Parsing `../../../repo_correct/antropologie.html'
+Total images: 2
+Parsing `../../../repo_correct/aanmelddeadline-15-juni.html'
+Total images: 0
+Parsing `../../../repo_correct/nationale-studenten-enquete-en-elsevier-toppositie-luc-the-hague.html'
+Total images: 4
+Parsing `../../../repo_correct/partnerships.html'
+Total images: 2
+Parsing `../../../repo_correct/actualiteiten-opstellen-en-gebruiken-van-elektronische-contracten.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.1.146.html'
+Total images: 1
+Parsing `../../../repo_correct/impact-evaluatie-erasmus-programma.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.154.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.81.html'
+Total images: 2
+Parsing `../../../repo_correct/the-palaeoproteomic-identification-of-pleistocene-hominin-skeletal-remains-towards-a-biological-understanding-of-the-middle-to-upper-palaeolithic-transitio.html'
+Total images: 2
+Parsing `../../../repo_correct/geerten-waling-de-monddood-is-terug-van-nooit-weggeweest.html'
+Total images: 7
+Parsing `../../../repo_correct/default.jsp.3.html'
+Total images: 11
+Parsing `../../../repo_correct/index.html.11.189.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.1.51.html'
+Total images: 5
+Parsing `../../../repo_correct/pm-concert-lokhorstkerk.html'
+Total images: 2
+Parsing `../../../repo_correct/neerlandistiek.html'
+Total images: 1
+Parsing `../../../repo_correct/europees-strafrecht.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.14.169.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.110.html'
+Total images: 4
+Parsing `../../../repo_correct/blogger-takes-a-look-back-at-anger-with-english-professor-rolf-bremmer.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.1.444.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.170.html'
+Total images: 5
+Parsing `../../../repo_correct/02.4.html'
+Total images: 0
+Parsing `../../../repo_correct/i.2.html'
+Total images: 0
+Parsing `../../../repo_correct/glycoproteomic-characterization-of-immunoglobulins-in-health-and-disease.html'
+Total images: 1
+Parsing `../../../repo_correct/french-language-and-linguistics.html'
+Total images: 3
+Parsing `../../../repo_correct/2017-medchemcomm-emerging-investigator-lectureship-winner.html'
+Total images: 2
+Parsing `../../../repo_correct/ns.html?id=GTM-W4T4GS.html'
+Total images: 0
+Parsing `../../../repo_correct/erc-starting-grant-for-mariana-de-campos-francozo.html'
+Total images: 8
+Parsing `../../../repo_correct/studie-in-cijfers.html'
+Total images: 5
+Parsing `../../../repo_correct/promotieonderzoek-jantiene-schoorl.html'
+Total images: 7
+Parsing `../../../repo_correct/area-studies.1.html'
+Total images: 0
+Parsing `../../../repo_correct/lacdr-cam-pac.html'
+Total images: 4
+Parsing `../../../repo_correct/07.2.html'
+Total images: 0
+Parsing `../../../repo_correct/over-het-instituut.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.11.117.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.11.154.html'
+Total images: 4
+Parsing `../../../repo_correct/1640.html'
+Total images: 1
+Parsing `../../../repo_correct/in:campus.1.html'
+Total images: 0
+Parsing `../../../repo_correct/van-leeuwenhoek-lecture-on-bioscience.html'
+Total images: 1
+Parsing `../../../repo_correct/are-paper-books-really-disappearing.html'
+Total images: 3
+Parsing `../../../repo_correct/fetal-and-neonatal-alloimmune-thrombocytopenia-towards-implementation-of-screening-in-pregnancy.html'
+Total images: 1
+Parsing `../../../repo_correct/hortus-botanicus.html'
+Total images: 4
+Parsing `../../../repo_correct/how-to-apply.8.html'
+Total images: 0
+Parsing `../../../repo_correct/communicatie--marketing.1.html'
+Total images: 8
+Parsing `../../../repo_correct/09.1.html'
+Total images: 0
+Parsing `../../../repo_correct/hoe-overleeft-de-europese-unie-2016.html'
+Total images: 10
+Parsing `../../../repo_correct/bedrijfswetenschappen.1.html'
+Total images: 3
+Parsing `../../../repo_correct/archaeology.3.html'
+Total images: 0
+Parsing `../../../repo_correct/history-research.html'
+Total images: 4
+Parsing `../../../repo_correct/lumc-gebouw-1.html'
+Total images: 4
+Parsing `../../../repo_correct/redactie-common-market-law-review-kritisch-over-brexit-referendumcampagne.html'
+Total images: 7
+Parsing `../../../repo_correct/lcn2-seminar-by-souvik-dhara.html'
+Total images: 1
+Parsing `../../../repo_correct/political-science-and-public-administration-research.html'
+Total images: 4
+Parsing `../../../repo_correct/how-to-apply.5.html'
+Total images: 0
+Parsing `../../../repo_correct/in:campus.html'
+Total images: 0
+Parsing `../../../repo_correct/how-to-apply.3.html'
+Total images: 0
+Parsing `../../../repo_correct/8-may-2017-the-free-non-white-family-vlier-and-indian-ocean-slavery.html'
+Total images: 2
+Parsing `../../../repo_correct/ethics-and-politics.html'
+Total images: 1
+Parsing `../../../repo_correct/how-to-apply.2.html'
+Total images: 0
+Parsing `../../../repo_correct/translational-drug-discovery-and-development.html'
+Total images: 4
+Parsing `../../../repo_correct/cml-cml-ia-characterisation-factors.html'
+Total images: 1
+Parsing `../../../repo_correct/comparative-literature-and-literary-theory.html'
+Total images: 2
+Parsing `../../../repo_correct/04.3.html'
+Total images: 0
+Parsing `../../../repo_correct/museum-night-in-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/contact.62.html'
+Total images: 6
+Parsing `../../../repo_correct/gemeentelijke-subsidie-voor-onderzoek-quentin-bourgeois.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.1.85.html'
+Total images: 4
+Parsing `../../../repo_correct/staff.html'
+Total images: 552
+Parsing `../../../repo_correct/law-and-society-in-indonesia.html'
+Total images: 3
+Parsing `../../../repo_correct/sylvius-laboratorium.html'
+Total images: 4
+Parsing `../../../repo_correct/laboratory-for-archaeobotanical-studies.html'
+Total images: 6
+Parsing `../../../repo_correct/educatieve-master-geesteswetenschappen.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.109.html'
+Total images: 5
+Parsing `../../../repo_correct/effective-protection-of-fundamental-rights-in-a-pluralist-world.html'
+Total images: 1
+Parsing `../../../repo_correct/refugee-student-russian-and-eurasian-studies-wins-peter-baehr-prize.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.6.html'
+Total images: 1
+Parsing `../../../repo_correct/geschiedenis-en-politiek.html'
+Total images: 4
+Parsing `../../../repo_correct/gedrag-en-maatschappij.html'
+Total images: 2
+Parsing `../../../repo_correct/de-waarde-van-oud-papier.html'
+Total images: 4
+Parsing `../../../repo_correct/lisanne-rens-wint-h.d.-landahl-mathematical-biophysics-award.html'
+Total images: 2
+Parsing `../../../repo_correct/a.html'
+Total images: 4
+Parsing `../../../repo_correct/reusachtig-sterrenstelsel-in-jong-heelal-plaatst-astronomen-voor-raadsel.html'
+Total images: 4
+Parsing `../../../repo_correct/applied-cognitive-psychology.1.html'
+Total images: 7
+Parsing `../../../repo_correct/van-wijkplaats.html'
+Total images: 4
+Parsing `../../../repo_correct/a-new-method-to-reconstruct-the-structure-from-crystal-images.1.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.3.html'
+Total images: 1
+Parsing `../../../repo_correct/eu-strat-en.html'
+Total images: 7
+Parsing `../../../repo_correct/cleveringa.1.html'
+Total images: 11
+Parsing `../../../repo_correct/jo-hermans-wins-eps-gero-thomas-commemorative-medal.html'
+Total images: 2
+Parsing `../../../repo_correct/gorlaeus-laboratory.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.95.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.40.html'
+Total images: 1
+Parsing `../../../repo_correct/partner-institutes.html'
+Total images: 8
+Parsing `../../../repo_correct/oortlezing-2017.html'
+Total images: 2
+Parsing `../../../repo_correct/liberal-arts-and-sciences-global-challenges.1.html'
+Total images: 5
+Parsing `../../../repo_correct/leidse-historici-geven-online-colleges-bij-universiteit-van-nederland.html'
+Total images: 20
+Parsing `../../../repo_correct/u.html'
+Total images: 4
+Parsing `../../../repo_correct/n.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.87.html'
+Total images: 6
+Parsing `../../../repo_correct/colonial-and-global-history.2.html'
+Total images: 3
+Parsing `../../../repo_correct/leiden-teachers’-academy-zoomt-in-op-academische-vaardigheden.html'
+Total images: 6
+Parsing `../../../repo_correct/public-meeting-does-trump-have-a-policy.html'
+Total images: 1
+Parsing `../../../repo_correct/about-us.2.html'
+Total images: 2
+Parsing `../../../repo_correct/social-and-organisational-psychology.html'
+Total images: 6
+Parsing `../../../repo_correct/entry-requirements.2.html'
+Total images: 0
+Parsing `../../../repo_correct/leraar-vho-in-kunstgeschiedenis-en-culturele-en-kunstzinnige-vorming.html'
+Total images: 2
+Parsing `../../../repo_correct/physicists-image-individual-molecules-by-watching-them-absorb-light.html'
+Total images: 4
+Parsing `../../../repo_correct/public-management-linking-politics-and-policy.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.24.31.html'
+Total images: 5
+Parsing `../../../repo_correct/q.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.328.html'
+Total images: 16
+Parsing `../../../repo_correct/staff.24.html'
+Total images: 1
+Parsing `../../../repo_correct/170120-dekkerbeurs-amanda-foks?utm_source=2601017&utm_medium=e-mail&utm_content=170120-dekkerbeurs-amanda-foks&utm_campaign=nieuwsbrief.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.58.html'
+Total images: 1
+Parsing `../../../repo_correct/pedagogische-wetenschappen.1.html'
+Total images: 6
+Parsing `../../../repo_correct/van-leeuwenhoek-lecture.html'
+Total images: 1
+Parsing `../../../repo_correct/religion-and-philosophy.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.146.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.70.html'
+Total images: 4
+Parsing `../../../repo_correct/predicting-drug-behaviour-in-the-brain.html'
+Total images: 3
+Parsing `../../../repo_correct/real-time-image-recognition-for-digital-learning.html'
+Total images: 2
+Parsing `../../../repo_correct/voorbereidend-studiejaar-voor-vluchtelingstudenten-officieel-van-start.html'
+Total images: 4
+Parsing `../../../repo_correct/impact.html'
+Total images: 8
+Parsing `../../../repo_correct/ruud-koole-benoemd-in-staatscommissie-parlementair-stelsel.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.83.html'
+Total images: 11
+Parsing `../../../repo_correct/contact-info.5.html'
+Total images: 1
+Parsing `../../../repo_correct/international-relations-and-organisations.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.9.html'
+Total images: 1
+Parsing `../../../repo_correct/contact.63.html'
+Total images: 4
+Parsing `../../../repo_correct/indonesie-en-caribencollectie-van-kitlv-knaw-naar-universiteit-leiden.html'
+Total images: 1
+Parsing `../../../repo_correct/j.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.103.html'
+Total images: 5
+Parsing `../../../repo_correct/economy-and-business.html'
+Total images: 0
+Parsing `../../../repo_correct/journalistiek-en-nieuwe-media.html'
+Total images: 2
+Parsing `../../../repo_correct/honours.2.html'
+Total images: 4
+Parsing `../../../repo_correct/bd-pathway-microscoop.html'
+Total images: 3
+Parsing `../../../repo_correct/art-in-the-contemporary-world.1.html'
+Total images: 1
+Parsing `../../../repo_correct/ontdek-de-alumninetwerken-van-de-faculteit-der-wiskunde-en-natuurwetenschappen.html'
+Total images: 4
+Parsing `../../../repo_correct/softwareontwikkeling-onder-wetenschappelijke-loep.html'
+Total images: 4
+Parsing `../../../repo_correct/kamerlingh-onnes-building.html'
+Total images: 4
+Parsing `../../../repo_correct/y.1.html'
+Total images: 2
+Parsing `../../../repo_correct/recht-en-samenleving-van-indonesie.html'
+Total images: 3
+Parsing `../../../repo_correct/startcursus-voor-promovendi-en-studentassistenten.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.20.174.html'
+Total images: 5
+Parsing `../../../repo_correct/engelse-filologie.html'
+Total images: 2
+Parsing `../../../repo_correct/may-2017-lisa-seminar.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.20.175.html'
+Total images: 4
+Parsing `../../../repo_correct/12.5.html'
+Total images: 1
+Parsing `../../../repo_correct/management.1.html'
+Total images: 0
+Parsing `../../../repo_correct/matthias-de-vrieshof-2.html'
+Total images: 4
+Parsing `../../../repo_correct/europe-1000-1800-research.html'
+Total images: 3
+Parsing `../../../repo_correct/communication.html'
+Total images: 0
+Parsing `../../../repo_correct/arabic-studies.1.html'
+Total images: 1
+Parsing `../../../repo_correct/petitie-voor-financiele-steun-wetenschapsknooppunten.html'
+Total images: 4
+Parsing `../../../repo_correct/english-literature-and-culture.html'
+Total images: 1
+Parsing `../../../repo_correct/faculteitsbureau.3.html'
+Total images: 10
+Parsing `../../../repo_correct/classical-world-and-the-near-east.html'
+Total images: 0
+Parsing `../../../repo_correct/semantiek-en-taalvariatie.html'
+Total images: 3
+Parsing `../../../repo_correct/brochure.3.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.98.html'
+Total images: 5
+Parsing `../../../repo_correct/sport-data-center.1.html'
+Total images: 6
+Parsing `../../../repo_correct/cyber-security.html'
+Total images: 3
+Parsing `../../../repo_correct/world-history---a-genealogy.html'
+Total images: 4
+Parsing `../../../repo_correct/o.4.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=1&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/acpa-onderzoeksproject-gehonoreerd-voor-nwo’s-smart-culture.html'
+Total images: 5
+Parsing `../../../repo_correct/nieuwe-‚brexit’-publicatie-van-christa-tobler.html'
+Total images: 6
+Parsing `../../../repo_correct/aanmelddeadline-15-juni.1.html'
+Total images: 0
+Parsing `../../../repo_correct/didactiek-van-natuurwetenschappen.html'
+Total images: 5
+Parsing `../../../repo_correct/landelijke-promovendidag-strafrecht--criminologie-2017.html'
+Total images: 7
+Parsing `../../../repo_correct/l.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.125.html'
+Total images: 6
+Parsing `../../../repo_correct/fresh-lezing-leif-hammerstrom.html'
+Total images: 1
+Parsing `../../../repo_correct/esther-keymolen-facebook-moet-zijn-verantwoordelijkheid-nemen.html'
+Total images: 3
+Parsing `../../../repo_correct/04.html'
+Total images: 0
+Parsing `../../../repo_correct/oort-building.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.191.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.179.html'
+Total images: 5
+Parsing `../../../repo_correct/mooc-heritage-under-threat.1.html'
+Total images: 8
+Parsing `../../../repo_correct/the-world-of-water.html'
+Total images: 7
+Parsing `../../../repo_correct/brochure.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.167.html'
+Total images: 7
+Parsing `../../../repo_correct/interview-with-new-korea-studies-lecturer-saeyoung-park.html'
+Total images: 4
+Parsing `../../../repo_correct/organisatie.10.html'
+Total images: 3
+Parsing `../../../repo_correct/physical-sciences.html'
+Total images: 0
+Parsing `../../../repo_correct/writing-effective-educational-texts.html'
+Total images: 1
+Parsing `../../../repo_correct/Xvar0nfAZS.html'
+Total images: 2
+Parsing `../../../repo_correct/brochure.9.html'
+Total images: 0
+Parsing `../../../repo_correct/synthesis-of-well-defined-adp-ribosylated-biomolecules.html'
+Total images: 1
+Parsing `../../../repo_correct/systems-pharmacology.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.14.87.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.43.html'
+Total images: 3
+Parsing `../../../repo_correct/a-sense-of-the-past.html'
+Total images: 3
+Parsing `../../../repo_correct/asian-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/muziek-beeldende-kunst-en-vormgeving.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.241.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.4.html'
+Total images: 2
+Parsing `../../../repo_correct/universiteit.html'
+Total images: 5
+Parsing `../../../repo_correct/focus-on-sunni-jihad-leaves-shiite-counterpart-underexposed.html'
+Total images: 1
+Parsing `../../../repo_correct/astronomy-and-data-science.html'
+Total images: 0
+Parsing `../../../repo_correct/ns.html?id=GTM-TVTC8B.html'
+Total images: 1
+Parsing `../../../repo_correct/bedrijf-en-psychologie.html'
+Total images: 0
+Parsing `../../../repo_correct/psychology.html'
+Total images: 4
+Parsing `../../../repo_correct/colloquium-ehrenfestii-julia-yoemans-.html'
+Total images: 1
+Parsing `../../../repo_correct/g.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.73.html'
+Total images: 5
+Parsing `../../../repo_correct/een-extreem-grote-telescoop-hier-ver-ver-vandaan.1.html'
+Total images: 12
+Parsing `../../../repo_correct/gezondheid.3.html'
+Total images: 2
+Parsing `../../../repo_correct/wat-leert-elmo-ons-over-autisme.html'
+Total images: 8
+Parsing `../../../repo_correct/marc-baggelaar-graduates-cum-laude-on-body’s-own-marijuana.html'
+Total images: 4
+Parsing `../../../repo_correct/staff.19.html'
+Total images: 50
+Parsing `../../../repo_correct/sourceId_string:3339051.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?pageNumber=1.html'
+Total images: 2
+Parsing `../../../repo_correct/SzHx9UX5N7.html'
+Total images: 4
+Parsing `../../../repo_correct/opening-academic-year-17-18.html'
+Total images: 1
+Parsing `../../../repo_correct/h.1.html'
+Total images: 0
+Parsing `../../../repo_correct/proving-discriminatory-violence-at-the-european-court-of-human-rights.1.html'
+Total images: 2
+Parsing `../../../repo_correct/global-interactions-of-people-cultures-and-power-through-the-ages.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.20.189.html'
+Total images: 5
+Parsing `../../../repo_correct/challenging-the-cholinergic-system-ageing-cognition--inflammation.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.124.html'
+Total images: 6
+Parsing `../../../repo_correct/agenda?pageNumber=15.html'
+Total images: 2
+Parsing `../../../repo_correct/promoveren.html'
+Total images: 2
+Parsing `../../../repo_correct/bestuur-x.html'
+Total images: 1
+Parsing `../../../repo_correct/sling-surgery-for-stress-urinary-incontinence-the-perfect-solution.html'
+Total images: 1
+Parsing `../../../repo_correct/pre-master.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html?page_id=12.html'
+Total images: 1
+Parsing `../../../repo_correct/religion.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.59.html'
+Total images: 7
+Parsing `../../../repo_correct/v.1.html'
+Total images: 0
+Parsing `../../../repo_correct/re-thinking-objects-changeabilities-and-itineraries.html'
+Total images: 3
+Parsing `../../../repo_correct/schouwburgstraat.html'
+Total images: 4
+Parsing `../../../repo_correct/sport.1.html'
+Total images: 6
+Parsing `../../../repo_correct/bahre-naar-een-heterodoxe-economie-en-de-reflexieve-econoom.html'
+Total images: 3
+Parsing `../../../repo_correct/leraar-vho-in-geschiedenis-en-staatsinrichting.html'
+Total images: 4
+Parsing `../../../repo_correct/leiden-alumni-meeting-in-china.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.11.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.101.html'
+Total images: 6
+Parsing `../../../repo_correct/balance-between-an-emerging-regional-legal-order-and-inter-regional-cross-border-insolvency-–-challenges-faced-by-cicia.html'
+Total images: 2
+Parsing `../../../repo_correct/P25.html'
+Total images: 0
+Parsing `../../../repo_correct/ada-lovelace-distinguished-lecture-series.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.66.html'
+Total images: 3
+Parsing `../../../repo_correct/huiskamer-als-oase-voor-vluchtelingstudenten.html'
+Total images: 5
+Parsing `../../../repo_correct/student-stories.1.html'
+Total images: 2
+Parsing `../../../repo_correct/de-truc-is-om-veel-te-zeggen-met-weinig-woorden.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.106.html'
+Total images: 5
+Parsing `../../../repo_correct/jean-monnet-centre-of-excellence.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.60.html'
+Total images: 2
+Parsing `../../../repo_correct/k.3.html'
+Total images: 2
+Parsing `../../../repo_correct/psychology-research.html'
+Total images: 7
+Parsing `../../../repo_correct/nikon-0-microscoop.html'
+Total images: 3
+Parsing `../../../repo_correct/literature-and-linguistics.1.html'
+Total images: 0
+Parsing `../../../repo_correct/alumni-newsletter.html'
+Total images: 3
+Parsing `../../../repo_correct/africa.html'
+Total images: 0
+Parsing `../../../repo_correct/from-supernovae-to-galaxy-clusters.html'
+Total images: 1
+Parsing `../../../repo_correct/south-asian-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.1.html'
+Total images: 1
+Parsing `../../../repo_correct/studies.html'
+Total images: 4
+Parsing `../../../repo_correct/developmental-psychopathology-in-education-and-child-studies-research.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.60.html'
+Total images: 7
+Parsing `../../../repo_correct/wat-gaat-u-stemmen.html'
+Total images: 5
+Parsing `../../../repo_correct/drug-target-discovery.html'
+Total images: 1
+Parsing `../../../repo_correct/lacdr-spring-symposium.html'
+Total images: 1
+Parsing `../../../repo_correct/the-netherlands-stands-up-for-science-on-22-april.html'
+Total images: 7
+Parsing `../../../repo_correct/new-force-measured-between-proteins.html'
+Total images: 1
+Parsing `../../../repo_correct/jan-vleggeert-op-bnr-nieuwsradio-en-in-fd-over-belastingontwijking-multinationals.html'
+Total images: 4
+Parsing `../../../repo_correct/art-and-computer-science-.html'
+Total images: 0
+Parsing `../../../repo_correct/08.2.html'
+Total images: 0
+Parsing `../../../repo_correct/meelopen.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.20.297.html'
+Total images: 8
+Parsing `../../../repo_correct/filosofie-en-religie.html'
+Total images: 4
+Parsing `../../../repo_correct/centre-for-public-sector-reform-nl.html'
+Total images: 2
+Parsing `../../../repo_correct/knowledge-discovery-methods-for-huntington’s-disease.html'
+Total images: 1
+Parsing `../../../repo_correct/Medical+specialist.html'
+Total images: 2
+Parsing `../../../repo_correct/kwaliteit-en-integriteit.1.html'
+Total images: 2
+Parsing `../../../repo_correct/theology-and-religious-studies.html'
+Total images: 3
+Parsing `../../../repo_correct/research.9.html'
+Total images: 7
+Parsing `../../../repo_correct/meet-informatica--biology-leiden.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.42.html'
+Total images: 2
+Parsing `../../../repo_correct/03.3.html'
+Total images: 0
+Parsing `../../../repo_correct/cyber-security-academy.html'
+Total images: 3
+Parsing `../../../repo_correct/the-phonology-of-iranian-balochi-dialects-description-and-analysis.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.196.html'
+Total images: 4
+Parsing `../../../repo_correct/cultural-awareness-in-teaching-and-learning.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.155.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.77.html'
+Total images: 7
+Parsing `../../../repo_correct/ns.html?id=GTM-KX42DT.html'
+Total images: 0
+Parsing `../../../repo_correct/astronomy-research.1.html'
+Total images: 3
+Parsing `../../../repo_correct/gravensteen.html'
+Total images: 4
+Parsing `../../../repo_correct/chinese-linguistics.html'
+Total images: 2
+Parsing `../../../repo_correct/how-much-damage-has-palmyra-suffered.html'
+Total images: 20
+Parsing `../../../repo_correct/nieuwe-techniek-ontsluiert-500-jaar-lang-verborgen-mixteekse-tekst.html'
+Total images: 7
+Parsing `../../../repo_correct/index.html.19.68.html'
+Total images: 7
+Parsing `../../../repo_correct/dean’s-lecturer-jean-jacques-hublin.html'
+Total images: 3
+Parsing `../../../repo_correct/sport-data-center.html'
+Total images: 6
+Parsing `../../../repo_correct/massive-open-online-courses.html'
+Total images: 11
+Parsing `../../../repo_correct/vijf-leidse-topleidingen-in-de-keuzegids-universiteiten.html'
+Total images: 4
+Parsing `../../../repo_correct/ancient-history.1.html'
+Total images: 0
+Parsing `../../../repo_correct/winterschool-âtropische-biodiversiteit-en-duurzaamheidâ-in-indonesie?utm_source=2601017&utm_medium=e-mail&utm_content=winterschool-%C3%A2%C2%80%C2%98tropische-biodiversiteit-en-duurzaamheid%C3%A2%C2%80%C2%99-in-indonesie&utm_c.html'
+Total images: 16
+Parsing `../../../repo_correct/p.n.-van-eyckhof-4.html'
+Total images: 4
+Parsing `../../../repo_correct/translation-in-theory-and-practice-dutch-english.html'
+Total images: 2
+Parsing `../../../repo_correct/nieuw-erasmus-programma-en-training-impact-evaluatie.html'
+Total images: 2
+Parsing `../../../repo_correct/engelse-versie-meer-informatie.html'
+Total images: 2
+Parsing `../../../repo_correct/1607.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.79.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.38.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.2.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.33.html'
+Total images: 1
+Parsing `../../../repo_correct/german-language-and-linguistics.html'
+Total images: 2
+Parsing `../../../repo_correct/public-affairs.html'
+Total images: 1
+Parsing `../../../repo_correct/masterclasses.html'
+Total images: 2
+Parsing `../../../repo_correct/hortus-botanicus-participeert-in-groot-eu-onderzoek-voedselveiligheid.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.63.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.212.html'
+Total images: 4
+Parsing `../../../repo_correct/van-leeuwenhoek-lecture-on-bioscience-.html'
+Total images: 1
+Parsing `../../../repo_correct/philosophy-of-natural-sciences.html'
+Total images: 1
+Parsing `../../../repo_correct/agenda?activity=Study%252BInformation&year=2017&month=7.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.41.html'
+Total images: 4
+Parsing `../../../repo_correct/students.1.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.55.html'
+Total images: 4
+Parsing `../../../repo_correct/agenda.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.84.html'
+Total images: 5
+Parsing `../../../repo_correct/hebrew-and-aramaic-studies-research.html'
+Total images: 1
+Parsing `../../../repo_correct/alumnimagazine-leidraad.html'
+Total images: 2
+Parsing `../../../repo_correct/good-practice-days.html'
+Total images: 2
+Parsing `../../../repo_correct/alexander-de-becker-en-gerrit-dijkstra-in-trouw-over-de-eu-en-de-poolse-rechtsstaat.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.22.html'
+Total images: 4
+Parsing `../../../repo_correct/part-time.1.html'
+Total images: 2
+Parsing `../../../repo_correct/less-stress-better-grades-with-the-writing-lab.html'
+Total images: 4
+Parsing `../../../repo_correct/nieuwe-manier-om-nanodeeltjes-te-volgen.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.135.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.129.html'
+Total images: 5
+Parsing `../../../repo_correct/management.html'
+Total images: 4
+Parsing `../../../repo_correct/gezondheid.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.198.html'
+Total images: 5
+Parsing `../../../repo_correct/religie-en-filosofie.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.157.html'
+Total images: 5
+Parsing `../../../repo_correct/leraar-vho-in-duits.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=2&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/07.1.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.5.html'
+Total images: 3
+Parsing `../../../repo_correct/open-space-conferentie-academische-werkplaats-jeugd.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.70.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.14.59.html'
+Total images: 6
+Parsing `../../../repo_correct/agenda?activity=Study%252BInformation&year=2017&month=3.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.6.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.261.html'
+Total images: 1
+Parsing `../../../repo_correct/contact.81.html'
+Total images: 5
+Parsing `../../../repo_correct/maatschappelijke-wenselijkheid-van-belastingrulings.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.4.html'
+Total images: 1
+Parsing `../../../repo_correct/contact-info.3.html'
+Total images: 1
+Parsing `../../../repo_correct/communication-and-education.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.220.html'
+Total images: 2
+Parsing `../../../repo_correct/lerarenopleiding-algemene-economie.html'
+Total images: 4
+Parsing `../../../repo_correct/ns.html?id=GTM-MD4PZD.html'
+Total images: 0
+Parsing `../../../repo_correct/als-de-waarheid-eraan-moet-geloven.html'
+Total images: 3
+Parsing `../../../repo_correct/europe.2.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?activity=PhD%2BDefence&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/tuition-fee.html'
+Total images: 1
+Parsing `../../../repo_correct/delta-institute-for-theoretical-physics.html'
+Total images: 5
+Parsing `../../../repo_correct/ShoppingCart.html'
+Total images: 2
+Parsing `../../../repo_correct/colloquium-ehrenfestii-sir-michael-berry.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.118.html'
+Total images: 5
+Parsing `../../../repo_correct/YodtwT3yRb.html'
+Total images: 2
+Parsing `../../../repo_correct/last-minute-vragenuur-bestuurskunde.html'
+Total images: 1
+Parsing `../../../repo_correct/vacature.1.html'
+Total images: 10
+Parsing `../../../repo_correct/effect-of-prosody-awareness-training-on-the-quality-of-consecutive-interpreting-between-english-and-farsi.html'
+Total images: 1
+Parsing `../../../repo_correct/academische-en-21e-eeuwse-vaardigheden.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.html'
+Total images: 2
+Parsing `../../../repo_correct/astronomy-and-instrumentation.1.html'
+Total images: 3
+Parsing `../../../repo_correct/P50.html'
+Total images: 0
+Parsing `../../../repo_correct/tuition-fee.3.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.86.html'
+Total images: 7
+Parsing `../../../repo_correct/how-western-and-chinese-medicine-can-strengthen-each-other.html'
+Total images: 3
+Parsing `../../../repo_correct/de-nacht-van-de-leraar.html'
+Total images: 2
+Parsing `../../../repo_correct/onderzoek-naar-geneesmiddelen-leren-van-de-natuur-en-onze-voorouders.html'
+Total images: 6
+Parsing `../../../repo_correct/over.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.31.58.html'
+Total images: 2
+Parsing `../../../repo_correct/taalwetenschap.html'
+Total images: 4
+Parsing `../../../repo_correct/bioinformatics-and-genomics.html'
+Total images: 5
+Parsing `../../../repo_correct/inherit-newsletter-june-2016.html'
+Total images: 1
+Parsing `../../../repo_correct/p.4.html'
+Total images: 2
+Parsing `../../../repo_correct/luc-ucsrn-tournament-2017.html'
+Total images: 5
+Parsing `../../../repo_correct/phd.3.html'
+Total images: 7
+Parsing `../../../repo_correct/area-studies.html'
+Total images: 0
+Parsing `../../../repo_correct/eind-mei-cultuurweken-leiden-bomvol-evenementen.html'
+Total images: 4
+Parsing `../../../repo_correct/09.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.19.92.html'
+Total images: 5
+Parsing `../../../repo_correct/reuvensplaats-3-4.1.html'
+Total images: 4
+Parsing `../../../repo_correct/oort-lecture-2017.html'
+Total images: 1
+Parsing `../../../repo_correct/zee-quality-of-instruction-in-open-online-education.html'
+Total images: 5
+Parsing `../../../repo_correct/d.3.html'
+Total images: 2
+Parsing `../../../repo_correct/facing-society.2.html'
+Total images: 6
+Parsing `../../../repo_correct/facing-society.1.html'
+Total images: 5
+Parsing `../../../repo_correct/media.8.html'
+Total images: 0
+Parsing `../../../repo_correct/luc-student-wins-nex-generation-womens-leaders-award.html'
+Total images: 2
+Parsing `../../../repo_correct/jane-austen-festival-alumnidag-engelse-taal-en-cultuur.html'
+Total images: 1
+Parsing `../../../repo_correct/3ZRxX.html'
+Total images: 1
+Parsing `../../../repo_correct/eerste-onderwijspracticum-in-gloednieuwe-labs.html'
+Total images: 3
+Parsing `../../../repo_correct/instituut-biologie-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/city-of-epe-issues-subsidy-for-research-quentin-bourgeois.html'
+Total images: 8
+Parsing `../../../repo_correct/alleen-omdat-ik-een-van-hall-ben.html'
+Total images: 1
+Parsing `../../../repo_correct/gedrag-en-maatschappij.2.html'
+Total images: 2
+Parsing `../../../repo_correct/kunst-en-cultuur.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.1.html'
+Total images: 1
+Parsing `../../../repo_correct/law-and-public-administration.1.html'
+Total images: 0
+Parsing `../../../repo_correct/impact-of-land-use-changes-on-the-human-elephant-conflict.html'
+Total images: 3
+Parsing `../../../repo_correct/taalkunde.html'
+Total images: 2
+Parsing `../../../repo_correct/linguistics.1.html'
+Total images: 0
+Parsing `../../../repo_correct/g.1.html'
+Total images: 0
+Parsing `../../../repo_correct/leiden-studentenstad.html'
+Total images: 5
+Parsing `../../../repo_correct/faculties.html'
+Total images: 2
+Parsing `../../../repo_correct/research-phd.2.html'
+Total images: 0
+Parsing `../../../repo_correct/vacature.html'
+Total images: 1
+Parsing `../../../repo_correct/the-treasured-altar-of-the-primordial-sovereign.html'
+Total images: 1
+Parsing `../../../repo_correct/pro-lea.html'
+Total images: 2
+Parsing `../../../repo_correct/economy.html'
+Total images: 0
+Parsing `../../../repo_correct/heden-en-verleden-samen-in-japans-verpakkingsdesign.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.22.html'
+Total images: 2
+Parsing `../../../repo_correct/effectieve-onderwijsteksten-schrijven.html'
+Total images: 1
+Parsing `../../../repo_correct/nederlands-kleinste-supercomputer.1.html'
+Total images: 8
+Parsing `../../../repo_correct/reijer-passchier-over-abdicatie-op-japanse-tv.html'
+Total images: 3
+Parsing `../../../repo_correct/middle-eastern-studies-research.1.html'
+Total images: 1
+Parsing `../../../repo_correct/international-studies-graduate-nominated-for-grand-finale-rotterdam100.html'
+Total images: 2
+Parsing `../../../repo_correct/the-giant-in-the-shadow-the-dutch-security-services-in-their-political-bureaucratic-and-societal-context-between-1912-and-1992.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.31.61.html'
+Total images: 13
+Parsing `../../../repo_correct/index.html.11.91.html'
+Total images: 6
+Parsing `../../../repo_correct/leiden-leadership-programme-meeloopdagform.html'
+Total images: 0
+Parsing `../../../repo_correct/erc-advanced-grant-for-frans-theuws.html'
+Total images: 8
+Parsing `../../../repo_correct/sexual-rehabilitation-after-treatment-for-gynaecological-cancer.html'
+Total images: 1
+Parsing `../../../repo_correct/centre-for-professional-learning.1.html'
+Total images: 3
+Parsing `../../../repo_correct/publieksbijeenkomst-heeft-trump-een-beleid.html'
+Total images: 1
+Parsing `../../../repo_correct/leiden-university’s-learners-around-the-world.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.html'
+Total images: 0
+Parsing `../../../repo_correct/nieuw-wetenschapsdossier-bestuur-en-samenleving.html'
+Total images: 2
+Parsing `../../../repo_correct/regens-collegii.html'
+Total images: 4
+Parsing `../../../repo_correct/nieuwe-gratis-online-cursus-terrorism-and-counterterrorism-start-30-septemb.html'
+Total images: 4
+Parsing `../../../repo_correct/teaching.html'
+Total images: 2
+Parsing `../../../repo_correct/de-stijl-10-mei-2017.html'
+Total images: 2
+Parsing `../../../repo_correct/security-studies.html'
+Total images: 4
+Parsing `../../../repo_correct/entry-requirements.10.html'
+Total images: 2
+Parsing `../../../repo_correct/basiscursus-ambtenarenrecht-2017.html'
+Total images: 3
+Parsing `../../../repo_correct/History+(Herman+Boerhaave).html'
+Total images: 3
+Parsing `../../../repo_correct/public-administration.1.html'
+Total images: 0
+Parsing `../../../repo_correct/flow-cytometer.html'
+Total images: 3
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/12.1.html'
+Total images: 0
+Parsing `../../../repo_correct/bank-insolvency-china-and-europe-compared.html'
+Total images: 6
+Parsing `../../../repo_correct/janet-van-de-bunt-spreekt-over-rampenfonds-in-groningen.html'
+Total images: 4
+Parsing `../../../repo_correct/terms_maps.html?hl=en_US.html'
+Total images: 1
+Parsing `../../../repo_correct/colloquium-ehrenfestii-julia-yoemans.html'
+Total images: 1
+Parsing `../../../repo_correct/01.html'
+Total images: 0
+Parsing `../../../repo_correct/onderzoek.21.html'
+Total images: 2
+Parsing `../../../repo_correct/talen-en-culturen.html'
+Total images: 4
+Parsing `../../../repo_correct/“vaak-moeten-we-enorm-snijden”.html'
+Total images: 7
+Parsing `../../../repo_correct/Terms+and+conditions.1.html'
+Total images: 2
+Parsing `../../../repo_correct/literary-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/open-day.html'
+Total images: 1
+Parsing `../../../repo_correct/african-studies.2.html'
+Total images: 2
+Parsing `../../../repo_correct/11-apr-2017-nederlandse-wetenschap.html'
+Total images: 2
+Parsing `../../../repo_correct/space-mining.html'
+Total images: 4
+Parsing `../../../repo_correct/leraar-vho-in-chinees.html'
+Total images: 2
+Parsing `../../../repo_correct/johan-christensen-the-power-of-economics-within-the-state.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.28.455.html'
+Total images: 16
+Parsing `../../../repo_correct/actueel.html'
+Total images: 13
+Parsing `../../../repo_correct/leraar-vho-in-nederlands.html'
+Total images: 3
+Parsing `../../../repo_correct/agenda.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.111.html'
+Total images: 5
+Parsing `../../../repo_correct/education.3.html'
+Total images: 3
+Parsing `../../../repo_correct/oortgebouw.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.133.html'
+Total images: 5
+Parsing `../../../repo_correct/s.3.html'
+Total images: 2
+Parsing `../../../repo_correct/cml-doorbraak-in-kennis-over-zouttolerantie-voor-de-zilte-landbouw.html'
+Total images: 4
+Parsing `../../../repo_correct/film-and-photographic-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/07.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.168.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.84.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.16.html'
+Total images: 8
+Parsing `../../../repo_correct/agenda?pageNumber=15.1.html'
+Total images: 2
+Parsing `../../../repo_correct/Cultuur-en-geschiedenis.html'
+Total images: 2
+Parsing `../../../repo_correct/d.html'
+Total images: 4
+Parsing `../../../repo_correct/visual-revolution-of-the-middle-east.html'
+Total images: 2
+Parsing `../../../repo_correct/04.1.html'
+Total images: 0
+Parsing `../../../repo_correct/1617.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.20.185.html'
+Total images: 5
+Parsing `../../../repo_correct/institute-for-tax-law-and-economics.html'
+Total images: 9
+Parsing `../../../repo_correct/italian-literature-and-culture.html'
+Total images: 1
+Parsing `../../../repo_correct/international-business-law.html'
+Total images: 3
+Parsing `../../../repo_correct/jan-vleggeert-op-bnr-nieuwsradio-over-belastingafspraken-multinationals.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.75.html'
+Total images: 5
+Parsing `../../../repo_correct/h.2.html'
+Total images: 0
+Parsing `../../../repo_correct/eerste-leidse-oudheid-netwerkbijeenkomst.html'
+Total images: 3
+Parsing `../../../repo_correct/g.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.452.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.19.9.html'
+Total images: 9
+Parsing `../../../repo_correct/studentenblogs.html'
+Total images: 2
+Parsing `../../../repo_correct/reuvensplaats-3-4.html'
+Total images: 4
+Parsing `../../../repo_correct/johan-huizinga.html'
+Total images: 4
+Parsing `../../../repo_correct/02.2.html'
+Total images: 0
+Parsing `../../../repo_correct/alumni-magazine-leidraad.html'
+Total images: 2
+Parsing `../../../repo_correct/entry-requirements.7.html'
+Total images: 0
+Parsing `../../../repo_correct/applied-data-analytics.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.178.html'
+Total images: 5
+Parsing `../../../repo_correct/ambulatorium.html'
+Total images: 5
+Parsing `../../../repo_correct/de-amerikaanse-ambassade-in-den-haag.html'
+Total images: 4
+Parsing `../../../repo_correct/history-of-global-economic-networks-merchants-entrepreneurs-and-empires.html'
+Total images: 10
+Parsing `../../../repo_correct/contact.41.html'
+Total images: 12
+Parsing `../../../repo_correct/ns.html?id=GTM-M2WM64.html'
+Total images: 1
+Parsing `../../../repo_correct/contact.25.html'
+Total images: 2
+Parsing `../../../repo_correct/lipsius.html'
+Total images: 4
+Parsing `../../../repo_correct/organization.1.html'
+Total images: 20
+Parsing `../../../repo_correct/awarded-degrees.html'
+Total images: 0
+Parsing `../../../repo_correct/gedrag-en-maatschappij.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.104.html'
+Total images: 5
+Parsing `../../../repo_correct/n.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.177.html'
+Total images: 5
+Parsing `../../../repo_correct/decaan-geert-de-snoo-opent-vernieuwde-plesmanlaan-van-bio-science-park?utm_source=2601017&utm_medium=e-mail&utm_content=decaan-geert-de-snoo-opent-vernieuwde-plesmanlaan-van-bio-science-park&utm_campaign=nieuwsbrief.html'
+Total images: 3
+Parsing `../../../repo_correct/muziek-beeldende-kunst-en-vormgeving.3.html'
+Total images: 2
+Parsing `../../../repo_correct/boek-nederland-pensioenland.html'
+Total images: 3
+Parsing `../../../repo_correct/taalbeheersing-van-het-nederlands.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.18.html'
+Total images: 1
+Parsing `../../../repo_correct/entry-requirements.4.html'
+Total images: 0
+Parsing `../../../repo_correct/open-dag.html'
+Total images: 1
+Parsing `../../../repo_correct/vvi-director-jan-michiel-otto-addressing-president-jokowi-in-bahasa-indonesia.html'
+Total images: 6
+Parsing `../../../repo_correct/ns.html?id=GTM-MR67S7X.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.19.76.html'
+Total images: 5
+Parsing `../../../repo_correct/spinozapremie-voor-leids-astronoom-xander-tielens.html'
+Total images: 3
+Parsing `../../../repo_correct/geen-akkoord-vnsu-eng-extern.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.42.html'
+Total images: 6
+Parsing `../../../repo_correct/globalviews--3d-perspectives.html'
+Total images: 4
+Parsing `../../../repo_correct/keuzeruimte.html'
+Total images: 4
+Parsing `../../../repo_correct/emotion-regulation-in-children-and-adolescents-with-an-autism-spectrum-disorder-ontwikkelings.html'
+Total images: 8
+Parsing `../../../repo_correct/leraar-vho-in-engels.html'
+Total images: 3
+Parsing `../../../repo_correct/history-and-philosophy-of-the-sciences.html'
+Total images: 1
+Parsing `../../../repo_correct/1670.html'
+Total images: 1
+Parsing `../../../repo_correct/MnaIYH6xlC.html'
+Total images: 2
+Parsing `../../../repo_correct/arsenaal.html'
+Total images: 4
+Parsing `../../../repo_correct/female-researchers-in-the-spotlight-for-physics-ladies-day.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.44.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html?p=102.html'
+Total images: 2
+Parsing `../../../repo_correct/about.1.html'
+Total images: 6
+Parsing `../../../repo_correct/vacature-lucis.html'
+Total images: 1
+Parsing `../../../repo_correct/recht-en-bedrijfswetenschappen.html'
+Total images: 6
+Parsing `../../../repo_correct/leidse-wetenschappers-in-college-voor-de-rechten-van-de-mens.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.14.85.html'
+Total images: 0
+Parsing `../../../repo_correct/child-cancer-fund-subsidizes-statistical-research?utm_source=2601017&utm_medium=e-mail&utm_content=child-cancer-fund-subsidizes-statistical-research&utm_campaign=nieuwsbrief.html'
+Total images: 4
+Parsing `../../../repo_correct/epi-fluorescentie-microscoop.html'
+Total images: 3
+Parsing `../../../repo_correct/tuition-fee.12.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.2.html'
+Total images: 6
+Parsing `../../../repo_correct/transitioning-from-military-interventions-to-long-term-counter-terrorism-policy.html'
+Total images: 5
+Parsing `../../../repo_correct/x.1.html'
+Total images: 2
+Parsing `../../../repo_correct/open-dag.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.1.359.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.64.html'
+Total images: 7
+Parsing `../../../repo_correct/doe-dit-vooral-thuis.html'
+Total images: 2
+Parsing `../../../repo_correct/frans-snik-in-nrc-en-met-het-oog-op-morgen?utm_source=2601017&utm_medium=e-mail&utm_content=frans-snik-in-nrc-en-met-het-oog-op-morgen&utm_campaign=nieuwsbrief.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.162.html'
+Total images: 2
+Parsing `../../../repo_correct/see-this-image-terrorism-and-counterterrorism-studies-comparing-theory-and-practice.html'
+Total images: 3
+Parsing `../../../repo_correct/samenwerkingsverbanden.html'
+Total images: 5
+Parsing `../../../repo_correct/stagebureau.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.14.91.html'
+Total images: 4
+Parsing `../../../repo_correct/iAOmDjTaWB.html'
+Total images: 4
+Parsing `../../../repo_correct/r.2.html'
+Total images: 0
+Parsing `../../../repo_correct/zes-vragen-over-het-britse-referendum-en-de-mogelijke-brexit.html'
+Total images: 6
+Parsing `../../../repo_correct/beyond-empires-global-self-organizing-cross-imperial-networks-1500-1800.html'
+Total images: 4
+Parsing `../../../repo_correct/leiden-leadership-centre.html'
+Total images: 8
+Parsing `../../../repo_correct/latin-american-studies-research.html'
+Total images: 2
+Parsing `../../../repo_correct/bsc.html'
+Total images: 2
+Parsing `../../../repo_correct/f.2.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.45.html'
+Total images: 7
+Parsing `../../../repo_correct/index.html.14.189.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?activity=Alumni%2BEvent&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/staff.15.html'
+Total images: 160
+Parsing `../../../repo_correct/index.html.19.86.html'
+Total images: 5
+Parsing `../../../repo_correct/research.23.html'
+Total images: 2
+Parsing `../../../repo_correct/modern-middle-east-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/Organization.html'
+Total images: 2
+Parsing `../../../repo_correct/p-n-van-eyckhof.html'
+Total images: 4
+Parsing `../../../repo_correct/special-collections.html'
+Total images: 9
+Parsing `../../../repo_correct/this-weeks-discoveries---18-april-2017.html'
+Total images: 3
+Parsing `../../../repo_correct/alumni-nieuwsbrief.html'
+Total images: 3
+Parsing `../../../repo_correct/den-haag-herontdekt-zijn-joodse-verleden.html'
+Total images: 3
+Parsing `../../../repo_correct/k.html'
+Total images: 4
+Parsing `../../../repo_correct/proefstuderen-in-februari?utm_source=2601017&utm_medium=e-mail&utm_content=proefstuderen-in-februari&utm_campaign=nieuwsbrief.html'
+Total images: 1
+Parsing `../../../repo_correct/biologiestudente-gayathri-jaikumar-wint-prijs-in-change-maker-challenge.html'
+Total images: 8
+Parsing `../../../repo_correct/18-x-18-pleegkinderen-op-de-drempel.html'
+Total images: 3
+Parsing `../../../repo_correct/brochure.11.html'
+Total images: 0
+Parsing `../../../repo_correct/european-and-international-human-rights-law-advanced.html'
+Total images: 5
+Parsing `../../../repo_correct/e.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.61.html'
+Total images: 7
+Parsing `../../../repo_correct/9lTLNbl3tV.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.1.240.html'
+Total images: 2
+Parsing `../../../repo_correct/oude-sterrewacht.html'
+Total images: 4
+Parsing `../../../repo_correct/summer-honours-class-law-power-and-inequality.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.51.html'
+Total images: 1
+Parsing `../../../repo_correct/reactie-brexit.html'
+Total images: 5
+Parsing `../../../repo_correct/jannemieke-ouwerkerk-zelfstandig-en-vrij-mede-dankzij-veni.html'
+Total images: 5
+Parsing `../../../repo_correct/f.1.html'
+Total images: 0
+Parsing `../../../repo_correct/natuurwetenschappen-en-informatica.1.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.80.html'
+Total images: 1
+Parsing `../../../repo_correct/promovendi-opleiding.html'
+Total images: 2
+Parsing `../../../repo_correct/molphys.html'
+Total images: 10
+Parsing `../../../repo_correct/literature.1.html'
+Total images: 0
+Parsing `../../../repo_correct/science-communication-and-society.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.67.html'
+Total images: 7
+Parsing `../../../repo_correct/alumni.2.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.45.html'
+Total images: 1
+Parsing `../../../repo_correct/events?pageNumber=5.html'
+Total images: 2
+Parsing `../../../repo_correct/universiteitsraad.html'
+Total images: 12
+Parsing `../../../repo_correct/medical-sciences.html'
+Total images: 0
+Parsing `../../../repo_correct/i.3.html'
+Total images: 2
+Parsing `../../../repo_correct/middle-eastern-studies-research.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.14.185.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.19.113.html'
+Total images: 5
+Parsing `../../../repo_correct/sensing-stimulation.html'
+Total images: 1
+Parsing `../../../repo_correct/english-language-and-linguistics.html'
+Total images: 2
+Parsing `../../../repo_correct/visit-us.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.24.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.41.html'
+Total images: 2
+Parsing `../../../repo_correct/evin-aktar-ontvangt-rubicon-beurs.html'
+Total images: 4
+Parsing `../../../repo_correct/fresh-lezing-moniek-tromp?utm_source=2601017&utm_medium=e-mail&utm_content=fresh-lezing-moniek-tromp&utm_campaign=nieuwsbrief.html'
+Total images: 1
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=10&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/fototentoonstelling-‘the-north-koreans’-in-kamerlingh-onnes-gebouw.html'
+Total images: 2
+Parsing `../../../repo_correct/leiden-archaeological-career-event.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.131.html'
+Total images: 5
+Parsing `../../../repo_correct/politics-and-public-administration.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.76.html'
+Total images: 3
+Parsing `../../../repo_correct/o.1.html'
+Total images: 0
+Parsing `../../../repo_correct/h.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.6.html'
+Total images: 1
+Parsing `../../../repo_correct/leiden-through-the-eyes-of-an-american-anthropologist.html'
+Total images: 5
+Parsing `../../../repo_correct/recht-en-bestuur.2.html'
+Total images: 2
+Parsing `../../../repo_correct/Mission+and+strategy.html'
+Total images: 2
+Parsing `../../../repo_correct/d.4.html'
+Total images: 2
+Parsing `../../../repo_correct/04.2.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.115.html'
+Total images: 3
+Parsing `../../../repo_correct/contact.17.html'
+Total images: 2
+Parsing `../../../repo_correct/philosophy.1.html'
+Total images: 2
+Parsing `../../../repo_correct/luc-student-wint-next-generation-womens-leaders-award.html'
+Total images: 2
+Parsing `../../../repo_correct/entry-requirements.11.html'
+Total images: 0
+Parsing `../../../repo_correct/QKLyBvZKX3.html'
+Total images: 14
+Parsing `../../../repo_correct/po.html'
+Total images: 1
+Parsing `../../../repo_correct/gorlaeus-laboratorium.html'
+Total images: 13
+Parsing `../../../repo_correct/strategie-advisering-en-verandermanagement.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.126.html'
+Total images: 5
+Parsing `../../../repo_correct/agenda.4.html'
+Total images: 1
+Parsing `../../../repo_correct/nqgGUqcZPg.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.28.411.html'
+Total images: 3
+Parsing `../../../repo_correct/medewerkers.21.html'
+Total images: 8
+Parsing `../../../repo_correct/law-and-public-administration.html'
+Total images: 0
+Parsing `../../../repo_correct/times-higher-education-leiden-best-humanities-faculty-continental-europe.html'
+Total images: 4
+Parsing `../../../repo_correct/cities-migration-and-global-interdependence.1.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.15.html'
+Total images: 2
+Parsing `../../../repo_correct/luco-ii.html'
+Total images: 1
+Parsing `../../../repo_correct/programmes.html'
+Total images: 0
+Parsing `../../../repo_correct/applied-neuroscience-in-human-development.1.html'
+Total images: 3
+Parsing `../../../repo_correct/natural-science-mathematics-and-computer-science.html'
+Total images: 0
+Parsing `../../../repo_correct/leiden_visitor_centre.html'
+Total images: 1
+Parsing `../../../repo_correct/astronomy-research.html'
+Total images: 3
+Parsing `../../../repo_correct/1697.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.39.html'
+Total images: 2
+Parsing `../../../repo_correct/systems-diagnosis-in-chronic-disease-prediction-and-evaluation.html'
+Total images: 1
+Parsing `../../../repo_correct/stad.html'
+Total images: 5
+Parsing `../../../repo_correct/van-wijkplaats-4.html'
+Total images: 4
+Parsing `../../../repo_correct/HVIbjp26fZ.html'
+Total images: 10
+Parsing `../../../repo_correct/j.2.html'
+Total images: 0
+Parsing `../../../repo_correct/literature-in-society.-europe-and-beyond.html'
+Total images: 1
+Parsing `../../../repo_correct/phrasal-alternation-in-kerinci.1.html'
+Total images: 1
+Parsing `../../../repo_correct/natural-science-mathematics-and-computer-science.1.html'
+Total images: 0
+Parsing `../../../repo_correct/ancient-america.html'
+Total images: 0
+Parsing `../../../repo_correct/s.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.13.36.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.345.html'
+Total images: 1
+Parsing `../../../repo_correct/life-sciences.html'
+Total images: 0
+Parsing `../../../repo_correct/kunstgebitten-machines-en-stof.html'
+Total images: 2
+Parsing `../../../repo_correct/r.1.html'
+Total images: 0
+Parsing `../../../repo_correct/plato.html'
+Total images: 13
+Parsing `../../../repo_correct/onroerend-goed-transacties-in-een-veranderende-juridische-omgeving.html'
+Total images: 5
+Parsing `../../../repo_correct/middle-eastern-studies.1.html'
+Total images: 2
+Parsing `../../../repo_correct/Het+LUMC+Magazine.html'
+Total images: 2
+Parsing `../../../repo_correct/reuvensplaats-2.html'
+Total images: 4
+Parsing `../../../repo_correct/biotherapeutics.html'
+Total images: 1
+Parsing `../../../repo_correct/corentin-coulais-in-nrc-and-new-scientist.html'
+Total images: 2
+Parsing `../../../repo_correct/lange-voorhout.html'
+Total images: 4
+Parsing `../../../repo_correct/leiden-researchers-contribute-to-the-reform-of-french-liability-law.html'
+Total images: 8
+Parsing `../../../repo_correct/bezoek-schemerstad-met-de-leidse-alumni-vloot.html'
+Total images: 2
+Parsing `../../../repo_correct/this-week’s-discoveries---7-june-2016.html'
+Total images: 3
+Parsing `../../../repo_correct/research-phd.3.html'
+Total images: 1
+Parsing `../../../repo_correct/studeren-in-hypermodern-en-traditioneel-china.html'
+Total images: 6
+Parsing `../../../repo_correct/alumni.4.html'
+Total images: 2
+Parsing `../../../repo_correct/entry-requirements.5.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.186.html'
+Total images: 6
+Parsing `../../../repo_correct/economie_en_bedrijf.1.html'
+Total images: 2
+Parsing `../../../repo_correct/converting-water-into-hydrogen-more-efficiently.html'
+Total images: 3
+Parsing `../../../repo_correct/n.3.html'
+Total images: 2
+Parsing `../../../repo_correct/adres-en-contactgegevens.html'
+Total images: 2
+Parsing `../../../repo_correct/brochure.4.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.94.html'
+Total images: 4
+Parsing `../../../repo_correct/opening-academisch-jaar-2017-2018.html'
+Total images: 1
+Parsing `../../../repo_correct/spatial-temporal-navigation-in-oceania-and-the-geometry-of-artefacts.html'
+Total images: 1
+Parsing `../../../repo_correct/bezoek-het-arbeidsmarktcafe-op-de-open-dag-en-maak-kans-op-een-laptop.html'
+Total images: 4
+Parsing `../../../repo_correct/noord-koreaans-regime-stort-binnen-vijf-tot-zeven-jaar-in.html'
+Total images: 4
+Parsing `../../../repo_correct/policing-european-metropolises-project.html'
+Total images: 3
+Parsing `../../../repo_correct/een-extreem-grote-telescoop-hier-ver-ver-vandaan.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.97.html'
+Total images: 7
+Parsing `../../../repo_correct/part-time.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.34.html'
+Total images: 5
+Parsing `../../../repo_correct/schaduwminister-quirine-eijkman-volgt-duo-opstelten-teeven-voor-de-vara.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.88.html'
+Total images: 7
+Parsing `../../../repo_correct/organisatie.8.html'
+Total images: 5
+Parsing `../../../repo_correct/art-and-architecture-before-1800.1.html'
+Total images: 1
+Parsing `../../../repo_correct/7Br3YAibqJ.html'
+Total images: 2
+Parsing `../../../repo_correct/proving-discriminatory-violence-at-the-european-court-of-human-rights.2.html'
+Total images: 3
+Parsing `../../../repo_correct/rechtsgeleerdheid.3.html'
+Total images: 1
+Parsing `../../../repo_correct/public-administration-research.html'
+Total images: 3
+Parsing `../../../repo_correct/htmlmap.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.192.html'
+Total images: 5
+Parsing `../../../repo_correct/art-and-architecture-before-1800.html'
+Total images: 1
+Parsing `../../../repo_correct/05.3.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?pageNumber=2.1.html'
+Total images: 2
+Parsing `../../../repo_correct/edu.html'
+Total images: 21
+Parsing `../../../repo_correct/van-wijkplaats-3.html'
+Total images: 4
+Parsing `../../../repo_correct/e.4.html'
+Total images: 2
+Parsing `../../../repo_correct/vaardigheden-helder-en-foutloos-formuleren.html'
+Total images: 1
+Parsing `../../../repo_correct/communication-and-education.1.html'
+Total images: 0
+Parsing `../../../repo_correct/book-and-digital-media-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/how-do-i-know-if-it-is-fake-or-true-news.html'
+Total images: 3
+Parsing `../../../repo_correct/literature-and-linguistics.html'
+Total images: 0
+Parsing `../../../repo_correct/contact-info.4.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.48.html'
+Total images: 4
+Parsing `../../../repo_correct/afrika-studiecentrum-leiden.html'
+Total images: 2
+Parsing `../../../repo_correct/student-blog-rwanda-the-exception-of-east-africa.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.85.html'
+Total images: 3
+Parsing `../../../repo_correct/docentenbijeenkomst-natuurkunde-in-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/phXItNUjbG.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.199.html'
+Total images: 4
+Parsing `../../../repo_correct/regulatory-burden-from-a-different-perspective.html'
+Total images: 2
+Parsing `../../../repo_correct/h.4.html'
+Total images: 2
+Parsing `../../../repo_correct/honours.3.html'
+Total images: 2
+Parsing `../../../repo_correct/nimar-leiden-university-in-morocco.html'
+Total images: 10
+Parsing `../../../repo_correct/index.php3?m=26&c=6937.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.204.html'
+Total images: 2
+Parsing `../../../repo_correct/1624.html'
+Total images: 1
+Parsing `../../../repo_correct/zelfopbouwende-microstructuren-krijgen-gewrichten.html'
+Total images: 5
+Parsing `../../../repo_correct/p.n.-van-eyckhof-2.html'
+Total images: 4
+Parsing `../../../repo_correct/political-culture-and-national-identities.html'
+Total images: 3
+Parsing `../../../repo_correct/leiden-university-antiquity-network-event.html'
+Total images: 3
+Parsing `../../../repo_correct/how-to-apply.11.html'
+Total images: 0
+Parsing `../../../repo_correct/moderne-nederlandse-letterkunde.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.13.html'
+Total images: 3
+Parsing `../../../repo_correct/tos?hl=en_US.html'
+Total images: 1
+Parsing `../../../repo_correct/8-mei-2017-the-free-non-white-family-vlier.html'
+Total images: 2
+Parsing `../../../repo_correct/china.html'
+Total images: 10
+Parsing `../../../repo_correct/economy-and-business.1.html'
+Total images: 0
+Parsing `../../../repo_correct/insolventie-van-banken-china-en-europa-vergeleken.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.162.html'
+Total images: 7
+Parsing `../../../repo_correct/city.html'
+Total images: 4
+Parsing `../../../repo_correct/history-of-global-economic-networks-merchants-entrepreneurs-and-empires.1.html'
+Total images: 10
+Parsing `../../../repo_correct/luuk-van-middelaar-europa-moet-de-mensen-aanspreken.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.24.15.html'
+Total images: 62
+Parsing `../../../repo_correct/reverse-engineering-of-drug-induced-qtc-interval-prolongation-towards-a-systems-pharmacology-approach.html'
+Total images: 1
+Parsing `../../../repo_correct/decentering-gagaku.html'
+Total images: 1
+Parsing `../../../repo_correct/liacs-business-event.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.28.427.html'
+Total images: 7
+Parsing `../../../repo_correct/medewerkers.4.html'
+Total images: 8
+Parsing `../../../repo_correct/natuurwetenschappen-en-informatica.html'
+Total images: 2
+Parsing `../../../repo_correct/school-psychology.html'
+Total images: 4
+Parsing `../../../repo_correct/facing-society.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.193.html'
+Total images: 5
+Parsing `../../../repo_correct/verbreed-je-ontwikkeling-met-de-academy-of-creative-and-performative-arts.html'
+Total images: 4
+Parsing `../../../repo_correct/research-phd.4.html'
+Total images: 0
+Parsing `../../../repo_correct/basiscursus-privacy-en-gegevensbescherming.html'
+Total images: 2
+Parsing `../../../repo_correct/de-taal-van-argumenten-en-overtuigen.html'
+Total images: 3
+Parsing `../../../repo_correct/bsm-seminar.html'
+Total images: 1
+Parsing `../../../repo_correct/oeuvreprijs-voor-informaticus-grzegorz-rozenberg?utm_source=2601017&utm_medium=e-mail&utm_content=oeuvreprijs-voor-informaticus-grzegorz-rozenberg&utm_campaign=nieuwsbrief.html'
+Total images: 3
+Parsing `../../../repo_correct/barsten-in-het-glazen-plafond-petra-sijpesteijn-over-het-hoogleraarschap.html'
+Total images: 8
+Parsing `../../../repo_correct/leiden-study-system.html'
+Total images: 2
+Parsing `../../../repo_correct/botsende-belangen-overbruggen.html'
+Total images: 4
+Parsing `../../../repo_correct/the-phonology-of-iranian-balochi-dialects-description-and-analysis.1.html'
+Total images: 1
+Parsing `../../../repo_correct/studies-in-human-evolution.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.65.html'
+Total images: 3
+Parsing `../../../repo_correct/conference-provide-on-validation.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.165.html'
+Total images: 4
+Parsing `../../../repo_correct/analysis-of-sub-visible-particles-in-complex-injectable-formulations.1.html'
+Total images: 1
+Parsing `../../../repo_correct/natuurwetenschappen-en-informatica.3.html'
+Total images: 2
+Parsing `../../../repo_correct/zurcher-geeft-turkse-medaille-terug.html'
+Total images: 4
+Parsing `../../../repo_correct/arts-and-culture.1.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.13.html'
+Total images: 2
+Parsing `../../../repo_correct/statistical-science-meeloopdag.html'
+Total images: 0
+Parsing `../../../repo_correct/graduate-school-of-social-and-behavioural-sciences.html'
+Total images: 2
+Parsing `../../../repo_correct/Medical+auxiliary+professions.html'
+Total images: 2
+Parsing `../../../repo_correct/reuvens.html'
+Total images: 4
+Parsing `../../../repo_correct/w.html'
+Total images: 4
+Parsing `../../../repo_correct/in-de-volkskrant-waarom-het-goed-is-als-papa-meespeelt-met-de-baby.html'
+Total images: 3
+Parsing `../../../repo_correct/als-leidenaar-in-afrika.html'
+Total images: 1
+Parsing `../../../repo_correct/persianism-in-antiquity.html'
+Total images: 4
+Parsing `../../../repo_correct/11.html'
+Total images: 0
+Parsing `../../../repo_correct/bedrijfswetenschappen.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.20.187.html'
+Total images: 5
+Parsing `../../../repo_correct/de-universiteit.html'
+Total images: 5
+Parsing `../../../repo_correct/russian-and-eurasian-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/jan-bart-gewald-nieuwe-directeur-afrika-studiecentrum-leiden.html'
+Total images: 6
+Parsing `../../../repo_correct/economie_en_bedrijf.html'
+Total images: 2
+Parsing `../../../repo_correct/maintaining-life-satisfaction-at-old-age-in-the-face-of-physical-decline.html'
+Total images: 1
+Parsing `../../../repo_correct/mijn-hoofddoel-is-verwonderen-en-vermaken.html'
+Total images: 4
+Parsing `../../../repo_correct/europalezing.html'
+Total images: 2
+Parsing `../../../repo_correct/media-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/onderzoek-afgerond-naar-gebiedsgebonden-politiewerk.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.64.html'
+Total images: 5
+Parsing `../../../repo_correct/how-to-apply.7.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/vici-subsidie-andrea-evers-voor-de-kracht-van-verwachtingen.html'
+Total images: 16
+Parsing `../../../repo_correct/mathematische-statistiek.html'
+Total images: 2
+Parsing `../../../repo_correct/ns.html?id=GTM-5JNZWWC.html'
+Total images: 0
+Parsing `../../../repo_correct/bo.html'
+Total images: 5
+Parsing `../../../repo_correct/geschiedenis-migranten-online-in-beeld.html'
+Total images: 2
+Parsing `../../../repo_correct/technical-medicine.html'
+Total images: 1
+Parsing `../../../repo_correct/medieval-early-modern-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/assyriology-research.html'
+Total images: 1
+Parsing `../../../repo_correct/programme.7.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.20.299.html'
+Total images: 11
+Parsing `../../../repo_correct/kritische-noot-nieuwe-ambtenarenwet.html'
+Total images: 4
+Parsing `../../../repo_correct/muziek-beeldende-kunst-en-vormgeving.2.html'
+Total images: 2
+Parsing `../../../repo_correct/europa-leeft-als-enige-op-kosten-van-andere-continenten.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.104.html'
+Total images: 5
+Parsing `../../../repo_correct/nederland-wordt-wereldspeler-met-‘organ-on-chip’-technologie.html'
+Total images: 2
+Parsing `../../../repo_correct/college-van-bestuur.html'
+Total images: 9
+Parsing `../../../repo_correct/fundamentals-of-science.html'
+Total images: 10
+Parsing `../../../repo_correct/molecular-genetics-and-biotechnology.html'
+Total images: 2
+Parsing `../../../repo_correct/spherical-mosaics-from-different-tiles.html'
+Total images: 4
+Parsing `../../../repo_correct/medewerkerswebsite.html'
+Total images: 2
+Parsing `../../../repo_correct/studentencentrum-plexus.1.html'
+Total images: 4
+Parsing `../../../repo_correct/classics-research.html'
+Total images: 2
+Parsing `../../../repo_correct/de-legitimatie-van-politieke-macht.html'
+Total images: 4
+Parsing `../../../repo_correct/persian-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.10.html'
+Total images: 2
+Parsing `../../../repo_correct/student-stories.html'
+Total images: 1
+Parsing `../../../repo_correct/programme.12.html'
+Total images: 1
+Parsing `../../../repo_correct/beste-online-docent-sjoerd-douma-gaat-over-grenzen.html'
+Total images: 4
+Parsing `../../../repo_correct/philosophy-of-political-sciences.html'
+Total images: 1
+Parsing `../../../repo_correct/ns.html?id=GTM-NFXZVR.html'
+Total images: 0
+Parsing `../../../repo_correct/targeting-recidivism.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.14.63.html'
+Total images: 6
+Parsing `../../../repo_correct/hortus-botanicus.2.html'
+Total images: 2
+Parsing `../../../repo_correct/tourist-information-centre.html'
+Total images: 1
+Parsing `../../../repo_correct/agenda?activity=Alumni%2BEvent&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.89.html'
+Total images: 6
+Parsing `../../../repo_correct/explaining-prolific-authors.html'
+Total images: 3
+Parsing `../../../repo_correct/israel-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/e.2.html'
+Total images: 0
+Parsing `../../../repo_correct/09.3.html'
+Total images: 0
+Parsing `../../../repo_correct/staff.10.html'
+Total images: 0
+Parsing `../../../repo_correct/politicologenetmaal.html'
+Total images: 1
+Parsing `../../../repo_correct/religie-en-filosofie.html'
+Total images: 2
+Parsing `../../../repo_correct/a-new-window-on-the-universe.html'
+Total images: 4
+Parsing `../../../repo_correct/de-hoop-scheffer-trump-kiest-voor-klassiek-amerikaans-buitenlandbeleid.html'
+Total images: 3
+Parsing `../../../repo_correct/organisatie.9.html'
+Total images: 5
+Parsing `../../../repo_correct/machine-learning-predicts-preferences.html'
+Total images: 3
+Parsing `../../../repo_correct/publications.24.html'
+Total images: 3
+Parsing `../../../repo_correct/contact.82.html'
+Total images: 3
+Parsing `../../../repo_correct/s.2.html'
+Total images: 0
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=3&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/geert-de-snoo-bij-vroege-vogels-over-groene-plannen-partijen.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.1.html'
+Total images: 8
+Parsing `../../../repo_correct/proefstuderen-student-voor-een-dag.html'
+Total images: 18
+Parsing `../../../repo_correct/happy-healthy-homes-the-role-of-parenting-in-early-childhood-overweight.1.html'
+Total images: 1
+Parsing `../../../repo_correct/wiskunde-topopleiding-keuzegids-2017.html'
+Total images: 6
+Parsing `../../../repo_correct/new-force-measured-between-proteins.1.html'
+Total images: 7
+Parsing `../../../repo_correct/regeldruk-vanuit-een-ander-perspectief.html'
+Total images: 2
+Parsing `../../../repo_correct/south-asian-and-tibetan-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=4&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/de-duurzame-universiteit.html'
+Total images: 9
+Parsing `../../../repo_correct/Gb72C6S9te.html'
+Total images: 1
+Parsing `../../../repo_correct/06.3.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.48.html'
+Total images: 1
+Parsing `../../../repo_correct/alumni-mentors-answer-student’s-questions.html'
+Total images: 6
+Parsing `../../../repo_correct/o.2.html'
+Total images: 0
+Parsing `../../../repo_correct/assyriology.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.85.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.13.34.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.90.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.20.180.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.59.html'
+Total images: 3
+Parsing `../../../repo_correct/Y45S50a9FN1.html'
+Total images: 4
+Parsing `../../../repo_correct/q.1.html'
+Total images: 2
+Parsing `../../../repo_correct/catalysts-contribute-their-own-oxygen-for-reactions.html'
+Total images: 4
+Parsing `../../../repo_correct/twisted-light-and-helical-structures.html'
+Total images: 4
+Parsing `../../../repo_correct/ns.html?id=GTM-MPQ9BX.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.112.html'
+Total images: 7
+Parsing `../../../repo_correct/archaeological-studies-leiden-university.html'
+Total images: 12
+Parsing `../../../repo_correct/veiligheidsregio-utrecht-klaar-om-te-managen-op-vakbekwaamheid.html'
+Total images: 2
+Parsing `../../../repo_correct/lovende-woorden-van-de-visitatiecommissie.html'
+Total images: 5
+Parsing `../../../repo_correct/z.2.html'
+Total images: 2
+Parsing `../../../repo_correct/c.3.html'
+Total images: 2
+Parsing `../../../repo_correct/cml-puma-prospecting-the-urban-mines-of-amsterdam.html'
+Total images: 4
+Parsing `../../../repo_correct/aandacht-voor-autisme-bij-meisjes.1.html'
+Total images: 4
+Parsing `../../../repo_correct/Islam-Religion-and-Society.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=5&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/criminal-justice-legitimacy-accountability-and-effectivity.html'
+Total images: 2
+Parsing `../../../repo_correct/11.4.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.9.html'
+Total images: 2
+Parsing `../../../repo_correct/tweede-fellow-aangesteld-bij-de-leiden-teachers’-academy-vanuit-het-iclon.html'
+Total images: 10
+Parsing `../../../repo_correct/‘melden-nepnieuws-moet-op-gang-komen’.html'
+Total images: 4
+Parsing `../../../repo_correct/institute-of-biology-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/docentenopleiding-voor-statushouders.html'
+Total images: 5
+Parsing `../../../repo_correct/applied-neuroscience-in-human-development.html'
+Total images: 3
+Parsing `../../../repo_correct/grenzen-van-fiscale-soevereiniteit.html'
+Total images: 2
+Parsing `../../../repo_correct/kamerlingh-ohnes-laboratorium.html'
+Total images: 4
+Parsing `../../../repo_correct/d.2.html'
+Total images: 0
+Parsing `../../../repo_correct/how-to-apply.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.92.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.45.html'
+Total images: 29
+Parsing `../../../repo_correct/index.html.11.174.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.50.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.66.html'
+Total images: 2
+Parsing `../../../repo_correct/mathematical-institute-cooperates-with-uwv.html'
+Total images: 4
+Parsing `../../../repo_correct/overheid-en-recht.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.56.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.86.html'
+Total images: 5
+Parsing `../../../repo_correct/rapenburg-38.html'
+Total images: 4
+Parsing `../../../repo_correct/financien.html'
+Total images: 1
+Parsing `../../../repo_correct/belaagd-en-belegerd.html'
+Total images: 4
+Parsing `../../../repo_correct/v.4.html'
+Total images: 2
+Parsing `../../../repo_correct/drir-nils-rosmuller.html'
+Total images: 7
+Parsing `../../../repo_correct/11.3.html'
+Total images: 0
+Parsing `../../../repo_correct/physics-teacher-meeting-at-science-faculty.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.73.html'
+Total images: 1
+Parsing `../../../repo_correct/96fc1d19c9d948fc8516d068f7879043.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.42.html'
+Total images: 2
+Parsing `../../../repo_correct/reasoning-through-art.html'
+Total images: 3
+Parsing `../../../repo_correct/southeast-asian-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/Locations.html'
+Total images: 4
+Parsing `../../../repo_correct/Skillslab+division+1.html'
+Total images: 3
+Parsing `../../../repo_correct/blackboard-basis.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.122.html'
+Total images: 6
+Parsing `../../../repo_correct/contact.50.html'
+Total images: 10
+Parsing `../../../repo_correct/social-and-organisational-psychology-research.html'
+Total images: 6
+Parsing `../../../repo_correct/bsm-seminar-.html'
+Total images: 1
+Parsing `../../../repo_correct/taalkunde.2.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.60.html'
+Total images: 3
+Parsing `../../../repo_correct/education-and-child-studies.1.html'
+Total images: 3
+Parsing `../../../repo_correct/leraar-vho-in-godsdienst-en-levensbeschouwing.html'
+Total images: 4
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=5&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/ns.html?id=GTM-56FZ7G.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.1.397.html'
+Total images: 5
+Parsing `../../../repo_correct/zonnekijker-in-oude-sterrewacht-officieel-onthuld.html'
+Total images: 6
+Parsing `../../../repo_correct/introduction.78.html'
+Total images: 3
+Parsing `../../../repo_correct/hoe-vind-je-als-internationale-student-in-nederland-een-baan.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.54.html'
+Total images: 3
+Parsing `../../../repo_correct/the-subjectively-experienced-severity-of-imprisonment.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.34.html'
+Total images: 5
+Parsing `../../../repo_correct/studenten.html'
+Total images: 2
+Parsing `../../../repo_correct/medewerkers.19.html'
+Total images: 223
+Parsing `../../../repo_correct/diverse-media-optredens-jorrit-rijpma-over-de-huidige-vluchtelingencrisis.html'
+Total images: 3
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=3&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/mooc-heritage-under-threat.html'
+Total images: 5
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=2&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/l.4.html'
+Total images: 2
+Parsing `../../../repo_correct/geschiedenis-en-godsdienstwetenschappen-in-leiden-17-en-32-in-qs-ranking-2017.html'
+Total images: 1
+Parsing `../../../repo_correct/mini-leergang-enqueterecht-volgens-de-ondernemingskamer.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.68.html'
+Total images: 6
+Parsing `../../../repo_correct/student-stories.2.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.93.html'
+Total images: 6
+Parsing `../../../repo_correct/kom-kennismaken.html'
+Total images: 4
+Parsing `../../../repo_correct/qcI01xGKIM.html'
+Total images: 2
+Parsing `../../../repo_correct/dual-phd-centre.1.html'
+Total images: 2
+Parsing `../../../repo_correct/z.1.html'
+Total images: 2
+Parsing `../../../repo_correct/medewerker.html'
+Total images: 62
+Parsing `../../../repo_correct/in-the-spotlight---biology-seminars-leiden.html'
+Total images: 2
+Parsing `../../../repo_correct/colonial-and-global-history-research.html'
+Total images: 3
+Parsing `../../../repo_correct/university.html'
+Total images: 4
+Parsing `../../../repo_correct/masterclass-leadership-shakespeare--retorica.html'
+Total images: 1
+Parsing `../../../repo_correct/programme.8.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.130.html'
+Total images: 5
+Parsing `../../../repo_correct/koreastudies.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.234.html'
+Total images: 5
+Parsing `../../../repo_correct/egyptology.html'
+Total images: 2
+Parsing `../../../repo_correct/during-hbo.1.html'
+Total images: 0
+Parsing `../../../repo_correct/asian-studies-research.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.23.html'
+Total images: 1
+Parsing `../../../repo_correct/startschot-voor-komst-90-internationale-wetenschappers-naar-zuid-holland.1.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.182.html'
+Total images: 5
+Parsing `../../../repo_correct/organisatie.7.html'
+Total images: 7
+Parsing `../../../repo_correct/index.html.11.141.html'
+Total images: 5
+Parsing `../../../repo_correct/universitair-sportcentrum.html'
+Total images: 4
+Parsing `../../../repo_correct/breastfeeding-and-weaning-in-the-past-and-present.html'
+Total images: 5
+Parsing `../../../repo_correct/bareez-majid-wins-iisg-thesis-prize-with-study-on-torture-museum11.html'
+Total images: 1
+Parsing `../../../repo_correct/van-vwo-naar-wo.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.188.html'
+Total images: 5
+Parsing `../../../repo_correct/journal-club-wees-welkom.html'
+Total images: 1
+Parsing `../../../repo_correct/KSUg4AkUZA.html'
+Total images: 9
+Parsing `../../../repo_correct/j.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.101.html'
+Total images: 4
+Parsing `../../../repo_correct/philosophy-of-psychology.html'
+Total images: 3
+Parsing `../../../repo_correct/k.1.html'
+Total images: 0
+Parsing `../../../repo_correct/real-time-beeldherkenning-voor-digitaal-leren.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.116.html'
+Total images: 5
+Parsing `../../../repo_correct/contact-info.2.html'
+Total images: 1
+Parsing `../../../repo_correct/den-haag-studentenstad.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.20.197.html'
+Total images: 4
+Parsing `../../../repo_correct/lumc-gebouw-2.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.4.65.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.5.html'
+Total images: 1
+Parsing `../../../repo_correct/religion-and-philosophy.html'
+Total images: 0
+Parsing `../../../repo_correct/researchers-find-paw-of-dutch-bear.html'
+Total images: 5
+Parsing `../../../repo_correct/muziek-beeldende-kunst-en-vormgeving.1.html'
+Total images: 2
+Parsing `../../../repo_correct/french-literature-and-culture.html'
+Total images: 2
+Parsing `../../../repo_correct/meet-biology-leiden.html'
+Total images: 1
+Parsing `../../../repo_correct/de-veerkracht-van-wijken.html'
+Total images: 2
+Parsing `../../../repo_correct/university.1.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.88.html'
+Total images: 3
+Parsing `../../../repo_correct/contact.24.html'
+Total images: 3
+Parsing `../../../repo_correct/agenda?activity=Study%252BInformation&year=2017&month=5.html'
+Total images: 2
+Parsing `../../../repo_correct/co-operation-between-palestine-and-leiden-archaeology-renewed.html'
+Total images: 6
+Parsing `../../../repo_correct/Prehistory-of-Europe.html'
+Total images: 3
+Parsing `../../../repo_correct/studying-for-a-phd.html'
+Total images: 2
+Parsing `../../../repo_correct/7HtI3LM5Nq.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.1.84.html'
+Total images: 4
+Parsing `../../../repo_correct/wp-login.php.1.html'
+Total images: 0
+Parsing `../../../repo_correct/disclaimer.4.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.181.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html?replytocom=1509.html'
+Total images: 2
+Parsing `../../../repo_correct/transforming-data-into-knowledge-for-intelligent-decision-making-in-early-drug-discovery.html'
+Total images: 1
+Parsing `../../../repo_correct/art-history.html'
+Total images: 0
+Parsing `../../../repo_correct/s.1.html'
+Total images: 0
+Parsing `../../../repo_correct/the-crowd-helps-unlocking-historical-maps-of-the-caribbean.1.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.65.html'
+Total images: 5
+Parsing `../../../repo_correct/biomoleculaire-analyse.html'
+Total images: 2
+Parsing `../../../repo_correct/slotbijeenkomst-pre-university-classes-veel-wetenschap.html'
+Total images: 9
+Parsing `../../../repo_correct/index.html.19.61.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.52.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.20.173.html'
+Total images: 5
+Parsing `../../../repo_correct/leids-onderzoek-inspireert-hervormingen-frans-aansprakelijkheidsrecht.html'
+Total images: 8
+Parsing `../../../repo_correct/alles-moet-kapot.html'
+Total images: 3
+Parsing `../../../repo_correct/2017-05-17-global-petroleumscape-conference.2.html'
+Total images: 11
+Parsing `../../../repo_correct/practicum-musicae-honours-college.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.55.html'
+Total images: 3
+Parsing `../../../repo_correct/management-and-organisation.html'
+Total images: 2
+Parsing `../../../repo_correct/waarom-studeren-in-den-haag.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.136.html'
+Total images: 7
+Parsing `../../../repo_correct/contact.51.html'
+Total images: 3
+Parsing `../../../repo_correct/colloquium-ehrenfestii-sir-michael-berry.1.html'
+Total images: 1
+Parsing `../../../repo_correct/early-christian-encounters-with-town-and-countryside.html'
+Total images: 1
+Parsing `../../../repo_correct/from-decentral-selection-procedures-to-ict-projects.html'
+Total images: 4
+Parsing `../../../repo_correct/cultural-awareness-in-teaching-and-learning.1.html'
+Total images: 1
+Parsing `../../../repo_correct/entry-requirements.1.html'
+Total images: 0
+Parsing `../../../repo_correct/ancient-history.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.187.html'
+Total images: 7
+Parsing `../../../repo_correct/negotiating-an-arab-american-identity-diaspora-literature.html'
+Total images: 7
+Parsing `../../../repo_correct/a.1.html'
+Total images: 0
+Parsing `../../../repo_correct/european-tax-law-advanced.html'
+Total images: 3
+Parsing `../../../repo_correct/Erkend+leerbedrijf.html'
+Total images: 2
+Parsing `../../../repo_correct/g.2.html'
+Total images: 0
+Parsing `../../../repo_correct/the-natural-history-of-human-atherosclerosis-a-histopathological-approach.html'
+Total images: 1
+Parsing `../../../repo_correct/opening-academic-year.html'
+Total images: 4
+Parsing `../../../repo_correct/students-get-crash-course-in-it-in-chinese-silicon-valley.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.1.252.html'
+Total images: 2
+Parsing `../../../repo_correct/f.html'
+Total images: 4
+Parsing `../../../repo_correct/signin?onLogin=%2Funiversiteit-leiden%2Fdocs%2Fleidraad_4_2015_lr%2F25.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.31.53.html'
+Total images: 0
+Parsing `../../../repo_correct/introduction.82.html'
+Total images: 1
+Parsing `../../../repo_correct/unravelling-narcolepsy-from-pathophysiology-to-measuring-treatment-effects.html'
+Total images: 1
+Parsing `../../../repo_correct/staff.14.html'
+Total images: 0
+Parsing `../../../repo_correct/this-week’s-discoveries---11-october-2016.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.11.121.html'
+Total images: 5
+Parsing `../../../repo_correct/history.4.html'
+Total images: 0
+Parsing `../../../repo_correct/organisatie.6.html'
+Total images: 7
+Parsing `../../../repo_correct/t.1.html'
+Total images: 0
+Parsing `../../../repo_correct/ns.html?id=GTM-NBX9J4.html'
+Total images: 0
+Parsing `../../../repo_correct/northwestern-europe.html'
+Total images: 0
+Parsing `../../../repo_correct/in:parttime.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.1.120.html'
+Total images: 5
+Parsing `../../../repo_correct/beste-martha.html'
+Total images: 3
+Parsing `../../../repo_correct/programme.html'
+Total images: 0
+Parsing `../../../repo_correct/geen-akkoord-vsnu-en-oxford-university-press-extern.html'
+Total images: 2
+Parsing `../../../repo_correct/kinderen-en-sparen.html'
+Total images: 3
+Parsing `../../../repo_correct/faculteitsbestuur.html'
+Total images: 9
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=10&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/optional.html'
+Total images: 2
+Parsing `../../../repo_correct/in-deeltijd.html'
+Total images: 4
+Parsing `../../../repo_correct/management.2.html'
+Total images: 9
+Parsing `../../../repo_correct/alumni-avond-jeugdrecht-16-mei-2017.html'
+Total images: 8
+Parsing `../../../repo_correct/TOS?loc=NL&hl=en.html'
+Total images: 0
+Parsing `../../../repo_correct/befaamd-hoogleraar-data-science-naar-leiden.html'
+Total images: 3
+Parsing `../../../repo_correct/gezondheidspsycholoog-kaya-peerdeman-wint-prijs-voor-beste-artikel.html'
+Total images: 6
+Parsing `../../../repo_correct/staatssecretaris-sander-dekker-neemt-kennisagenda-in-ontvangst.html'
+Total images: 11
+Parsing `../../../repo_correct/e.3.html'
+Total images: 2
+Parsing `../../../repo_correct/international-relations-and-diplomacy.html'
+Total images: 4
+Parsing `../../../repo_correct/l.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html?unsubscribe.html'
+Total images: 1
+Parsing `../../../repo_correct/the-neurobiology-of-individual-differences-in-grammar-learning.html'
+Total images: 1
+Parsing `../../../repo_correct/staff.7.html'
+Total images: 1
+Parsing `../../../repo_correct/geheugentechniek-hoe-leer-je-een-taal-hoe-onthoud-je-handboekkennis.html'
+Total images: 2
+Parsing `../../../repo_correct/goede-hoop-zuid-afrika-en-nederland-vanaf-1600.html'
+Total images: 3
+Parsing `../../../repo_correct/widosari-op-dies-natalis.html'
+Total images: 4
+Parsing `../../../repo_correct/u.2.html'
+Total images: 2
+Parsing `../../../repo_correct/p.n.-van-eyckhof-1.html'
+Total images: 4
+Parsing `../../../repo_correct/Cooperation.html'
+Total images: 2
+Parsing `../../../repo_correct/m.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.115.html'
+Total images: 5
+Parsing `../../../repo_correct/digging-deeper-2017.html'
+Total images: 2
+Parsing `../../../repo_correct/lacdr-action.html'
+Total images: 3
+Parsing `../../../repo_correct/photgrametery-workshop.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.19.35.html'
+Total images: 3
+Parsing `../../../repo_correct/health.1.html'
+Total images: 0
+Parsing `../../../repo_correct/middle-eastern-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/honours-colleges.html'
+Total images: 2
+Parsing `../../../repo_correct/elsevier-vijf-opleidingen-geesteswetenschappen-in-leiden-het-beste.html'
+Total images: 3
+Parsing `../../../repo_correct/crisis-and-security-management.html'
+Total images: 6
+Parsing `../../../repo_correct/f.3.html'
+Total images: 2
+Parsing `../../../repo_correct/autonome-wapensystemen-menselijke-waardigheid-en-internationaal-recht.html'
+Total images: 3
+Parsing `../../../repo_correct/leraar-vho-in-scheikunde.html'
+Total images: 4
+Parsing `../../../repo_correct/x.html'
+Total images: 2
+Parsing `../../../repo_correct/arts-and-culture.html'
+Total images: 1
+Parsing `../../../repo_correct/blog-a-wondrous-new-world-an-internship-in-ivory-coast.html'
+Total images: 1
+Parsing `../../../repo_correct/this-week’s-discoveries---4-october-2016.html'
+Total images: 6
+Parsing `../../../repo_correct/in:parttime.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.92.html'
+Total images: 6
+Parsing `../../../repo_correct/introduction.21.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.96.html'
+Total images: 5
+Parsing `../../../repo_correct/art-in-the-contemporary-world.html'
+Total images: 1
+Parsing `../../../repo_correct/market-power-and-competition-law-in-the-software-industry.1.html'
+Total images: 4
+Parsing `../../../repo_correct/contact-info.11.html'
+Total images: 1
+Parsing `../../../repo_correct/hermen-overkleeft-wetenschappelijk-directeur-chemie-instituut-lic.html'
+Total images: 4
+Parsing `../../../repo_correct/etude-dune-langue-des-signes-emergente-de-cote-divoire-lexemple-de-la-langue-des-signes-de-bouakako-lasibo.html'
+Total images: 1
+Parsing `../../../repo_correct/strateg.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.4.93.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.193.html'
+Total images: 4
+Parsing `../../../repo_correct/gezondheid.2.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.96.html'
+Total images: 6
+Parsing `../../../repo_correct/stephen-ellis-leerstoel-officieel-gepresenteerd.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.109.html'
+Total images: 4
+Parsing `../../../repo_correct/commissies.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.100.html'
+Total images: 6
+Parsing `../../../repo_correct/statistical-science.html'
+Total images: 2
+Parsing `../../../repo_correct/leraar-vho-in-wiskunde.html'
+Total images: 4
+Parsing `../../../repo_correct/zonmw-awards-funding-for-lacdr-research-project-to-develop-novel-biomarkers-for-bacterial-infections.html'
+Total images: 7
+Parsing `../../../repo_correct/philosophy-politics-and-economics.html'
+Total images: 1
+Parsing `../../../repo_correct/industrial-pharmacy1.html'
+Total images: 1
+Parsing `../../../repo_correct/ijstijdjagers-verwoestten-bossen-in-heel-europa.html'
+Total images: 11
+Parsing `../../../repo_correct/fiscaal-recht.html'
+Total images: 4
+Parsing `../../../repo_correct/medewerkers-alfabetisch.html'
+Total images: 107
+Parsing `../../../repo_correct/n.2.html'
+Total images: 0
+Parsing `../../../repo_correct/a-pre-masters-after-your-study.1.html'
+Total images: 0
+Parsing `../../../repo_correct/Farmacie.html'
+Total images: 1
+Parsing `../../../repo_correct/child-and-adolescent-psychology.html'
+Total images: 6
+Parsing `../../../repo_correct/library.2.html'
+Total images: 2
+Parsing `../../../repo_correct/r.html'
+Total images: 4
+Parsing `../../../repo_correct/afscheid-willem-te-beest.html'
+Total images: 6
+Parsing `../../../repo_correct/internationale-betrekkingen-en-organisaties.html'
+Total images: 5
+Parsing `../../../repo_correct/health.html'
+Total images: 0
+Parsing `../../../repo_correct/poortgebouw.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.165.html'
+Total images: 5
+Parsing `../../../repo_correct/creativiteit-krijg-je-niet-voor-niks.html'
+Total images: 5
+Parsing `../../../repo_correct/startbijeenkomst-‘levensbeeindiging-van-minderjarigen’.html'
+Total images: 6
+Parsing `../../../repo_correct/studenten-krijgen-ict-stoomcursus-in-chinese-silicon-valley.html'
+Total images: 3
+Parsing `../../../repo_correct/Zk4IxxOzTI.html'
+Total images: 6
+Parsing `../../../repo_correct/op-naar-een-leefbare-toekomst.html'
+Total images: 15
+Parsing `../../../repo_correct/contact.32.html'
+Total images: 2
+Parsing `../../../repo_correct/omstreden-belastingdeals-tussen-fiscus-en-multinationals-openbaar.html'
+Total images: 4
+Parsing `../../../repo_correct/economics-and-governance.html'
+Total images: 4
+Parsing `../../../repo_correct/m.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.31.html'
+Total images: 1
+Parsing `../../../repo_correct/Target+groups.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.84.html'
+Total images: 1
+Parsing `../../../repo_correct/lumc-building-1.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.83.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.1.349.html'
+Total images: 2
+Parsing `../../../repo_correct/jaap-van-den-herik-spreekt-tijdens-hsd-cafe.html'
+Total images: 6
+Parsing `../../../repo_correct/contact.9.html'
+Total images: 4
+Parsing `../../../repo_correct/studiefaciliteiten.html'
+Total images: 2
+Parsing `../../../repo_correct/gedachten-downloaden-en-uploaden.html'
+Total images: 3
+Parsing `../../../repo_correct/check’d.html'
+Total images: 1
+Parsing `../../../repo_correct/spinning-worlds.html'
+Total images: 1
+Parsing `../../../repo_correct/programme.2.html'
+Total images: 2
+Parsing `../../../repo_correct/k.2.html'
+Total images: 0
+Parsing `../../../repo_correct/teachereducation.html'
+Total images: 0
+Parsing `../../../repo_correct/kamerlingh-onnes-gebouw.html'
+Total images: 4
+Parsing `../../../repo_correct/lacdr-sysmedpd.html'
+Total images: 4
+Parsing `../../../repo_correct/biofarmaceutische_wetenschappen.html'
+Total images: 2
+Parsing `../../../repo_correct/continuous-learning-institute.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.47.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=4&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.81.html'
+Total images: 3
+Parsing `../../../repo_correct/programme.3.html'
+Total images: 2
+Parsing `../../../repo_correct/02.1.html'
+Total images: 0
+Parsing `../../../repo_correct/matching.1.html'
+Total images: 5
+Parsing `../../../repo_correct/p.2.html'
+Total images: 0
+Parsing `../../../repo_correct/basiscursus-intellectuele-eigendom-voor-de-praktijk.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.62.html'
+Total images: 1
+Parsing `../../../repo_correct/p.n.-van-eyckhof-3.html'
+Total images: 4
+Parsing `../../../repo_correct/philosophy-global-and-comparative-perspectives.html'
+Total images: 4
+Parsing `../../../repo_correct/b.4.html'
+Total images: 2
+Parsing `../../../repo_correct/zuid-afrikanen-mogen-trotser-zijn-op-hun-culturele-erfgoed.html'
+Total images: 3
+Parsing `../../../repo_correct/i.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.36.html'
+Total images: 7
+Parsing `../../../repo_correct/index.html.14.71.html'
+Total images: 5
+Parsing `../../../repo_correct/welk-gras-is-groener.html'
+Total images: 4
+Parsing `../../../repo_correct/06.2.html'
+Total images: 0
+Parsing `../../../repo_correct/staff.11.html'
+Total images: 1
+Parsing `../../../repo_correct/communicatie--marketing.html'
+Total images: 1
+Parsing `../../../repo_correct/reverse-engineering-of-drug-induced-qtc-interval-prolongation-towards-a-systems-pharmacology-approach.1.html'
+Total images: 1
+Parsing `../../../repo_correct/taalkunde.3.html'
+Total images: 2
+Parsing `../../../repo_correct/this-week’s-discoveries---1-march-2016.html'
+Total images: 2
+Parsing `../../../repo_correct/ns.html?id=GTM-W3CT4DN.html'
+Total images: 0
+Parsing `../../../repo_correct/certificaatuitreiking-trainingen-iclon-ho.html'
+Total images: 1
+Parsing `../../../repo_correct/brexit-procedure-in-kaart.html'
+Total images: 2
+Parsing `../../../repo_correct/rankings.html'
+Total images: 2
+Parsing `../../../repo_correct/imaging-intervention.html'
+Total images: 1
+Parsing `../../../repo_correct/faculty-board--faculty-office.html'
+Total images: 36
+Parsing `../../../repo_correct/computer-science.2.html'
+Total images: 0
+Parsing `../../../repo_correct/faculteiten.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.68.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.14.56.html'
+Total images: 6
+Parsing `../../../repo_correct/ontdek-global-and-comparative-philosophy-tijdens-thinking-planet.html'
+Total images: 3
+Parsing `../../../repo_correct/inter-section.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.64.html'
+Total images: 5
+Parsing `../../../repo_correct/recht-en-bestuur.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.172.html'
+Total images: 6
+Parsing `../../../repo_correct/huygens-laboratorium.html'
+Total images: 4
+Parsing `../../../repo_correct/middle-and-near-east.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.18.4.html'
+Total images: 3
+Parsing `../../../repo_correct/italian-language-and-linguistics.html'
+Total images: 3
+Parsing `../../../repo_correct/de-dichter-als-idool-lucas.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.184.html'
+Total images: 6
+Parsing `../../../repo_correct/staff.12.html'
+Total images: 1
+Parsing `../../../repo_correct/southeast-asian-studies.1.html'
+Total images: 3
+Parsing `../../../repo_correct/cNOb50a2JJL.html'
+Total images: 1
+Parsing `../../../repo_correct/bestuurskunde.html'
+Total images: 4
+Parsing `../../../repo_correct/hoe-jonger-het-kind-hoe-beter-je-die-sociale-ontwikkeling-nog-kan-beinvloeden.html'
+Total images: 4
+Parsing `../../../repo_correct/tuition-fee.8.html'
+Total images: 1
+Parsing `../../../repo_correct/reenchanting-buddhism-via-modernizing-magic-guru-wuguang-of-taiwan’s-philosophy-and-science-of-‘superstition’.html'
+Total images: 1
+Parsing `../../../repo_correct/laboratory-for-archaeozoological-studies.html'
+Total images: 5
+Parsing `../../../repo_correct/in:evening.1.html'
+Total images: 0
+Parsing `../../../repo_correct/literary-studies-research.html'
+Total images: 2
+Parsing `../../../repo_correct/cultureel-erfgoed-beschermen-in-conflictsituaties.html'
+Total images: 4
+Parsing `../../../repo_correct/advancing-the-european-multilingual-experience.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.19.47.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.62.html'
+Total images: 6
+Parsing `../../../repo_correct/medewerkers.7.html'
+Total images: 88
+Parsing `../../../repo_correct/gratis-online-cursus-taalwetenschap-miracles-of-human-language.html'
+Total images: 4
+Parsing `../../../repo_correct/09.2.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.18.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.11.185.html'
+Total images: 5
+Parsing `../../../repo_correct/this-week’s-discoveries---5-april-2016.html'
+Total images: 3
+Parsing `../../../repo_correct/promovendidecanaat.html'
+Total images: 5
+Parsing `../../../repo_correct/contact-info.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.111.html'
+Total images: 4
+Parsing `../../../repo_correct/computer-systems-imagery--media.html'
+Total images: 2
+Parsing `../../../repo_correct/andrea-evers-over-haar-vici-beurs-voor-onderzoek-naar-onverklaarbare-pijn.html'
+Total images: 6
+Parsing `../../../repo_correct/entry-requirements.3.html'
+Total images: 0
+Parsing `../../../repo_correct/arbo--milieudienst.html'
+Total images: 6
+Parsing `../../../repo_correct/06.html'
+Total images: 0
+Parsing `../../../repo_correct/lucis-summer-school.html'
+Total images: 3
+Parsing `../../../repo_correct/t.3.html'
+Total images: 2
+Parsing `../../../repo_correct/the-international-conference-on-history-education.html'
+Total images: 2
+Parsing `../../../repo_correct/lacdr-costream.html'
+Total images: 5
+Parsing `../../../repo_correct/founding-father-of-pharmacological-models.html'
+Total images: 2
+Parsing `../../../repo_correct/culture.html'
+Total images: 0
+Parsing `../../../repo_correct/onderzoekscentrum.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.149.html'
+Total images: 5
+Parsing `../../../repo_correct/john-singer-sargent-and-the-material-of-paint.html'
+Total images: 3
+Parsing `../../../repo_correct/egyptology-research.html'
+Total images: 1
+Parsing `../../../repo_correct/assyriologie.html'
+Total images: 4
+Parsing `../../../repo_correct/medewerkers.9.html'
+Total images: 6
+Parsing `../../../repo_correct/universiteitsbibliotheek.3.html'
+Total images: 4
+Parsing `../../../repo_correct/01.2.html'
+Total images: 0
+Parsing `../../../repo_correct/interview-with-new-korea-studies-lecturer-saeyoung-park.1.html'
+Total images: 1
+Parsing `../../../repo_correct/systemic-and-adipose-tissue-inflammation-in-obesity-and-insulin-resistance.html'
+Total images: 1
+Parsing `../../../repo_correct/11.2.html'
+Total images: 0
+Parsing `../../../repo_correct/multi-photon-microscoop.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.14.90.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.56.html'
+Total images: 4
+Parsing `../../../repo_correct/10.html'
+Total images: 0
+Parsing `../../../repo_correct/nevenwerkzaamheden.html'
+Total images: 2
+Parsing `../../../repo_correct/oranje-in-leiden.html'
+Total images: 12
+Parsing `../../../repo_correct/index.html.19.72.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.47.html'
+Total images: 2
+Parsing `../../../repo_correct/phrasal-alternation-in-kerinci.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.28.419.html'
+Total images: 6
+Parsing `../../../repo_correct/signin?onLogin=%2Funiversiteit-leiden%2Fdocs%2Fperspectives_on_the_world_los_per_p.html'
+Total images: 0
+Parsing `../../../repo_correct/News.html'
+Total images: 2
+Parsing `../../../repo_correct/Judi+Mesman+ontvangt+NWO-Vici+beurs.html'
+Total images: 5
+Parsing `../../../repo_correct/arsenaal-building.html'
+Total images: 4
+Parsing `../../../repo_correct/the-three-dimensions-of-archaeology.html'
+Total images: 4
+Parsing `../../../repo_correct/11.1.html'
+Total images: 0
+Parsing `../../../repo_correct/staff.21.html'
+Total images: 116
+Parsing `../../../repo_correct/philosophy-of-humanities.html'
+Total images: 1
+Parsing `../../../repo_correct/how-to-apply.1.html'
+Total images: 0
+Parsing `../../../repo_correct/programme.10.html'
+Total images: 3
+Parsing `../../../repo_correct/RzbTP2AaZ1.html'
+Total images: 5
+Parsing `../../../repo_correct/asian-modernities-and-traditions.html'
+Total images: 10
+Parsing `../../../repo_correct/archaeology.1.html'
+Total images: 0
+Parsing `../../../repo_correct/o.html'
+Total images: 4
+Parsing `../../../repo_correct/d.1.html'
+Total images: 0
+Parsing `../../../repo_correct/Teacher.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.86.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.69.html'
+Total images: 2
+Parsing `../../../repo_correct/naturalisonderzoeker-koos-biesmeijer-hoogleraar-universiteit-leiden.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.108.html'
+Total images: 6
+Parsing `../../../repo_correct/introduction.16.html'
+Total images: 2
+Parsing `../../../repo_correct/events?activity=Study%2BInformation&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/market-power-and-competition-law-in-the-software-industry.html'
+Total images: 1
+Parsing `../../../repo_correct/african-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/cities-migration-and-global-interdependence-research.html'
+Total images: 3
+Parsing `../../../repo_correct/Cultuur-en-geschiedenis.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.162.html'
+Total images: 4
+Parsing `../../../repo_correct/english-language-tests.html'
+Total images: 0
+Parsing `../../../repo_correct/nikon-1-microscoop.html'
+Total images: 3
+Parsing `../../../repo_correct/anna-van-buerenplein.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.6.html'
+Total images: 0
+Parsing `../../../repo_correct/van-leeuwenhoek-lecture-on-bioscience.1.html'
+Total images: 1
+Parsing `../../../repo_correct/europe-1000-1800.html'
+Total images: 3
+Parsing `../../../repo_correct/matthias-de-vrieshof-4.1.html'
+Total images: 4
+Parsing `../../../repo_correct/recht-en-economie.html'
+Total images: 5
+Parsing `../../../repo_correct/01.1.html'
+Total images: 0
+Parsing `../../../repo_correct/r.4.html'
+Total images: 2
+Parsing `../../../repo_correct/onze-visie.html'
+Total images: 2
+Parsing `../../../repo_correct/staff.9.html'
+Total images: 1
+Parsing `../../../repo_correct/staff.18.html'
+Total images: 140
+Parsing `../../../repo_correct/index.html.14.97.html'
+Total images: 4
+Parsing `../../../repo_correct/events?activity=Study%2BInformation&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/wim-van-den-doel-lid-raad-van-bestuur-nwo.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.137.html'
+Total images: 7
+Parsing `../../../repo_correct/h.3.html'
+Total images: 2
+Parsing `../../../repo_correct/entrance-exam.1.html'
+Total images: 0
+Parsing `../../../repo_correct/01.3.html'
+Total images: 0
+Parsing `../../../repo_correct/bestuur.3.html'
+Total images: 1
+Parsing `../../../repo_correct/actualiteiten-digitalisering-in-het-bestuursrecht.html'
+Total images: 1
+Parsing `../../../repo_correct/wateroverlast-bij-faculteit-wiskunde-en-natuurwetenschappen.html'
+Total images: 2
+Parsing `../../../repo_correct/matching-day-bsc-political-science-international-relations-and-organisations.html'
+Total images: 2
+Parsing `../../../repo_correct/a-blessing-in-disguise-discretion-in-the-context-of-eu-decision-making-national-transposition-and-legitimacy-regarding-eu-directives.html'
+Total images: 2
+Parsing `../../../repo_correct/9-mei-2017-nederlandse-wetenschap.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.93.html'
+Total images: 5
+Parsing `../../../repo_correct/03.1.html'
+Total images: 0
+Parsing `../../../repo_correct/1690.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.111.html'
+Total images: 6
+Parsing `../../../repo_correct/child-and-family.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.83.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.107.html'
+Total images: 5
+Parsing `../../../repo_correct/contact-info.1.html'
+Total images: 1
+Parsing `../../../repo_correct/south-america.html'
+Total images: 0
+Parsing `../../../repo_correct/nederlandkunde.html'
+Total images: 1
+Parsing `../../../repo_correct/10.1.html'
+Total images: 0
+Parsing `../../../repo_correct/bart-custers-in-algemeen-dagblad-over-privacyschendingen.html'
+Total images: 3
+Parsing `../../../repo_correct/van-wijkplaats-2.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.2.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.61.html'
+Total images: 7
+Parsing `../../../repo_correct/mathematics-topopleiding.html'
+Total images: 6
+Parsing `../../../repo_correct/lisanne-rens-wins-h.d.-landahl-mathematical-biophysics-award.html'
+Total images: 2
+Parsing `../../../repo_correct/lipsius-building.html'
+Total images: 4
+Parsing `../../../repo_correct/universiteit-leiden-krijgt-asian-library.html'
+Total images: 1
+Parsing `../../../repo_correct/XgoRDMD7Ru.html'
+Total images: 4
+Parsing `../../../repo_correct/global-order-in-historical-perspective.html'
+Total images: 2
+Parsing `../../../repo_correct/12.2.html'
+Total images: 0
+Parsing `../../../repo_correct/student-blog-from-a-lecture-room-in-leiden-to-the-avenues-of-accra.html'
+Total images: 3
+Parsing `../../../repo_correct/brochure.5.html'
+Total images: 0
+Parsing `../../../repo_correct/research-phd.html'
+Total images: 1
+Parsing `../../../repo_correct/Home.html.1.html'
+Total images: 7
+Parsing `../../../repo_correct/psychology.2.html'
+Total images: 6
+Parsing `../../../repo_correct/a.2.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.194.html'
+Total images: 4
+Parsing `../../../repo_correct/kindermishandeling-en-verwaarlozing-een-levensloopperspectief.html'
+Total images: 2
+Parsing `../../../repo_correct/m.4.html'
+Total images: 2
+Parsing `../../../repo_correct/one-way-traffic-for-motion-in-new-material.html'
+Total images: 0
+Parsing `../../../repo_correct/nadine-akkerman-discussieleidster-bij-spui-25.html'
+Total images: 4
+Parsing `../../../repo_correct/identifying-libraries.html'
+Total images: 3
+Parsing `../../../repo_correct/w.2.html'
+Total images: 2
+Parsing `../../../repo_correct/german-literature-and-culture.html'
+Total images: 2
+Parsing `../../../repo_correct/islamic-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/mentornetwerk-gebruikers-aan-het-woord.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.14.102.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.371.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.20.163.html'
+Total images: 5
+Parsing `../../../repo_correct/introduction.72.html'
+Total images: 2
+Parsing `../../../repo_correct/museums-and-collections.html'
+Total images: 1
+Parsing `../../../repo_correct/philosophy-of-law.html'
+Total images: 1
+Parsing `../../../repo_correct/applied-cognitive-psychology.html'
+Total images: 7
+Parsing `../../../repo_correct/04.4.html'
+Total images: 0
+Parsing `../../../repo_correct/teaching-and-research.html'
+Total images: 5
+Parsing `../../../repo_correct/kcUgHFAEM6.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html?page_id=37.html'
+Total images: 1
+Parsing `../../../repo_correct/search.1.html'
+Total images: 2
+Parsing `../../../repo_correct/leiden-archaeological-career-event.1.html'
+Total images: 2
+Parsing `../../../repo_correct/gezondheid.html'
+Total images: 4
+Parsing `../../../repo_correct/marc-baggelaar-promoveert-cum-laude-op-lichaamseigen-marihuana.html'
+Total images: 4
+Parsing `../../../repo_correct/international-and-european-governance.html'
+Total images: 5
+Parsing `../../../repo_correct/rtl-nieuws-mitch-van-geel-over-pesten.html'
+Total images: 5
+Parsing `../../../repo_correct/lumc-building-3.html'
+Total images: 4
+Parsing `../../../repo_correct/2016-01-18.html'
+Total images: 1
+Parsing `../../../repo_correct/melting-of-frozen-electrons-visualized.html'
+Total images: 0
+Parsing `../../../repo_correct/support-leiden-university.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.40.html'
+Total images: 4
+Parsing `../../../repo_correct/refugee-student-russian-and-eurasian-studies-wins-peter-baehr-prize.1.html'
+Total images: 1
+Parsing `../../../repo_correct/wNXcZ3J56T.html'
+Total images: 9
+Parsing `../../../repo_correct/index.html.1.261.html'
+Total images: 2
+Parsing `../../../repo_correct/w.1.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.50.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.1.164.html'
+Total images: 3
+Parsing `../../../repo_correct/rijk-aan-de-rand-van-de-wereld.html'
+Total images: 3
+Parsing `../../../repo_correct/vici-beurzen-voor-vier-leidse-wetenschappers.html'
+Total images: 8
+Parsing `../../../repo_correct/classics.html'
+Total images: 3
+Parsing `../../../repo_correct/geesteswetenschappen.3.html'
+Total images: 2
+Parsing `../../../repo_correct/machine-learning-voorspelt-voorkeuren.html'
+Total images: 3
+Parsing `../../../repo_correct/organisation.6.html'
+Total images: 5
+Parsing `../../../repo_correct/snellius.html'
+Total images: 5
+Parsing `../../../repo_correct/l.2.html'
+Total images: 0
+Parsing `../../../repo_correct/studyig-in-a-hypermodern-and-traditional-china.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.19.105.html'
+Total images: 6
+Parsing `../../../repo_correct/programme.5.html'
+Total images: 1
+Parsing `../../../repo_correct/b.1.html'
+Total images: 0
+Parsing `../../../repo_correct/proving-discriminatory-violence-at-the-european-court-of-human-rights.html'
+Total images: 2
+Parsing `../../../repo_correct/from-the-first-galaxies-to-the-peak-of-the-star-formation-history.html'
+Total images: 4
+Parsing `../../../repo_correct/oude-ub.html'
+Total images: 4
+Parsing `../../../repo_correct/cloning--purification-faciliteit.html'
+Total images: 3
+Parsing `../../../repo_correct/join-us-on-future-fridays.html'
+Total images: 3
+Parsing `../../../repo_correct/yvQh50a1EUg.html'
+Total images: 9
+Parsing `../../../repo_correct/06.1.html'
+Total images: 0
+Parsing `../../../repo_correct/kIilkx68oh.html'
+Total images: 9
+Parsing `../../../repo_correct/the-roman-world-of-work.html'
+Total images: 8
+Parsing `../../../repo_correct/Cultuur-en-geschiedenis.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.1.119.html'
+Total images: 4
+Parsing `../../../repo_correct/matthias-de-vrieshof-4.html'
+Total images: 4
+Parsing `../../../repo_correct/security-studies.1.html'
+Total images: 4
+Parsing `../../../repo_correct/gertjan-de-werk.html'
+Total images: 8
+Parsing `../../../repo_correct/during-hbo.html'
+Total images: 0
+Parsing `../../../repo_correct/staff.20.html'
+Total images: 37
+Parsing `../../../repo_correct/current-phd-candidates.html'
+Total images: 2
+Parsing `../../../repo_correct/Directorate+Education+and+Study+Programmes.html'
+Total images: 2
+Parsing `../../../repo_correct/fresh-lecture-leif-hammerstrom.html'
+Total images: 1
+Parsing `../../../repo_correct/facilitair.1.html'
+Total images: 19
+Parsing `../../../repo_correct/nederlandse-taalkunde.html'
+Total images: 2
+Parsing `../../../repo_correct/specialisaties.html'
+Total images: 5
+Parsing `../../../repo_correct/recht-en-bestuur.1.html'
+Total images: 2
+Parsing `../../../repo_correct/dubbele-bachelor.1.html'
+Total images: 5
+Parsing `../../../repo_correct/philosophy.2.html'
+Total images: 0
+Parsing `../../../repo_correct/oPEWHA4oh7.html'
+Total images: 4
+Parsing `../../../repo_correct/contact-info.10.html'
+Total images: 1
+Parsing `../../../repo_correct/contact.88.html'
+Total images: 3
+Parsing `../../../repo_correct/02.3.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.140.html'
+Total images: 5
+Parsing `../../../repo_correct/leraar-vho-in-biologie.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html?utm_source=homepage&utm_medium=website&utm_campaign=footer.2.html'
+Total images: 0
+Parsing `../../../repo_correct/24732CSDL8HJMUPPNVIF8CLDFRJ4J41278J8E1145FUMCQLII4-01229?func=exit.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.20.458.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html?page_id=14.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.1.270.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.139.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.110.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.49.html'
+Total images: 2
+Parsing `../../../repo_correct/onderzoek.5.html'
+Total images: 2
+Parsing `../../../repo_correct/01.4.html'
+Total images: 0
+Parsing `../../../repo_correct/12.4.html'
+Total images: 0
+Parsing `../../../repo_correct/meeloopdagformulier-biology.html'
+Total images: 0
+Parsing `../../../repo_correct/centraal.html'
+Total images: 6
+Parsing `../../../repo_correct/the-treasured-altar-of-the-primordial-sovereign.1.html'
+Total images: 1
+Parsing `../../../repo_correct/u.1.html'
+Total images: 2
+Parsing `../../../repo_correct/p.3.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.1.401.html'
+Total images: 10
+Parsing `../../../repo_correct/business-and-law.html'
+Total images: 0
+Parsing `../../../repo_correct/academy-building.html'
+Total images: 4
+Parsing `../../../repo_correct/matthias-de-vrieshof-1.html'
+Total images: 4
+Parsing `../../../repo_correct/masteropleiding-vitality-and-ageing-vanaf-1-september-bekostigd-van-start-b.html'
+Total images: 0
+Parsing `../../../repo_correct/towards-a-liveable-future.html'
+Total images: 15
+Parsing `../../../repo_correct/index.html.19.89.html'
+Total images: 2
+Parsing `../../../repo_correct/giant-galaxies-grow-out-of-cold-cosmic-oceans.html'
+Total images: 6
+Parsing `../../../repo_correct/Cultuur-en-geschiedenis.2.html'
+Total images: 2
+Parsing `../../../repo_correct/teacher-education.html'
+Total images: 0
+Parsing `../../../repo_correct/humanities-leiden-ranked-25th-in-the-world-ranking.html'
+Total images: 2
+Parsing `../../../repo_correct/y.html'
+Total images: 2
+Parsing `../../../repo_correct/north-america.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.12.html'
+Total images: 3
+Parsing `../../../repo_correct/zelfregulatie-in-jongens-met-odd-cd.html'
+Total images: 7
+Parsing `../../../repo_correct/janneke-vink-bescherm-dieren-op-dezelfde-manier-als-kinderen.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.49.html'
+Total images: 4
+Parsing `../../../repo_correct/l.1.html'
+Total images: 0
+Parsing `../../../repo_correct/ancient-history.2.html'
+Total images: 2
+Parsing `../../../repo_correct/archival-studies.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.148.html'
+Total images: 6
+Parsing `../../../repo_correct/leraar-vho-in-natuurkunde.html'
+Total images: 4
+Parsing `../../../repo_correct/mooc-responsible-innovation.html'
+Total images: 6
+Parsing `../../../repo_correct/pieter-de-la-court-building.html'
+Total images: 4
+Parsing `../../../repo_correct/cool-taalmuseum-start-met-expositie-in-stadhuis.html'
+Total images: 7
+Parsing `../../../repo_correct/research.24.html'
+Total images: 3
+Parsing `../../../repo_correct/religie-en-filosofie.3.html'
+Total images: 2
+Parsing `../../../repo_correct/programme.6.html'
+Total images: 1
+Parsing `../../../repo_correct/wetenschapscongres-voor-vwo.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.19.97.html'
+Total images: 6
+Parsing `../../../repo_correct/brain_and_cognition.html'
+Total images: 2
+Parsing `../../../repo_correct/afronding-europees-project-inherit.html'
+Total images: 2
+Parsing `../../../repo_correct/unraveling-the-auxin-mechanism-in-24-d-induced-somatic-embryogenesis-in-arabidopsis-thaliana.html'
+Total images: 5
+Parsing `../../../repo_correct/oudere-nederlandse-letterkunde.html'
+Total images: 2
+Parsing `../../../repo_correct/academici-geesteswetenschappen-bij-de-universiteit-van-nederland.html'
+Total images: 5
+Parsing `../../../repo_correct/over-ons.4.html'
+Total images: 2
+Parsing `../../../repo_correct/centre-for-digital-heritage-meeting-2017.html'
+Total images: 6
+Parsing `../../../repo_correct/martijn-manders-de-rooswijk-bij-rtl-late-night--pauw.html'
+Total images: 5
+Parsing `../../../repo_correct/masterclasses-sarah-savant.html'
+Total images: 2
+Parsing `../../../repo_correct/in:evening.html'
+Total images: 0
+Parsing `../../../repo_correct/b.2.html'
+Total images: 0
+Parsing `../../../repo_correct/culture-and-politics.html'
+Total images: 2
+Parsing `../../../repo_correct/ancient-history-research.html'
+Total images: 4
+Parsing `../../../repo_correct/onderzoeksbeoordelingen.html'
+Total images: 2
+Parsing `../../../repo_correct/mono-no-aware-casper-faassen-in-het-sieboldhuis.html'
+Total images: 4
+Parsing `../../../repo_correct/over.3.html'
+Total images: 15
+Parsing `../../../repo_correct/contact-info.7.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.1.242.html'
+Total images: 4
+Parsing `../../../repo_correct/how-to-apply.4.html'
+Total images: 0
+Parsing `../../../repo_correct/verantwoord-proefdieronderzoek.html'
+Total images: 2
+Parsing `../../../repo_correct/science-based-archaeology.html'
+Total images: 0
+Parsing `../../../repo_correct/studeren-met-autisme-“hoe-doen-mijn-studiegenoten-dat”.html'
+Total images: 10
+Parsing `../../../repo_correct/contact.3.html'
+Total images: 2
+Parsing `../../../repo_correct/promovendi-op-de-planken-bij-science-battle.html'
+Total images: 2
+Parsing `../../../repo_correct/a-new-method-to-reconstruct-the-structure-from-crystal-images.html'
+Total images: 1
+Parsing `../../../repo_correct/Specialists+in+training+(AIOS).html'
+Total images: 2
+Parsing `../../../repo_correct/staff.5.html'
+Total images: 43
+Parsing `../../../repo_correct/how-to-apply.10.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.14.55.html'
+Total images: 7
+Parsing `../../../repo_correct/arts-culture-and-history.html'
+Total images: 0
+Parsing `../../../repo_correct/rubicon-grant-for-evin-aktar.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.73.html'
+Total images: 5
+Parsing `../../../repo_correct/o.3.html'
+Total images: 2
+Parsing `../../../repo_correct/c.1.html'
+Total images: 0
+Parsing `../../../repo_correct/decentering-gagaku.1.html'
+Total images: 1
+Parsing `../../../repo_correct/introduction.49.html'
+Total images: 2
+Parsing `../../../repo_correct/news.html'
+Total images: 13
+Parsing `../../../repo_correct/sinbad-interview-vakblad-kinderopvang.html'
+Total images: 2
+Parsing `../../../repo_correct/Cm6aFmEDiy.html'
+Total images: 2
+Parsing `../../../repo_correct/bezoek-ons.html'
+Total images: 2
+Parsing `../../../repo_correct/programmes.1.html'
+Total images: 0
+Parsing `../../../repo_correct/nieuwe-informatie-opdiepen-uit-oude-chinese-teksten.1.html'
+Total images: 4
+Parsing `../../../repo_correct/this-weeks-discoveries---10-november-2015.html'
+Total images: 5
+Parsing `../../../repo_correct/netwerken-in-de-statische-fysica-en-in-alledag?utm_source=2601017&utm_medium=e-mail&utm_content=netwerken-in-de-statische-fysica-en-in-alledag&utm_campaign=nieuwsbrief.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.23.html'
+Total images: 2
+Parsing `../../../repo_correct/v.html'
+Total images: 4
+Parsing `../../../repo_correct/assyriology-research.1.html'
+Total images: 1
+Parsing `../../../repo_correct/leraar-vho-in-management-en-organisatie.html'
+Total images: 4
+Parsing `../../../repo_correct/steun-universiteit-leiden.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.99.html'
+Total images: 6
+Parsing `../../../repo_correct/p.html'
+Total images: 4
+Parsing `../../../repo_correct/complex-networks-27-februari-2017.html'
+Total images: 2
+Parsing `../../../repo_correct/LmRtAY9Shs.html'
+Total images: 5
+Parsing `../../../repo_correct/leraar-vho-in-griekse-en-latijnse-taal-en-cultuur.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.71.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.20.281.html'
+Total images: 0
+Parsing `../../../repo_correct/veredelingsbedrijf-rijk-zwaan-bezoekt-wn.html'
+Total images: 13
+Parsing `../../../repo_correct/index.html.14.92.html'
+Total images: 4
+Parsing `../../../repo_correct/consultatie-bij-fiscale-wetgeving.html'
+Total images: 2
+Parsing `../../../repo_correct/cultural-change-in-the-religious-landscape-of-umbria-between-the-4th-and-the-1st-bce.html'
+Total images: 4
+Parsing `../../../repo_correct/philosophical-anthropology-and-philosophy-of-culture.html'
+Total images: 1
+Parsing `../../../repo_correct/human-sciences.html'
+Total images: 0
+Parsing `../../../repo_correct/radikalismus-und-extremismus-konzeptualisierung-und-differenzierung-zweier-umstrittener-begriffe-in-der-deutschen-diskussion.html'
+Total images: 1
+Parsing `../../../repo_correct/data-science.4.html'
+Total images: 2
+Parsing `../../../repo_correct/about.14.html'
+Total images: 4
+Parsing `../../../repo_correct/astronomy-and-instrumentation.html'
+Total images: 3
+Parsing `../../../repo_correct/exchange-students.html'
+Total images: 3
+Parsing `../../../repo_correct/how-to-apply.9.html'
+Total images: 0
+Parsing `../../../repo_correct/asian-studies.2.html'
+Total images: 1
+Parsing `../../../repo_correct/DiKoOh7RqO.html'
+Total images: 4
+Parsing `../../../repo_correct/over-ons.10.html'
+Total images: 6
+Parsing `../../../repo_correct/chemical-biology-lecture-jan-theys.html'
+Total images: 1
+Parsing `../../../repo_correct/events?pageNumber=13.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.160.html'
+Total images: 4
+Parsing `../../../repo_correct/c.2.html'
+Total images: 0
+Parsing `../../../repo_correct/turkish-studies.html'
+Total images: 3
+Parsing `../../../repo_correct/hebrew-and-aramaic-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/language-diversity-in-the-world.html'
+Total images: 8
+Parsing `../../../repo_correct/agenda?pageNumber=2.html'
+Total images: 2
+Parsing `../../../repo_correct/a.3.html'
+Total images: 2
+Parsing `../../../repo_correct/03.2.html'
+Total images: 0
+Parsing `../../../repo_correct/midden-oostenstudies.html'
+Total images: 4
+Parsing `../../../repo_correct/FOxFZ4PRok.html'
+Total images: 8
+Parsing `../../../repo_correct/f.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.164.html'
+Total images: 4
+Parsing `../../../repo_correct/language-diversity-of-africa-asia-and-native-america.html'
+Total images: 3
+Parsing `../../../repo_correct/1-mei-2017-the-others.html'
+Total images: 2
+Parsing `../../../repo_correct/lucis-masterclass-text-reuse.html'
+Total images: 1
+Parsing `../../../repo_correct/Dissection+hall.html'
+Total images: 3
+Parsing `../../../repo_correct/historica-carol-gluck-nieuwe-cleveringa-hoogleraar.html'
+Total images: 1
+Parsing `../../../repo_correct/03.4.html'
+Total images: 0
+Parsing `../../../repo_correct/v.2.html'
+Total images: 0
+Parsing `../../../repo_correct/opleidingen-mst-en-lst-vieren-eerste-joint-degree-diplomaâs?utm_source=2601017&utm_medium=e-mail&utm_content=opleidingen-mst-en-lst-vieren-eerste-joint-degree-diploma%C3%A2%C2%80%C2%99s&utm_campaign=nieuwsbrief.html'
+Total images: 4
+Parsing `../../../repo_correct/colloquium-ehrenfestii-renata-kallosh.html'
+Total images: 1
+Parsing `../../../repo_correct/evenementen-in-leiden.html'
+Total images: 16
+Parsing `../../../repo_correct/this-week’s-discoveries---14-june-2016.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.20.196.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.14.74.html'
+Total images: 4
+Parsing `../../../repo_correct/famelab-winnaars-geinterviewd-door-sleutelstad-fm.html'
+Total images: 5
+Parsing `../../../repo_correct/standplaats-rabat.html'
+Total images: 10
+Parsing `../../../repo_correct/facilities.html'
+Total images: 2
+Parsing `../../../repo_correct/ancient-history-research.1.html'
+Total images: 2
+Parsing `../../../repo_correct/leraar-vho-in-frans.html'
+Total images: 3
+Parsing `../../../repo_correct/contact.80.html'
+Total images: 6
+Parsing `../../../repo_correct/kamerlingh-ohnes-laboratory.html'
+Total images: 4
+Parsing `../../../repo_correct/internationaal.html'
+Total images: 3
+Parsing `../../../repo_correct/kom-naar-de-nacht-van-kunst-en-kennis.html'
+Total images: 4
+Parsing `../../../repo_correct/universiteit-leiden.html'
+Total images: 2
+Parsing `../../../repo_correct/chinastudies.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html?action=relogin.html'
+Total images: 7
+Parsing `../../../repo_correct/archeologie.1.html'
+Total images: 5
+Parsing `../../../repo_correct/r.3.html'
+Total images: 2
+Parsing `../../../repo_correct/huygens-laboratory.html'
+Total images: 4
+Parsing `../../../repo_correct/laura-steenbergen-en-christian-eistrup-in-finale-famelab.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.11.142.html'
+Total images: 5
+Parsing `../../../repo_correct/05.1.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.56.html'
+Total images: 3
+Parsing `../../../repo_correct/hoe-westerse-en-chinese-geneeskunde-elkaar-kunnen-versterken.html'
+Total images: 5
+Parsing `../../../repo_correct/bijzondere-kijk-op-bijzondere-collecties.html'
+Total images: 9
+Parsing `../../../repo_correct/trouw-over-oproep-groene-economie.html'
+Total images: 14
+Parsing `../../../repo_correct/08.1.html'
+Total images: 0
+Parsing `../../../repo_correct/personeel--organisatie.html'
+Total images: 13
+Parsing `../../../repo_correct/alumni-mentoren-beantwoorden-vragen-van-studenten.html'
+Total images: 6
+Parsing `../../../repo_correct/reuzensterrenstelsels-groeien-vanuit-koude-kosmische-oceanen.html'
+Total images: 5
+Parsing `../../../repo_correct/c.4.html'
+Total images: 2
+Parsing `../../../repo_correct/agenda?activity=PhD%2BDefence&year=2017&month=4.html'
+Total images: 2
+Parsing `../../../repo_correct/raad-van-toezicht.html'
+Total images: 4
+Parsing `../../../repo_correct/taalkunde.1.html'
+Total images: 2
+Parsing `../../../repo_correct/natuurwetenschappen-en-informatica.2.html'
+Total images: 2
+Parsing `../../../repo_correct/creating-cultural-heritage.html'
+Total images: 3
+Parsing `../../../repo_correct/this-week’s-discoveries---12-april-2016.html'
+Total images: 4
+Parsing `../../../repo_correct/agenda?pageNumber=4.1.html'
+Total images: 2
+Parsing `../../../repo_correct/leids-team-wint-rotterdam100-met-plan-milieuvriendelijker-schepen.html'
+Total images: 2
+Parsing `../../../repo_correct/contact.69.html'
+Total images: 8
+Parsing `../../../repo_correct/behaviour-and-society.html'
+Total images: 0
+Parsing `../../../repo_correct/g.4.html'
+Total images: 2
+Parsing `../../../repo_correct/matthias-de-vrieshof-2.1.html'
+Total images: 4
+Parsing `../../../repo_correct/centre-for-modern-urban-studies.1.html'
+Total images: 2
+Parsing `../../../repo_correct/tall-tales-and-threatened-antillean-heritage.html'
+Total images: 2
+Parsing `../../../repo_correct/03.html'
+Total images: 0
+Parsing `../../../repo_correct/voorbereiding-op-de-arbeidsmarkt.html'
+Total images: 5
+Parsing `../../../repo_correct/4-apr-2017-nederlandse-wetenschap.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.95.html'
+Total images: 5
+Parsing `../../../repo_correct/agenda?activity=Study%2BInformation&pageNumber=1&year=2017&month=6.html'
+Total images: 2
+Parsing `../../../repo_correct/hoe-werken-jouw-keuzes-door-in-je-carriere.html'
+Total images: 1
+Parsing `../../../repo_correct/ns.html?id=GTM-5MVMMC.html'
+Total images: 0
+Parsing `../../../repo_correct/syrische-docenten-ontvangen-certificaat-van-andree-van-es.html'
+Total images: 2
+Parsing `../../../repo_correct/arts-and-culture-research.html'
+Total images: 1
+Parsing `../../../repo_correct/masterclasses-sarah-savant.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.1.269.html'
+Total images: 2
+Parsing `../../../repo_correct/evaluatie-taskforce-unesco-lerarentekort.html'
+Total images: 2
+Parsing `../../../repo_correct/studentenblogs.1.html'
+Total images: 2
+Parsing `../../../repo_correct/41-miljoen-voor-onderzoek-dekolonisatieoorlog-nederlands-indie.1.html'
+Total images: 1
+Parsing `../../../repo_correct/laura-steenbergen-bij-valerio4ever-over-geluk-en-bucketlist.html'
+Total images: 3
+Parsing `../../../repo_correct/Radiation+protection+courses.html'
+Total images: 3
+Parsing `../../../repo_correct/managen-van-vakbekwaamheid-in-de-veiligheidsregio-utrecht.html'
+Total images: 2
+Parsing `../../../repo_correct/beurzen-voor-internationale-studenten.html'
+Total images: 0
+Parsing `../../../repo_correct/actualiteiten-software-en-data-analyse-overeenkomsten.html'
+Total images: 5
+Parsing `../../../repo_correct/isga-guest-lecture.html'
+Total images: 1
+Parsing `../../../repo_correct/kinderdagverblijf-de-kattekop.html'
+Total images: 4
+Parsing `../../../repo_correct/film-armin-cuyvers-over-brexit-kopie.html'
+Total images: 9
+Parsing `../../../repo_correct/frontiers-of-nanoscience-nanofront.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.19.103.html'
+Total images: 5
+Parsing `../../../repo_correct/waar-komt-het-nederlands-vandaan.html'
+Total images: 2
+Parsing `../../../repo_correct/jan-vleggeert-mr.-van-de-week.html'
+Total images: 4
+Parsing `../../../repo_correct/archival-studies.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction-to-teaching-for-phd-students-and-teaching-assistants.html'
+Total images: 1
+Parsing `../../../repo_correct/de-sturende-kracht-van-taal.html'
+Total images: 3
+Parsing `../../../repo_correct/gezondheid.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.28.406.html'
+Total images: 0
+Parsing `../../../repo_correct/wetsevaluatie-jeugdwet.html'
+Total images: 21
+Parsing `../../../repo_correct/index.html.20.157.html'
+Total images: 5
+Parsing `../../../repo_correct/gold-nanorod-photoluminescence-applications-to-imaging-and-temperature-sensing.html'
+Total images: 4
+Parsing `../../../repo_correct/organisatie.11.html'
+Total images: 14
+Parsing `../../../repo_correct/cml-dugong-zeegras-workshop-in-jakarta.html'
+Total images: 7
+Parsing `../../../repo_correct/agenda?pageNumber=1.1.html'
+Total images: 2
+Parsing `../../../repo_correct/student-literary-studies-bas-kleijweg-wins-essay-award.html'
+Total images: 1
+Parsing `../../../repo_correct/willem-einthoven.html'
+Total images: 4
+Parsing `../../../repo_correct/leiden-awarded-for-computational-intelligence.html'
+Total images: 4
+Parsing `../../../repo_correct/communication-and-education.5.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.37.html'
+Total images: 5
+Parsing `../../../repo_correct/this-week’s-discoveries---31-may-20.html'
+Total images: 2
+Parsing `../../../repo_correct/97HM8sY0jf.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.14.82.html'
+Total images: 5
+Parsing `../../../repo_correct/contact-info.6.html'
+Total images: 1
+Parsing `../../../repo_correct/countering-lone-actor-terrorism-data-collection--analysis.html'
+Total images: 5
+Parsing `../../../repo_correct/new-way-of-tracking-nanoparticles.html'
+Total images: 2
+Parsing `../../../repo_correct/j.1.html'
+Total images: 0
+Parsing `../../../repo_correct/de-presidentsverkiezingen-met-andere-ogen-bekijken.html'
+Total images: 4
+Parsing `../../../repo_correct/city.1.html'
+Total images: 4
+Parsing `../../../repo_correct/amotopoan-trails---a-recent-archaeology-of-trio-movements.html'
+Total images: 3
+Parsing `../../../repo_correct/bart-verkuil-bij-sophie-in-de-mentale-kreukels.html'
+Total images: 3
+Parsing `../../../repo_correct/het-financieele-dagblad-over-hoge-marginale-belastingdruk.html'
+Total images: 4
+Parsing `../../../repo_correct/i.1.html'
+Total images: 0
+Parsing `../../../repo_correct/how-to-apply.6.html'
+Total images: 0
+Parsing `../../../repo_correct/developmental-psychology-research.html'
+Total images: 6
+Parsing `../../../repo_correct/contact.79.html'
+Total images: 3
+Parsing `../../../repo_correct/ontspannen-in-den-haag.html'
+Total images: 4
+Parsing `../../../repo_correct/02.html'
+Total images: 0
+Parsing `../../../repo_correct/contact.26.html'
+Total images: 2
+Parsing `../../../repo_correct/leiden-spinoza-prize-laureates.html'
+Total images: 3
+Parsing `../../../repo_correct/lumc-gebouw-3.html'
+Total images: 4
+Parsing `../../../repo_correct/leer-edwin-bakker-kennen-en-ontdek-hoe-terrorisme-werkt.html'
+Total images: 4
+Parsing `../../../repo_correct/onze-alumni.html'
+Total images: 6
+Parsing `../../../repo_correct/chinese-studies.1.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.143.html'
+Total images: 6
+Parsing `../../../repo_correct/1652.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.20.181.html'
+Total images: 5
+Parsing `../../../repo_correct/een-zwitsers-leven-in-de-tropen.html'
+Total images: 3
+Parsing `../../../repo_correct/minors.2.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.138.html'
+Total images: 7
+Parsing `../../../repo_correct/language-and-communication.html'
+Total images: 3
+Parsing `../../../repo_correct/oude-ub-building.html'
+Total images: 4
+Parsing `../../../repo_correct/ignas-snellen-in-media-over-ontdekking-planeten.html'
+Total images: 4
+Parsing `../../../repo_correct/in-memoriam-michel-mandel?utm_source=2601017&utm_medium=e-mail&utm_content=in-memoriam-michel-mandel&utm_campaign=nieuwsbrief.html'
+Total images: 1
+Parsing `../../../repo_correct/bestuur.4.html'
+Total images: 1
+Parsing `../../../repo_correct/coherent-privaatrecht.html'
+Total images: 2
+Parsing `../../../repo_correct/brochure.12.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.211.html'
+Total images: 2
+Parsing `../../../repo_correct/fanwear.html'
+Total images: 1
+Parsing `../../../repo_correct/research-phd.1.html'
+Total images: 1
+Parsing `../../../repo_correct/tuition-fee.10.html'
+Total images: 1
+Parsing `../../../repo_correct/05.2.html'
+Total images: 0
+Parsing `../../../repo_correct/algorithms-and-software-technology.html'
+Total images: 2
+Parsing `../../../repo_correct/matthias-de-vrieshof-3.1.html'
+Total images: 4
+Parsing `../../../repo_correct/12.3.html'
+Total images: 0
+Parsing `../../../repo_correct/contact-info.9.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.18.2.html'
+Total images: 10
+Parsing `../../../repo_correct/index.html.19.91.html'
+Total images: 5
+Parsing `../../../repo_correct/japanese-studies.1.html'
+Total images: 3
+Parsing `../../../repo_correct/dSheGvIkHd.html'
+Total images: 4
+Parsing `../../../repo_correct/theoretical-and-experimental-linguistics.html'
+Total images: 3
+Parsing `../../../repo_correct/inherit-newsletter-july-2016.html'
+Total images: 2
+Parsing `../../../repo_correct/voorlezen-stimuleert-vooral-taalontwikkeling-huilbabys.html'
+Total images: 4
+Parsing `../../../repo_correct/asian-studies-news-oratie-pieke.html'
+Total images: 1
+Parsing `../../../repo_correct/entry-requirements.html'
+Total images: 1
+Parsing `../../../repo_correct/education-and-child-studies.2.html'
+Total images: 0
+Parsing `../../../repo_correct/leraar-vho-in-spaans.html'
+Total images: 3
+Parsing `../../../repo_correct/political-culture-and-national-identities-research.html'
+Total images: 3
+Parsing `../../../repo_correct/communication-and-education.2.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.153.html'
+Total images: 5
+Parsing `../../../repo_correct/medicine-lumc.html'
+Total images: 2
+Parsing `../../../repo_correct/nederland-staat-op-voor-wetenschap-op-22-april.html'
+Total images: 8
+Parsing `../../../repo_correct/pmto-training.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.70.html'
+Total images: 5
+Parsing `../../../repo_correct/behaviour-and-society.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.1.49.html'
+Total images: 6
+Parsing `../../../repo_correct/index.html.19.80.html'
+Total images: 5
+Parsing `../../../repo_correct/mens-en-gedrag.html'
+Total images: 4
+Parsing `../../../repo_correct/t.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.14.77.html'
+Total images: 4
+Parsing `../../../repo_correct/this-week’s-discoveries---10-may-2016.html'
+Total images: 5
+Parsing `../../../repo_correct/viering-leids-ontzet-in-s-hertogenbosch.html'
+Total images: 1
+Parsing `../../../repo_correct/entry-requirements.6.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.19.66.html'
+Total images: 5
+Parsing `../../../repo_correct/hzF650a6f9L.html'
+Total images: 3
+Parsing `../../../repo_correct/global-political-economy.html'
+Total images: 2
+Parsing `../../../repo_correct/arts-media-and-society.html'
+Total images: 4
+Parsing `../../../repo_correct/classics-and-ancient-civilisations.html'
+Total images: 2
+Parsing `../../../repo_correct/collegegeld.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.85.html'
+Total images: 5
+Parsing `../../../repo_correct/index.html.19.44.html'
+Total images: 5
+Parsing `../../../repo_correct/2-mei-2017-nederlandse-wetenschap.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.19.100.html'
+Total images: 5
+Parsing `../../../repo_correct/katalysatoren-leveren-eigen-zuurstof-voor-reacties?utm_source=2601017&utm_medium=e-mail&utm_content=katalysatoren-leveren-eigen-zuurstof-voor-reacties&utm_campaign=nieuwsbrief.html'
+Total images: 4
+Parsing `../../../repo_correct/buitenland.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.11.114.html'
+Total images: 7
+Parsing `../../../repo_correct/kaya-peerdeman-wins-epp-article-award.html'
+Total images: 6
+Parsing `../../../repo_correct/categories.html'
+Total images: 0
+Parsing `../../../repo_correct/child-welfare-services.html'
+Total images: 4
+Parsing `../../../repo_correct/de-kattekop-day-care-centre.html'
+Total images: 4
+Parsing `../../../repo_correct/88-afgestudeerde-leraren.html'
+Total images: 2
+Parsing `../../../repo_correct/astronomy-and-data-science.1.html'
+Total images: 0
+Parsing `../../../repo_correct/leraar-vho-in-maatschappijleer-en-maatschappijwetenschappen.html'
+Total images: 4
+Parsing `../../../repo_correct/digitale-samenleving.html'
+Total images: 12
+Parsing `../../../repo_correct/Digital+media.html'
+Total images: 2
+Parsing `../../../repo_correct/Route+info.html'
+Total images: 2
+Parsing `../../../repo_correct/mirjam-van-reisen-in-goedenmorgen-nederland-over-mensensmokkel.html'
+Total images: 2
+Parsing `../../../repo_correct/leve-de-boekhandel.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.21.html'
+Total images: 2
+Parsing `../../../repo_correct/the-muslim-brotherhood-in-europe.html'
+Total images: 3
+Parsing `../../../repo_correct/b.3.html'
+Total images: 2
+Parsing `../../../repo_correct/de-angst-te-lijf.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.8.html'
+Total images: 0
+Parsing `../../../repo_correct/why-jesus-and-job-spoke-bad-welsh-the-origin-and-distribution-of-v2-orders-in-middle-welsh.html'
+Total images: 7
+Parsing `../../../repo_correct/how-to-apply.12.html'
+Total images: 0
+Parsing `../../../repo_correct/leidse-wetenschappers-in-college-voor-de-rechten-van-de-mens.1.html'
+Total images: 6
+Parsing `../../../repo_correct/05.html'
+Total images: 0
+Parsing `../../../repo_correct/over.6.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.19.90.html'
+Total images: 2
+Parsing `../../../repo_correct/law.3.html'
+Total images: 0
+Parsing `../../../repo_correct/creating-cultural-heritage.1.html'
+Total images: 3
+Parsing `../../../repo_correct/nwo-subsidies-voor-chemische-reacties-in-het-heelal?utm_source=2601017&utm_medium=e-mail&utm_content=nwo-subsidies-voor-chemische-reacties-in-het-heelal&utm_campaign=nieuwsbrief.html'
+Total images: 8
+Parsing `../../../repo_correct/m.2.html'
+Total images: 0
+Parsing `../../../repo_correct/academiegebouw.html'
+Total images: 4
+Parsing `../../../repo_correct/bayes-and-networks.html'
+Total images: 1
+Parsing `../../../repo_correct/economie_en_bedrijf.2.html'
+Total images: 2
+Parsing `../../../repo_correct/n.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.11.192.html'
+Total images: 7
+Parsing `../../../repo_correct/leiden-in-top-20-beste-europese-studiesteden.html'
+Total images: 3
+Parsing `../../../repo_correct/‘kunst-is-frontlijn-van-de-wetenschap’.html'
+Total images: 3
+Parsing `../../../repo_correct/staff.16.html'
+Total images: 77
+Parsing `../../../repo_correct/contact-info.8.html'
+Total images: 1
+Parsing `../../../repo_correct/testing-and-assessment.html'
+Total images: 1
+Parsing `../../../repo_correct/teachers-programme-for-status-holders.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.html'
+Total images: 2
+Parsing `../../../repo_correct/08.html'
+Total images: 0
+Parsing `../../../repo_correct/pieter-de-la-court.html'
+Total images: 4
+Parsing `../../../repo_correct/in-the-spotlight---biology-seminars-leiden.1.html'
+Total images: 2
+Parsing `../../../repo_correct/als-het-verleden-trekt.-kernthemas-in-de-geschiedfilosofie.html'
+Total images: 3
+Parsing `../../../repo_correct/start?ref=wplogin.html'
+Total images: 0
+Parsing `../../../repo_correct/unraveling-the-auxin-mechanism-in-24-d-induced-somatic-embryogenesis-in-arabidopsis-thaliana.1.html'
+Total images: 5
+Parsing `../../../repo_correct/contact.87.html'
+Total images: 3
+Parsing `../../../repo_correct/introduction.74.html'
+Total images: 2
+Parsing `../../../repo_correct/jhRd50a4vEG.html'
+Total images: 4
+Parsing `../../../repo_correct/nederlands-kleinste-supercomputer.html'
+Total images: 4
+Parsing `../../../repo_correct/martijn-manders-het-is-zo-waanzinnig.html'
+Total images: 5
+Parsing `../../../repo_correct/studium-generale.html'
+Total images: 2
+Parsing `../../../repo_correct/matthias-de-vrieshof-3.html'
+Total images: 4
+Parsing `../../../repo_correct/peter-verstraten-over-het-onverfilmbare-boek.html'
+Total images: 3
+Parsing `../../../repo_correct/index.html.11.110.html'
+Total images: 5
+Parsing `../../../repo_correct/erfgoed-in-gevaar.html'
+Total images: 2
+Parsing `../../../repo_correct/leiden-in-de-prijzen-voor-computational-intelligence.html'
+Total images: 4
+Parsing `../../../repo_correct/maarten-kossmann-benoemd-tot-hoogleraar-berberstudies.html'
+Total images: 2
+Parsing `../../../repo_correct/niet-een-ombudsman-maar-een-college.html'
+Total images: 4
+Parsing `../../../repo_correct/contact.2.html'
+Total images: 2
+Parsing `../../../repo_correct/phd.4.html'
+Total images: 12
+Parsing `../../../repo_correct/arts-and-culture-research.1.html'
+Total images: 1
+Parsing `../../../repo_correct/clavis-aurea.html'
+Total images: 1
+Parsing `../../../repo_correct/open-dag.3.html'
+Total images: 7
+Parsing `../../../repo_correct/classics-and-ancient-civilisations-research.html'
+Total images: 2
+Parsing `../../../repo_correct/hortus-botanicus.1.html'
+Total images: 4
+Parsing `../../../repo_correct/meisjes-kunnen-autisme-beter-verbloemen-dan-jongens.html'
+Total images: 9
+Parsing `../../../repo_correct/index.html.11.145.html'
+Total images: 5
+Parsing `../../../repo_correct/t.html'
+Total images: 4
+Parsing `../../../repo_correct/research-phd.5.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.11.105.html'
+Total images: 6
+Parsing `../../../repo_correct/lacdr-adapted.html'
+Total images: 6
+Parsing `../../../repo_correct/leidse-spinozawinnaars.html'
+Total images: 3
+Parsing `../../../repo_correct/african-studies.1.html'
+Total images: 2
+Parsing `../../../repo_correct/nederland-brazilie-1-1.html'
+Total images: 8
+Parsing `../../../repo_correct/index.html.11.163.html'
+Total images: 7
+Parsing `../../../repo_correct/the-netherlands---brazil-1-1.html'
+Total images: 6
+Parsing `../../../repo_correct/asia.2.html'
+Total images: 0
+Parsing `../../../repo_correct/marie-curie-subsidie-voor-90-postdocs-bij-leiden-delft-erasmus.html'
+Total images: 2
+Parsing `../../../repo_correct/university-library.html'
+Total images: 4
+Parsing `../../../repo_correct/op-zoek-naar-het-effect-van-bestrijdingsmiddelen-en-mest-op-onze-sloten.html'
+Total images: 5
+Parsing `../../../repo_correct/education.11.html'
+Total images: 2
+Parsing `../../../repo_correct/wijnhaven-den-haag.html'
+Total images: 7
+Parsing `../../../repo_correct/agenda?pageNumber=4.html'
+Total images: 2
+Parsing `../../../repo_correct/1qJHHku.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.1.403.html'
+Total images: 6
+Parsing `../../../repo_correct/materials-made-of-self-spinning-particles.html'
+Total images: 6
+Parsing `../../../repo_correct/computing-for-society.html'
+Total images: 2
+Parsing `../../../repo_correct/contact-info.12.html'
+Total images: 1
+Parsing `../../../repo_correct/meer-aandacht-nodig-voor-denkstoornissen-bij-jongeren-met-autisme.html'
+Total images: 9
+Parsing `../../../repo_correct/ns.html?id=GTM-M2WM64.1.html'
+Total images: 1
+Parsing `../../../repo_correct/comparative-indo-european-linguistics.html'
+Total images: 2
+Parsing `../../../repo_correct/arabic-studies.2.html'
+Total images: 1
+Parsing `../../../repo_correct/arts-culture-and-history.1.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.14.94.html'
+Total images: 4
+Parsing `../../../repo_correct/linguistics.html'
+Total images: 3
+Parsing `../../../repo_correct/aandacht-voor-autisme-bij-meisjes.html'
+Total images: 9
+Parsing `../../../repo_correct/introduction.19.html'
+Total images: 1
+Parsing `../../../repo_correct/the-progression-of-eu-law-accommodating-change-and-upholding-values.1.html'
+Total images: 1
+Parsing `../../../repo_correct/index.html.11.161.html'
+Total images: 7
+Parsing `../../../repo_correct/index.html.14.260.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.1.408.html'
+Total images: 54
+Parsing `../../../repo_correct/anna-van-buerenplein.1.html'
+Total images: 4
+Parsing `../../../repo_correct/introduction.61.html'
+Total images: 1
+Parsing `../../../repo_correct/inleiding-turks-recht.html'
+Total images: 4
+Parsing `../../../repo_correct/18-apr-2017-nederlandse-wetenschap.html'
+Total images: 2
+Parsing `../../../repo_correct/introduction.68.html'
+Total images: 5
+Parsing `../../../repo_correct/recht-en-bestuur.html'
+Total images: 2
+Parsing `../../../repo_correct/philosophy-of-a-specific-discipline.html'
+Total images: 1
+Parsing `../../../repo_correct/van-steenis-building.html'
+Total images: 4
+Parsing `../../../repo_correct/economie_en_bedrijf.3.html'
+Total images: 2
+Parsing `../../../repo_correct/ontwikkeling-in-afrika.html'
+Total images: 2
+Parsing `../../../repo_correct/tuition-fee.2.html'
+Total images: 1
+Parsing `../../../repo_correct/laura-van-steenbergen-en-christian-eistrup-winnen-famelab-leiden.html'
+Total images: 8
+Parsing `../../../repo_correct/international-relations-humanities.html'
+Total images: 1
+Parsing `../../../repo_correct/newsletter-sinbad-april-2016.html'
+Total images: 2
+Parsing `../../../repo_correct/programme.13.html'
+Total images: 1
+Parsing `../../../repo_correct/.1681.html.swp'
+Syntax error on line 10, column 137 (lexer transition 14 -> 3) #1:
+	`link rel='stylesheet' id='style-css'  href='http://www.preunion.nl/wp-content/th' id='style-css'  hr'
+	                                                                                    ^
+Syntax error on line 10, column 1485 (lexer transition 21 -> 3) #2:
+	`16,1,1).data,f=e[0]+","+e[1]+","+e[2]+","+e[3],i.fillText(j(55356,57221,55356,57","+e[1]+","+e[2]+",'
+	                                                                                    ^
+Syntax error on line 10, column 2476 (lexer transition 14 -> 3) #3:
+	`link rel='stylesheet' id=<link rel='styl<link rel='s<link rel='stylesheet' id='s' id=<link rel='styl'
+	                                                                                    ^
+Syntax error on line 10, column 2508 (lexer transition 14 -> 3) #4:
+	`el='styl<link rel='s<link rel='stylesheet' id='st<link rel='stylesheet' id=<link<link rel='styleshee'
+	                                                                                    ^
+Syntax error on line 10, column 2563 (lexer transition 16 -> 3) #5:
+	`rel='stylesheet' id=<link rel='stylesheet' id='sty<link rel='stylesheet' id<link<link rel='styleshee'
+	                                                                                    ^
+Syntax error on line 10, column 2618 (lexer transition 14 -> 3) #6:
+	` rel='stylesheet' id<link rel='stylesheet' i<link rel='stylesheet' id='st<link r<link rel='styleshee'
+	                                                                                    ^
+Syntax error on line 10, column 2692 (lexer transition 14 -> 3) #7:
+	`link rel='stylesheet' id='style-css<link rel='stylesheet' id='sty<link rel='styl' id='style-css<link'
+	                                                                                    ^
+Syntax error on line 10, column 2758 (lexer transition 14 -> 3) #8:
+	`link rel='stylesheet' i<l<link rel<link rel='stylesheet' id='style-css'  href='h' i<l<link rel<link '
+	                                                                                    ^
+Syntax error on line 10, column 2772 (lexer transition 14 -> 3) #9:
+	`esheet' i<l<link rel<link rel='stylesheet' id='style-css'  href='http://www.preu<link rel='styleshee'
+	                                                                                    ^
+Total images: 0
+Parsing `../../../repo_correct/professional-development-for-teachers.html'
+Total images: 2
+Parsing `../../../repo_correct/c.html'
+Total images: 4
+Parsing `../../../repo_correct/brochure.10.html'
+Total images: 1
+Parsing `../../../repo_correct/research.3.html'
+Total images: 2
+Parsing `../../../repo_correct/law-for-international-students-and-professionals.html'
+Total images: 0
+Parsing `../../../repo_correct/sling-surgery-for-stress-urinary-incontinence-the-perfect-solution.1.html'
+Total images: 1
+Parsing `../../../repo_correct/geneeskunde-lumc.html'
+Total images: 2
+Parsing `../../../repo_correct/tentoonstelling-return-prachtige-verzameling-van-wetenschap-buiten-de-vaste-kaders?utm_source=2601017&utm_medium=e-mail&utm_content=tentoonstelling-return-prachtige-verzameling-van-wetenschap-buiten-de-vaste-kaders&utm_campaign=nieuwsbr.html'
+Total images: 2
+Parsing `../../../repo_correct/10.3.html'
+Total images: 0
+Parsing `../../../repo_correct/proefdierwetenschappen.html'
+Total images: 2
+Parsing `../../../repo_correct/chemical-biology-lecture-vicente-verez-bencomo?utm_source=2601017&utm_medium=e-mail&utm_content=chemical-biology-lecture-vicente-verez-bencomo&utm_campaign=nieuwsbrief.html'
+Total images: 1
+Parsing `../../../repo_correct/communication-and-education.html'
+Total images: 0
+Parsing `../../../repo_correct/index.html.1.79.html'
+Total images: 7
+Parsing `../../../repo_correct/l5IqQmbvZL.html'
+Total images: 4
+Parsing `../../../repo_correct/hergebruik-en-recyclen-van-mobiele-telefoons.html'
+Total images: 4
+Parsing `../../../repo_correct/this-weeks-discoveries---13-march-2017.html'
+Total images: 2
+Parsing `../../../repo_correct/k.4.html'
+Total images: 2
+Parsing `../../../repo_correct/index.html.20.158.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.1.38.html'
+Total images: 4
+Parsing `../../../repo_correct/johan-christensen-the-power-of-economists-within-the-state.html'
+Total images: 4
+Parsing `../../../repo_correct/index.html.19.html'
+Total images: 2
+Parsing `../../../repo_correct/over-ons.7.html'
+Total images: 3
+Parsing `../../../repo_correct/judi-mesman-krijgt-nwo-vici-voor-onderzoek-naar-de-overdracht-van-vooroordelen.html'
+Total images: 7
+Parsing `../../../repo_correct/ns.html?id=GTM-MGVVXK.html'
+Total images: 0
+Parsing `../../../repo_correct/east-asian-studies.html'
+Total images: 1
+Parsing `../../../repo_correct/v.3.html'
+Total images: 2
+Parsing `../../../repo_correct/analysis-of-sub-visible-particles-in-complex-injectable-formulations.html'
+Total images: 1
+==========================================================================
+ Results for `lmth'
+
+ Total CPU time: 0.35 s
+ Average CPU time: 0.2 ms per file
+ Memory allocated: 450.0 KB
+ Total collected innertext: 5.1 MB
+ Collected: 116046 HREF's, 8118 IMG-SRC's, 8118 IMG-ALT's
+--------------------------------------------------------------------------
+
