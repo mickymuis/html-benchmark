@@ -76,7 +76,7 @@ testSetAppend( testset_t *testset, size_t index, const char* filename ) {
     }
 
     char *buf = malloc( size + 1 );
-    if( fread( buf, size, 1, file ) != size ) {
+    if( fread( buf, size, 1, file ) != 1 ) {
         fprintf( stderr, "ERROR: Reading `%s': %s\n", filename, strerror( errno ) );
         return -1;
     }

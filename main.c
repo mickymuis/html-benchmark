@@ -36,7 +36,7 @@ print_results( testresult_t* results ) {
 ==========================================================================\n\
  Results for `%s'\n\n\
  Total CPU time: %.2f s\n\
- Average CPU time: %.1f ms per file\n\
+ Average CPU time: %.2f ms per file\n\
  Memory allocated: %.1f %s\n\
  Total collected innertext: %.1f %s\n\
  Collected: %lu HREF's, %lu IMG-SRC's, %lu IMG-ALT's\n\

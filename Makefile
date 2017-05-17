@@ -18,20 +18,19 @@ HAUT_DIR = haut
 .PHONY: haut
 
 # for libxml2
-#ifeq ($(LIBXML2_INCLUDE_PATH), '')
-    LIBXML2_INCLUDE_PATH = /usr/include/libxml2
-#endif
+LIBXML2_DIR = libxml2
+.PHONY: libxml2
 
 # General flags
 CC = gcc
-CFLAGS = -Wall -std=c99 -O2 -g -I$(LIBXML2_INCLUDE_PATH) -I$(MYHTML_DIR)/include
-LDFLAGS = -lpthread -lxml2 -lgumbo -lmyhtml_static -lhaut -L$(GUMBO_DIR) -L$(MYHTML_DIR)/lib -L$(HAUT_DIR)
+CFLAGS = -Wall -std=c99 -O2 -g -I$(LIBXML2_DIR)/include -I$(MYHTML_DIR)/include
+LDFLAGS = -lpthread -lxml2 -lgumbo -lmyhtml_static -lhaut -lm -L$(LIBXML2_DIR) -L$(GUMBO_DIR) -L$(MYHTML_DIR)/lib -L$(HAUT_DIR)
 
 OBJS = main.o benchmark.o util.o test_dummy.o test_hsp.o test_libxml2.o test_gumbo.o test_myhtml.o test_haut.o htmlstreamparser/htmlstreamparser.o
 HEADERS = benchmark.h util.h test_dummy.h test_hsp.h test_libxml2.h test_gumbo.h test_myhtml.h test_haut.h htmlstreamparser/htmlstreamparser.h
 
 
-all:		gumbo myhtml haut benchmark
+all:		libxml2 gumbo myhtml haut benchmark
 
 .PHONY: benchmark
 benchmark:	$(OBJS)
@@ -39,6 +38,11 @@ benchmark:	$(OBJS)
 
 %.o:		%.c $(HEADERS)
 		$(CC) $(CFLAGS) -c $< -o $@
+
+libxml2:	
+		(cd $(LIBXML2_DIR) && if [ ! -f Makefile ]; then ./configure --enable-static --without-zlib --without-lzma --without-python; fi)
+		$(MAKE) -C $(LIBXML2_DIR)
+		ar rcs $(LIBXML2_DIR)/libxml2.a $(LIBXML2_DIR)/*.o
 
 gumbo:
 	$(MAKE) -C $(GUMBO_DIR)
@@ -52,7 +56,9 @@ haut:
 clean:
 		rm -f benchmark
 		rm -f *.o htmlstreamparser/*.o
-		$(MAKE) -C $(GUMBO_DIR) clean
+		$(MAKE) -i -C $(LIBXML2_DIR) distclean
+		rm -f $(LIBXML2_DIR)/libxml2.a
+		$(MAKE) -i -C $(GUMBO_DIR) clean
 		$(MAKE) -i -C $(MYHTML_DIR) clean
-		$(MAKE) -C $(HAUT_DIR) clean
+		$(MAKE) -i -C $(HAUT_DIR) clean
 
