@@ -48,7 +48,7 @@ gumbo:
 	$(MAKE) -C $(GUMBO_DIR)
 
 myhtml:
-	$(MAKE) -C $(MYHTML_DIR) static
+	$(MAKE) -B -C $(MYHTML_DIR) static
 
 haut:
 	$(MAKE) -C $(HAUT_DIR)
