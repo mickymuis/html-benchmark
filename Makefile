@@ -40,7 +40,7 @@ benchmark:	$(OBJS)
 		$(CC) $(CFLAGS) -c $< -o $@
 
 libxml2:	
-		(cd $(LIBXML2_DIR) && if [ ! -f Makefile ]; then ./configure --enable-static --without-zlib --without-lzma --without-python; fi)
+		(cd $(LIBXML2_DIR) && if [ ! -f Makefile ]; then ./autogen.sh --enable-static --without-zlib --without-lzma --without-python; fi)
 		$(MAKE) -C $(LIBXML2_DIR)
 		ar rcs $(LIBXML2_DIR)/libxml2.a $(LIBXML2_DIR)/*.o
 
