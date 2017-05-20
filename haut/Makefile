@@ -11,7 +11,7 @@ AR = ar rcs
 LDFLAGS =
 
 OBJS = haut.o string_util.o state_machine.o
-HEADERS = haut.h string_util.h state_machine.h parser_transitions.h lexer_transitions.h state.h
+HEADERS = haut.h string_util.h state_machine.h parser_transitions.h lexer_transitions.h tag_transitions.h state.h
 
 all:		libhaut.a
 

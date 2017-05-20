@@ -7,6 +7,9 @@
 
 #include "state_machine.h"
 #include "state.h"
+#include "tag.h"
+
+#include <inttypes.h>
 
 #define INPUT_BITS 8 // for now
 
@@ -38,13 +41,17 @@ static const char* _parser_transition[L_N_STATES][L_N_STATES] = {
      * Given a current and a new state,
      * this array gives the number of the event that must be emitted by the parser
      * as defined in events.h */
-#include "parser_transitions.h"
+    #include "parser_transitions.h"
 };
+
+static uint16_t _tag_transition[][TAG__N_INPUTS] = {
+    #include "tag_transitions.h"
+};
+
 
 inline int 
 lexer_next_state( int lexer_state, char c ) {
     return _lexer_transition[lexer_state][(unsigned char)c][0];
-  //  return (_lexer[mode])[lexer_state][(unsigned char)c][0];
 }
 
 inline const char* 
@@ -52,3 +59,19 @@ parser_next_state( int lexer_state, int next_lexer_state ) {
     return _parser_transition[lexer_state][next_lexer_state];
 }
 
+int decode_tag( const char* str, size_t len ) {
+
+    int state =TAG_NONE;
+
+    for( size_t i =0; i < len; i++ ) {
+        // This is the dangerous part: we expect str[i] to be 
+        // in the range [TAG__FIRST_CHAR, TAG__LAST_CHAR]
+        state = _tag_transition[state][str[i]-TAG__FIRST_CHAR];
+    }
+    
+    state = _tag_transition[state][TAG__EOF];
+    if( state < TAG__N )
+        return state; 
+
+    return TAG_UNKNOWN;
+}

@@ -40,21 +40,22 @@ L_ERROR, '>'    => { L_ELEM_END }
 
 // Element begin (we've just seen <)
 // Because many pages contain malformed tagid's, we've decided to ignore the specs a little here
-//L_ELEM_BEGIN, **        => { L_ERROR }
-//L_ELEM_BEGIN, *aAd      => { L_ELEM }
-//L_ELEM_BEGIN, '?'       => { L_ELEM }
-//L_ELEM_BEGIN, ':'       => { L_ELEM }
-L_ELEM_BEGIN, **        => { L_ELEM }
+L_ELEM_BEGIN, **        => { L_ERROR }
+L_ELEM_BEGIN, *aAd      => { L_ELEM }
+L_ELEM_BEGIN, '?'       => { L_ELEM }
+L_ELEM_BEGIN, ':'       => { L_ELEM }
+//L_ELEM_BEGIN, **        => { L_ELEM }
 L_ELEM_BEGIN, '!'       => { L_SPECIAL_ELEM } // Either doctype or <!--
 L_ELEM_BEGIN, '/'       => { L_CLOSE_ELEM_BEGIN }
 L_ELEM_BEGIN, *s        => { L_ELEM_BEGIN }
 
 // Inside tag id
 // Because many pages contain malformed tagid's, we've decided to ignore the specs a little here
-//L_ELEM, **              => { L_ERROR }
-//L_ELEM, *aAd            => { L_ELEM }
-//L_ELEM, '?'             => { L_ELEM }
-L_ELEM, **            => { L_ELEM }
+L_ELEM, **              => { L_ERROR }
+L_ELEM, *aAd            => { L_ELEM }
+L_ELEM, '?'             => { L_ELEM }
+L_ELEM, ':'             => { L_ELEM }
+//L_ELEM, **            => { L_ELEM }
 L_ELEM, *s              => { L_ELEM_WS }
 L_ELEM, '/'             => { L_CLOSE_ELEM_SELF }
 L_ELEM, '>'             => { L_ELEM_END }
@@ -75,16 +76,20 @@ L_ELEM_END, '<'         => { L_ELEM_BEGIN }
 
 // Close tag, we have just seen </
 // Because many pages contain malformed tagid's, we've decided to ignore the specs a little here
-//L_CLOSE_ELEM_BEGIN, **  => { L_ERROR }
-//L_CLOSE_ELEM_BEGIN, *aAd => { L_CLOSE_ELEM }
-L_CLOSE_ELEM_BEGIN, **  => { L_CLOSE_ELEM }
+L_CLOSE_ELEM_BEGIN, **  => { L_ERROR }
+L_CLOSE_ELEM_BEGIN, *aAd => { L_CLOSE_ELEM }
+L_CLOSE_ELEM_BEGIN, ':' => { L_CLOSE_ELEM }
+L_CLOSE_ELEM_BEGIN, '?' => { L_CLOSE_ELEM }
+//L_CLOSE_ELEM_BEGIN, **  => { L_CLOSE_ELEM }
 L_CLOSE_ELEM_BEGIN, *s  => { L_CLOSE_ELEM_BEGIN }
 
 // Inside a closing tag
 // Because many pages contain malformed tagid's, we've decided to ignore the specs a little here
-//L_CLOSE_ELEM, **        => { L_ERROR }
-//L_CLOSE_ELEM, *aAd      => { L_CLOSE_ELEM }
-L_CLOSE_ELEM, **        => { L_CLOSE_ELEM }
+L_CLOSE_ELEM, **        => { L_ERROR }
+L_CLOSE_ELEM, *aAd      => { L_CLOSE_ELEM }
+L_CLOSE_ELEM, ':'       => { L_CLOSE_ELEM }
+L_CLOSE_ELEM, '?'       => { L_CLOSE_ELEM }
+//L_CLOSE_ELEM, **        => { L_CLOSE_ELEM }
 L_CLOSE_ELEM, *s        => { L_CLOSE_ELEM_SKIP }
 L_CLOSE_ELEM, '>'       => { L_CLOSE_ELEM_END }
 

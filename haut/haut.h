@@ -17,6 +17,7 @@ enum error {
 };
 
 typedef enum error error_t;
+typedef int tag_t;
 
 struct haut;
 
@@ -26,8 +27,8 @@ typedef void            (*deallocatorfunc)       ( void* userdata, void* ptr );
 typedef void            (*document_begin_event)  ( struct haut* );
 typedef void            (*document_end_event)    ( struct haut* );
 
-typedef void            (*element_open_event)    ( struct haut*, strfragment_t* name );
-typedef void            (*element_close_event)   ( struct haut*, strfragment_t* name );
+typedef void            (*element_open_event)    ( struct haut*, tag_t tag, strfragment_t* name );
+typedef void            (*element_close_event)   ( struct haut*, tag_t tag, strfragment_t* name );
 
 typedef void            (*attribute_event)       ( struct haut*, strfragment_t* key, strfragment_t* value );
 
@@ -83,14 +84,13 @@ typedef struct {
 extern const haut_position_t POSITION_BEGIN;
 
 typedef struct {
+    int last_tag;
     strfragment_t last_elem;
     strfragment_t attr_key;
     strfragment_t current_token;
     int depth;
     int last_error;
     int last_warning;
-    char recover_on;
-    int recover_to;
 } haut_state_t;
 
 struct haut {

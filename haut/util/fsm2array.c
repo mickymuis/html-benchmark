@@ -379,7 +379,7 @@ expand_input_strings( state_table_t* transition_list, state_table_t* string_tran
                 memcpy( trans->action, t->action, sizeof(int) * t->action_length ); 
             }
 
-            fprintf( stderr, "Adding: %d, %c => { %d }\n", trans->state, (char)trans->input, trans->action[0] );
+            //fprintf( stderr, "Adding: %d, %c => { %d }\n", trans->state, (char)trans->input, trans->action[0] );
             LIST_APPEND( state_table_t, transition_list, trans );
             new_ts++;
 cont:

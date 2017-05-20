@@ -7,6 +7,7 @@
 
 #include "test_haut.h"
 #include "haut/haut.h"
+#include "haut/tag.h"
 
 #include <strings.h>
 
@@ -18,9 +19,9 @@ typedef struct {
 } haut_data;
 
 void
-element_open( haut_t* p, strfragment_t* name ) {
+element_open( haut_t* p, tag_t tag, strfragment_t* name ) {
     
-    if( strncasecmp( name->data, "body", name->size ) == 0 ) {
+    if( p->state.last_tag == TAG_BODY ) {
         ((haut_data*)p->userdata)->in_body =1;
     }
     
@@ -30,12 +31,11 @@ void
 attribute( haut_t* p, strfragment_t* key, strfragment_t* value ) {
     if( ((haut_data*)p->userdata)->in_body != 1 )
         return;
-    strfragment_t elem =p->state.last_elem;
-    if( strncasecmp( elem.data, "a", elem.size ) == 0 ) {
+    if( p->state.last_tag == TAG_A ) {
         if( strncasecmp( key->data, "href", key->size ) == 0 )
             ((haut_data*)p->userdata)->result->total_href++;
 
-    } else if( strncasecmp( elem.data, "img", elem.size ) == 0 ) {
+    } else if( p->state.last_tag == TAG_IMG ) {
         if( strncasecmp( key->data, "src", key->size ) == 0 ) {
             ((haut_data*)p->userdata)->images++;
             ((haut_data*)p->userdata)->result->total_src++;
@@ -56,7 +56,7 @@ innertext( haut_t* p, strfragment_t* text ) {
     } 
 
     strfragment_t elem =p->state.last_elem;
-    if( strncasecmp( elem.data, "title", elem.size ) == 0 ) {
+    if( p->state.last_tag == TAG_TITLE ) {
         // We have a title!
     }
 }

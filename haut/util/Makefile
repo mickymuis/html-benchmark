@@ -1,5 +1,7 @@
 #
-# liblmth, Lightweight HTML lexer
+# Haut-HTML, Lightweight HTML lexer
+#
+# https://github.com/mickymuis/haut-html
 #
 # Micky Faas <micky@edukitty.org>
 # Copyright (C) 2017  Leiden University, The Netherlands.
@@ -7,33 +9,37 @@
 
 CC = gcc
 CFLAGS = -Wall -std=c99 -O2
+FSM = build/fsm2array
 
-all:		fsm2array example lexer parser
+all:		build/fsm2array example lexer parser tag
 
-fsm2array:	fsm2array.c
-		$(CC) $(CFLAGS) fsm2array.c -o fsm2array
+build/fsm2array:	fsm2array.c
+			$(CC) $(CFLAGS) fsm2array.c -o $(FSM)
 
-example:	fsm2array example_fsm.h
-		$(CC) -E -P example_fsm.h -o example_fsm.in
-		cat example_fsm.in | ./fsm2array > example.h
+build/gen_tags:	gen_tags.c
+		$(CC) $(CFLAGS) gen_tags.c -o build/gen_tags
 
-lexer:		fsm2array lexer_transitions_fsm.h
-		$(CC) -E -P lexer_transitions_fsm.h -o lexer_transitions_fsm.in
-		cat lexer_transitions_fsm.in | ./fsm2array > ../lexer_transitions.h
+build/gen_entities:	gen_entities.c
+		$(CC) $(CFLAGS) gen_entities.c json.c -o build/gen_entities
 
-lexer_script:	fsm2array lexer_script_fsm.h
-		$(CC) -E -P lexer_script_fsm.h -o lexer_script_fsm.in
-		cat lexer_script_fsm.in | ./fsm2array > ../lexer_script.h
+example:	build/fsm2array example_fsm.h
+		$(CC) -E -P example_fsm.h -o build/example_fsm.in
+		cat build/example_fsm.in | $(FSM) > build/example.h
 
-parser:		fsm2array parser_transitions_fsm.h
-		$(CC) -E -P parser_transitions_fsm.h -o parser_transitions_fsm.in
-		cat parser_transitions_fsm.in | ./fsm2array > ../parser_transitions.h
+lexer:		build/fsm2array lexer_transitions_fsm.h
+		$(CC) -E -P lexer_transitions_fsm.h -o build/lexer_transitions_fsm.in
+		cat build/lexer_transitions_fsm.in | $(FSM) > ../lexer_transitions.h
+
+tag:		build/fsm2array build/gen_tags html5_tags.in
+		(cd build && ./gen_tags ../html5_tags.in ../../tag.h tag_fsm.h)
+		$(CC) -E -P build/tag_fsm.h -o build/tag_fsm.in
+		cat build/tag_fsm.in | $(FSM) -i -b 47 > ../tag_transitions.h
+
+parser:		build/fsm2array parser_transitions_fsm.h
+		$(CC) -E -P parser_transitions_fsm.h -o build/parser_transitions_fsm.in
+		cat build/parser_transitions_fsm.in | $(FSM) > ../parser_transitions.h
 clean:
-		rm -f fsm2array
-		rm -f example_fsm.in
-		rm -f lexer_transitions_fsm.in
-		rm -f parser_transitions_fsm.in
-		rm -f example.h
+		rm -f build/*
 
 
 

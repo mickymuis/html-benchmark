@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include "state_machine.h"
 #include "state.h"
+#include "tag.h"
 
 //#define DEBUG_PRINT
 
@@ -35,23 +36,23 @@ default_document_end_event       ( struct haut* p ){
 }
 
 void            
-default_element_open_event    ( struct haut* p, strfragment_t* name ){
+default_element_open_event    ( struct haut* p, tag_t tag, strfragment_t* name ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: element open: `%.*s'\n", name->size, name->data );
+    printf( "Debug: element open: `%.*s (%d)'\n", (int)name->size, name->data, tag );
 #endif
 }
 void            
-default_element_close_event   ( struct haut* p, strfragment_t* name ){
+default_element_close_event   ( struct haut* p, tag_t tag, strfragment_t* name ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: element close: `%.*s'\n", name->size, name->data );
+    printf( "Debug: element close: `%.*s (%d)'\n", (int)name->size, name->data, tag );
 #endif
 }
 
 void            
 default_attribute_event       ( struct haut* p, strfragment_t* key, strfragment_t* value ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: attribute: %.*s=\"%.*s\"\n", key->size, key->data, 
-            (value != NULL ? value->size : 0 ),
+    printf( "Debug: attribute: %.*s=\"%.*s\"\n", (int)key->size, key->data, 
+            (value != NULL ? (int)value->size : 0 ),
             (value != NULL ? value->data : "" ) );
 #endif
 }
@@ -59,31 +60,31 @@ default_attribute_event       ( struct haut* p, strfragment_t* key, strfragment_
 void            
 default_comment_event         ( struct haut* p, strfragment_t* text ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: comment: `%.*s'\n", text->size, text->data );
+    printf( "Debug: comment: `%.*s'\n", (int)text->size, text->data );
 #endif
 }
 void            
 default_innertext_event       ( struct haut* p, strfragment_t* text ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: innertext: `%.*s'\n", text->size, text->data );
+    printf( "Debug: innertext: `%.*s'\n", (int)text->size, text->data );
 #endif
 }
 void            
 default_cdata_event           ( struct haut* p, strfragment_t* text ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: CDATA: `%.*s'\n", text->size, text->data );
+    printf( "Debug: CDATA: `%.*s'\n", (int)text->size, text->data );
 #endif
 }
 void            
 default_doctype_event         ( struct haut* p, strfragment_t* text ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: DOCTYPE: `%.*s'\n", text->size, text->data );
+    printf( "Debug: DOCTYPE: `%.*s'\n", (int)text->size, text->data );
 #endif
 }
 void            
 default_script_event          ( struct haut* p, strfragment_t* text ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: script: `%.*s'\n", text->size, text->data );
+    printf( "Debug: script: `%.*s'\n", (int)text->size, text->data );
 #endif
 }
 
@@ -150,16 +151,6 @@ at_end( haut_t* p ) {
     return (p->length == p->position.offset + 1);
 }
 
-/*static inline int
-consume_char( haut_t* p ) {
-    char c =current_char( p );
-    token_t t =consume_token_char( p->state.token, c );
-
-    switch( t ) {
-
-    };
-}*/
-
 static inline void
 emit_error( haut_t* p, int error ) {
     p->state.last_error =error;
@@ -195,13 +186,17 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_state ) {
         case P_ELEMENT_OPEN:
             set_token_end( p, 0 );
             p->state.last_elem =p->state.current_token;
-            p->events.element_open( p, &p->state.last_elem );
+            p->state.last_tag =decode_tag( p->state.last_elem.data, p->state.last_elem.size );
+
+            p->events.element_open( p, p->state.last_tag, &p->state.last_elem );
             break;
 
         case P_ELEMENT_CLOSE:
             set_token_end( p, 0 );
             p->state.last_elem =p->state.current_token;
-            p->events.element_close( p, &p->state.last_elem );
+            p->state.last_tag =decode_tag( p->state.last_elem.data, p->state.last_elem.size );
+            
+            p->events.element_close( p, p->state.last_tag, &p->state.last_elem );
             break;
 
         case P_ATTRIBUTE:
@@ -251,7 +246,7 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_state ) {
             p->state.attr_key = p->state.current_token;
             break;
         case P_ELEMENT_END:
-            if( strncasecmp( p->state.last_elem.data, "script", 5 ) == 0 ) {
+            if( p->state.last_tag == TAG_SCRIPT ) {
                 set_token_begin( p, 1 );
                 *lexer_state =L_SCRIPT;
             }
@@ -278,7 +273,7 @@ haut_init(  haut_t* p ) {
 
 void
 haut_destroy( haut_t* p ) {
-
+    // TODO: When we integrate the entity-decoder, we will need to deallocate attribute-value strings here.
 }
 
 void
@@ -297,7 +292,6 @@ haut_set_input_mutable( haut_t* p, char* buffer, size_t len ) {
 
 void
 haut_parse( haut_t* p ) {
-    static int error=0;
     char c;
     int lexer_state =L_BEGIN, next_lexer_state;
     char *parser_state;
@@ -312,17 +306,6 @@ haut_parse( haut_t* p ) {
         for( int k =0; k < 2; k++ )
             dispatch_parser_action( p, parser_state[k], &next_lexer_state );
         
-      /*  if( parser_state[0] == P_ERROR ) {
-            printf( "Syntax error on line %d, column %d (lexer transition %d -> %d) #%d:\n", 
-                    p->position.row, p->position.col,
-                    lexer_state, next_lexer_state, ++error );
-
-            printf( "\t`%.*s%.*s'\n", 80, (p->buffer + p->position.offset) - 20, 20, (p->buffer + p->position.offset));
-            printf( "\t                                                                                    ^\n" );
-
-           //printf( "\t`%.*s☃%.*s'\n\n", p->position.offset, p->buffer, 20, (p->buffer + p->position.offset));
-        }*/
-
         lexer_state =next_lexer_state;
 
         p->position.offset++;
