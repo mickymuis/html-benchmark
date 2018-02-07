@@ -28,6 +28,7 @@ L_END, **       => { L_END } // Trap state
 L_WHITESPACE, **        => { L_INNERTEXT }
 L_WHITESPACE, *s        => { L_WHITESPACE }
 L_WHITESPACE, '<'       => { L_ELEM_BEGIN }
+L_WHITESPACE, '&'       => { L_ENTITY }
 
 // Error recovery
 L_ERROR, **     => { L_ERROR }
@@ -73,6 +74,7 @@ L_ELEM_WS, '"'          => { L_ERROR }
 L_ELEM_END, **          => { L_INNERTEXT }
 L_ELEM_END, *s          => { L_WHITESPACE }
 L_ELEM_END, '<'         => { L_ELEM_BEGIN }
+L_ELEM_END, '&'         => { L_ENTITY }
 
 // Close tag, we have just seen </
 // Because many pages contain malformed tagid's, we've decided to ignore the specs a little here
@@ -94,7 +96,7 @@ L_CLOSE_ELEM, *s        => { L_CLOSE_ELEM_SKIP }
 L_CLOSE_ELEM, '>'       => { L_CLOSE_ELEM_END }
 
 // Inside a closing tag after the tag id
-// The HTML specification allowes but ignore any attributes in the closing tag
+// The HTML specification allowes but ignores any attributes in the closing tag
 L_CLOSE_ELEM_SKIP, **   => { L_CLOSE_ELEM_SKIP }
 L_CLOSE_ELEM_SKIP, '>'  => { L_CLOSE_ELEM_END }
 
@@ -147,6 +149,7 @@ L_ATTR_EQUALS, '\''             => { L_ATTR_SINGLE_QUOTE_OPEN }
 L_ATTR_EQUALS, '>'              => { L_ELEM_END }
 L_ATTR_EQUALS, '`'              => { L_ERROR }
 L_ATTR_EQUALS, '<'              => { L_ERROR }
+L_ATTR_EQUALS, '&'              => { L_ENTITY }
 
 // Unquoted attribute value
 L_ATTR_VALUE, **                => { L_ATTR_VALUE }
@@ -155,23 +158,28 @@ L_ATTR_VALUE, '>'               => { L_ELEM_END }
 L_ATTR_VALUE, '"'               => { L_ERROR }
 L_ATTR_VALUE, '`'               => { L_ERROR }
 L_ATTR_VALUE, '<'               => { L_ERROR }
+L_ATTR_VALUE, '&'               => { L_ENTITY }
 // This mistake is made so often, that we chose to allow it.
 //L_ATTR_VALUE, '='               => { L_ERROR }
 
 // Single-quoted attribute
 L_ATTR_SINGLE_QUOTE_OPEN, **    => { L_ATTR_SINGLE_QUOTE_VALUE }
 L_ATTR_SINGLE_QUOTE_OPEN, '\''  => { L_ELEM_WS }
+L_ATTR_SINGLE_QUOTE_OPEN, '&'  => { L_ENTITY }
 //L_ATTR_SINGLE_QUOTE_OPEN, '>'   => { L_ERROR }
 //L_ATTR_SINGLE_QUOTE_OPEN, '/'   => { L_ERROR }
 
 L_ATTR_SINGLE_QUOTE_VALUE, **   => { L_ATTR_SINGLE_QUOTE_VALUE }
+L_ATTR_SINGLE_QUOTE_VALUE, '&'  => { L_ENTITY }
 L_ATTR_SINGLE_QUOTE_VALUE, '\'' => { L_ELEM_WS }
 
 // Double-quoted attribute
 L_ATTR_DOUBLE_QUOTE_OPEN, **    => { L_ATTR_DOUBLE_QUOTE_VALUE }
+L_ATTR_DOUBLE_QUOTE_OPEN, '&'  => { L_ENTITY }
 L_ATTR_DOUBLE_QUOTE_OPEN, '"'  => { L_ELEM_WS }
 
 L_ATTR_DOUBLE_QUOTE_VALUE, **   => { L_ATTR_DOUBLE_QUOTE_VALUE }
+L_ATTR_DOUBLE_QUOTE_VALUE, '&'  => { L_ENTITY }
 L_ATTR_DOUBLE_QUOTE_VALUE, '"' => { L_ELEM_WS }
 
 //
@@ -181,6 +189,7 @@ L_ATTR_DOUBLE_QUOTE_VALUE, '"' => { L_ELEM_WS }
 L_INNERTEXT, **         => { L_INNERTEXT }
 L_INNERTEXT, *s         => { L_WHITESPACE }
 L_INNERTEXT, '<'        => { L_ELEM_BEGIN }
+L_INNERTEXT, '&'        => { L_ENTITY }
 
 // 
 // Section 5 - Doctype declaration
@@ -234,7 +243,7 @@ L_COMMENT_END_DASH2, **         => { L_COMMENT }
 L_COMMENT_END_DASH2, '>'        => { L_ELEM_END }
 
 //
-// Section 9 - CDATA
+// Section 7 - CDATA
 //
 
 L_CDATA_LBRACKET1, **           => { L_ERROR }
@@ -267,8 +276,15 @@ L_CDATA_RBRACKET2, '>'          => { L_ELEM_END }
 // Section 8 - Entities
 //
 
-// Characters references must be handled externally
-L_ENTITY_BEGIN, **              => { L_ENTITY_BEGIN }
+// Characters references in text nodes 
+L_ENTITY, **                    => { L_ENTITY_END }
+L_ENTITY, *aA                   => { L_ENTITY }
+L_ENTITY, ';'                   => { L_ENTITY_END }
+// We add this one to detect entities that are missing the trailing semi-colon
+L_ENTITY, *s                    => { L_ENTITY_END }
+L_ENTITY, '<'                   => { L_ENTITY_END }
+
+L_ENTITY_END, **                => { L_ENTITY_END }
 
 //
 // Section 9 - Inside <script> and <style> elements

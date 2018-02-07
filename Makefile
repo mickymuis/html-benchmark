@@ -23,8 +23,8 @@ LIBXML2_DIR = libxml2
 
 # General flags
 CC = gcc
-CFLAGS = -Wall -std=c99 -O2 -g -I$(LIBXML2_DIR)/include -I$(MYHTML_DIR)/include
-LDFLAGS = -lpthread -lxml2 -lgumbo -lmyhtml_static -lhaut -lm -L$(LIBXML2_DIR) -L$(GUMBO_DIR) -L$(MYHTML_DIR)/lib -L$(HAUT_DIR)
+CFLAGS = -Wall -std=c99 -O2 -g -I$(LIBXML2_DIR)/include -I$(MYHTML_DIR)/include -I$(HAUT_DIR)/include
+LDFLAGS = -lpthread -lxml2 -lgumbo -lmyhtml_static -lhaut -lm -L$(LIBXML2_DIR) -L$(GUMBO_DIR) -L$(MYHTML_DIR)/lib -L$(HAUT_DIR)/lib
 
 OBJS = main.o benchmark.o util.o test_dummy.o test_hsp.o test_libxml2.o test_gumbo.o test_myhtml.o test_haut.o htmlstreamparser/htmlstreamparser.o
 HEADERS = benchmark.h util.h test_dummy.h test_hsp.h test_libxml2.h test_gumbo.h test_myhtml.h test_haut.h htmlstreamparser/htmlstreamparser.h

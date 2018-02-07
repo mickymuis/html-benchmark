@@ -82,7 +82,8 @@
 #define L_CDATA_RBRACKET1               43
 #define L_CDATA_RBRACKET2               44
 
-#define L_ENTITY_BEGIN                  45
+#define L_ENTITY                        45
+#define L_ENTITY_END                    59
 
 /* Lexer states inside <script> elements */
 
@@ -104,7 +105,7 @@
 #define L_SCRIPT_P                              57
 #define L_SCRIPT_T                              58
 
-#define L_N_STATES                      59
+#define L_N_STATES                      60
 
 /* Parser states */
 
@@ -120,21 +121,25 @@
 #define P_ATTRIBUTE_KEY         7
 
 #define P_INNERTEXT             8
-#define P_COMMENT               9
-#define P_CDATA                 10
+#define P_TEXT                  9
+#define P_COMMENT               10
+#define P_CDATA                 11
 
-#define P_DOCTYPE               11
-#define P_ENTITY                12
+#define P_DOCTYPE               12
+#define P_ENTITY_BEGIN          13
+#define P_ENTITY                14
 
-#define P_ERROR                 13      /* Syntax error */
+#define P_ERROR                 15      /* Syntax error */
 
-#define P_TOKEN_BEGIN           14      /* We begun parsing some token */
-#define P_TOKEN_END             15      /* We have completed parsing some token */
+#define P_TOKEN_BEGIN           16      /* We begun parsing some token */
+#define P_TOKEN_END             17      /* We have completed parsing some token */
 
-#define P_ELEMENT_END           16      /* The definition of the current element is completed (including attributes) */
-#define P_VOID_ELEMENT_END      17      /* The definition of the current void element is completed (including attributes) */
+#define P_ELEMENT_END           18      /* The definition of the current element is completed (including attributes) */
+#define P_VOID_ELEMENT_END      19      /* The definition of the current void element is completed (including attributes) */
 
-#define P_ENTITY_BEGIN          18      /* We've encoutered an entity */
-#define P_SCRIPT_END            19      /* We were lexing through a <script> and have reached its end */
+#define P_SCRIPT_END            20      /* We were lexing through a <script> and have reached its end */
+
+#define P_SAVE_LEXER_STATE      21      /* On a rare occasion we need to store the lexer's state */
+#define P_SAVE_TOKEN            22      /* Save the current token to a separate buffer - we do this already in streaming mode */
 
 #endif

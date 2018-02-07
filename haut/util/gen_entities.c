@@ -39,30 +39,50 @@
 #include <string.h>
 #include <sys/stat.h>
 #include <inttypes.h>
+#include <ctype.h>
 
 #include "json.h"
 
 /*
- * Test for json.c
+ * Generate an FSM and C-header from a collection of HTML-entity definitions
+ * in JSON format.
  *
  * Compile with
  *         gcc -o gen_entities gen_entities.c json.c -lm
  *
- * USAGE: ./gen_entities <json file>
+ * USAGE: ./gen_entities <input json file> <output header> <output fsm file>
  */
 
 // The range of input ASCII characters, 
 // minimal set for HTML character references
 #define FIRST_CHAR 59 // ';'
 #define LAST_CHAR 122 // 'z'
-#define NUM_STATES 3 // Only `none', `success' and `error'
+#define NUM_STATES 2 // Only `none' and `unknown', rest is filled later
+#define SUCCESS_BIT 1UL << 31 // Most significant bit is used to signal 'decode success'
 
 #define ONLY_ONE_CODEPOINT
+#define ENUM_PREFIX "ENTITY_"
 
-static uint32_t global_mask =0;
+void
+str_to_sym( char* str ) {
+    while( *str != 0 ) {
+        if( *str == '-' || *str == '.' || *str == '/' )
+            *str = '_';
+        else
+            *str =toupper(*str);
+        str++;
+    }
+}
+
+typedef struct {
+    FILE* fsm_file;
+    FILE* header_file;
+    uint32_t mask;
+    int count;
+} gen_entities_state_t;
 
 static int
-process_codepoints( json_value* value ) {
+process_codepoints( gen_entities_state_t* state, json_value* value ) {
     if (value == NULL) {
         return 1;
     }
@@ -70,7 +90,7 @@ process_codepoints( json_value* value ) {
         fprintf( stderr, "ERROR: expected array `codepoints' " );
         return 1;
     }
-    printf( "{ " );
+    fprintf( state->fsm_file, "{ " );
 
 
     int length, x;
@@ -81,23 +101,24 @@ process_codepoints( json_value* value ) {
             fprintf( stderr, "ERROR: expected integer in array `codepoints' " );
             return 1;
         }
-        printf("%" PRId64 "", value->u.array.values[x]->u.integer);
+        fprintf( state->fsm_file, "%" PRId64 "", value->u.array.values[x]->u.integer | SUCCESS_BIT );
 
-        global_mask |=value->u.array.values[x]->u.integer;
+        state->mask |=(value->u.array.values[x]->u.integer);
+        state->count ++;
 
 #ifdef ONLY_ONE_CODEPOINT
         break;
 #endif
         if( x != length-1 )
-            printf( ", ");
+            fprintf( state->fsm_file, ", ");
     }
-    printf( " }\n" );
+    fprintf( state->fsm_file, " }\n" );
     return 0;
 
 }
 
 static int
-process_entity_object( json_value* value ) {
+process_entity_object( gen_entities_state_t* state, json_value* value ) {
     if (value == NULL) {
         return 1;
     }
@@ -108,8 +129,9 @@ process_entity_object( json_value* value ) {
     int length, x;
     length = value->u.object.length;
     for (x = 0; x < length; x++) {
+        /* Each object contains two members: "codepoints" and "characters" */
         if( strcmp( value->u.object.values[x].name, "codepoints" ) == 0 ) {
-            if( process_codepoints(value->u.object.values[x].value) != 0 )
+            if( process_codepoints(state, value->u.object.values[x].value) != 0 )
                 return 1;
             return 0;
         }
@@ -119,8 +141,8 @@ process_entity_object( json_value* value ) {
 }
 
 static int
-process_root( json_value* value ) {
-    if (value == NULL) {
+generateFSM( gen_entities_state_t* state, json_value* value ) {
+    if (value == NULL || state == NULL ) {
         return 1;
     }
     if( value->type != json_object ) {
@@ -130,16 +152,18 @@ process_root( json_value* value ) {
     int length, x;
     length = value->u.object.length;
 
-    printf( "%%! %d %d\n\n", NUM_STATES, LAST_CHAR - FIRST_CHAR ); 
-    printf( "**, ** => { 2 }\n" );
+    /* Generate the header for the FSM file */
+    fprintf( state->fsm_file, "%%! %d %d\n\n", NUM_STATES, LAST_CHAR - FIRST_CHAR ); 
+    fprintf( state->fsm_file, "**, ** => { 1 }\n" );
 
+    /* Process each JSON object member to produce an FSM transition from entity string to codepoint */
     for (x = 0; x < length; x++) {
         const char *name =value->u.object.values[x].name;
         if( name[strlen(name)-1] != ';' ) {
             continue;
         }
-        printf("0, \"%s\" => ", name+1);
-        if( process_entity_object( value->u.object.values[x].value ) != 0 ) {
+        fprintf( state->fsm_file, "0, \"%.*s\" => ", (int)strlen(name)-2, name+1);
+        if( process_entity_object( state, value->u.object.values[x].value ) != 0 ) {
             fprintf( stderr, "in `%s'\n", name);
             return 1;
         }
@@ -150,61 +174,103 @@ process_root( json_value* value ) {
 int 
 main(int argc, char** argv)
 {
-    char* filename;
-    FILE *fp;
+    enum FILES {
+        JSON_FILE,
+        HEADER_FILE,
+        FSM_FILE
+    };
+    
+    char* filename[3];
+    FILE *files[3];
     struct stat filestatus;
     int file_size;
     char* file_contents;
     json_char* json;
     json_value* value;
 
-    if (argc != 2) {
-        fprintf(stderr, "%s <json html entities file>\n", argv[0]);
+    if (argc != 4) {
+        fprintf(stderr, "%s <json html entities file> <output header-file> <output fsm-file>\n", argv[0]);
         return 1;
     }
-    filename = argv[1];
 
-    if ( stat(filename, &filestatus) != 0) {
-        fprintf(stderr, "File %s not found\n", filename);
+    filename[JSON_FILE] = argv[1];
+    filename[HEADER_FILE] = argv[2];
+    filename[FSM_FILE] = argv[3];
+
+    /* Check the existence fo the input file and determine its size */
+    if ( stat(filename[JSON_FILE], &filestatus) != 0) {
+        fprintf(stderr, "File %s not found\n", filename[JSON_FILE]);
         return 1;
     }
     file_size = filestatus.st_size;
+    /* Allocate a buffer large enough to hold the input file */
     file_contents = (char*)malloc(filestatus.st_size);
     if ( file_contents == NULL) {
         fprintf(stderr, "ERROR: unable to allocate %d bytes\n", file_size);
         return 1;
     }
 
-    fp = fopen(filename, "rt");
-    if (fp == NULL) {
-        fprintf(stderr, "ERROR: Unable to open %s\n", filename);
-        fclose(fp);
+    /* Open all three files */
+    for( int i =0; i < 3; i++ ) {
+        files[i] =fopen( filename[i], i==0 ? "rt" : "w" );
+        if( !files[i]) {
+            fprintf( stderr, "ERROR: Could not open `%s'\n", filename[i] );
+            free(file_contents);
+            return 1;
+        }
+    }
+    fprintf( files[HEADER_FILE], "\
+/* This file was automatically generated by gen_entities.c from `%s' \n\
+ * Please do not edit this file in any way \n\
+ */\n\n", filename[JSON_FILE] );
+
+    /* Read the input JSON file */
+    if ( fread(file_contents, file_size, 1, files[JSON_FILE]) != 1 ) {
+        fprintf(stderr, "ERROR: Unable to read content of %s\n", filename[JSON_FILE]);
+        fclose(files[JSON_FILE]);
         free(file_contents);
         return 1;
     }
-    if ( fread(file_contents, file_size, 1, fp) != 1 ) {
-        fprintf(stderr, "ERROR: Unable to read content of %s\n", filename);
-        fclose(fp);
-        free(file_contents);
-        return 1;
-    }
-    fclose(fp);
+    fclose(files[JSON_FILE]);
 
     json = (json_char*)file_contents;
 
+    /* Run the JSON parser */
     value = json_parse(json,file_size);
-
     if (value == NULL) {
         fprintf(stderr, "ERROR: Unable to parse data\n");
         free(file_contents);
         exit(1);
     }
 
-    process_root(value);
+    /* Extract the HTML entities and produce the FSM output */
+    gen_entities_state_t state;
+    state.fsm_file = files[FSM_FILE];
+    state.header_file = files[HEADER_FILE];
+    state.count = state.mask =0;
+    generateFSM(&state, value);
+    
+    /* Generate a C header to define some usefull constants.
+     * These constants are to be used later by the program that includes the FSM */
+    str_to_sym( filename[HEADER_FILE] );
+    fprintf( files[HEADER_FILE], "#ifndef %s\n", filename[HEADER_FILE] );
+    fprintf( files[HEADER_FILE], "#define %s\n\n", filename[HEADER_FILE] );
+    fprintf( files[HEADER_FILE], "#define %sNONE %d\n", ENUM_PREFIX, 0 );
+    fprintf( files[HEADER_FILE], "#define %sUNKNOWN %d\n\n", ENUM_PREFIX, 1 );
+    fprintf( files[HEADER_FILE], "#define %sSUCCESS_BIT 0x%lx\n\n", ENUM_PREFIX, SUCCESS_BIT );
+    fprintf( files[HEADER_FILE], "#define %s_N %d\n", ENUM_PREFIX, ++(state.count) );
+    fprintf( files[HEADER_FILE], "#define %s_N_INPUTS %d\n", ENUM_PREFIX, LAST_CHAR - FIRST_CHAR );
+    fprintf( files[HEADER_FILE], "#define %s_EOF %d\n", ENUM_PREFIX, 0 );
+    fprintf( files[HEADER_FILE], "#define %s_FIRST_CHAR %d\n", ENUM_PREFIX, FIRST_CHAR );
+    fprintf( files[HEADER_FILE], "#define %s_LAST_CHAR %d\n/* */\n", ENUM_PREFIX, LAST_CHAR );
+    fprintf( files[HEADER_FILE], "#endif\n" );
 
+    /* Clean up and close the remaining files */
     json_value_free(value);
     free(file_contents);
+    fclose( files[HEADER_FILE] );
+    fclose( files[FSM_FILE] );
 
-    fprintf( stderr, "Used bits: 0x%x\n", global_mask );
+    fprintf( stderr, "Used bits: 0x%x\n", state.mask );
     return 0;
 }

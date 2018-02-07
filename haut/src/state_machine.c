@@ -5,11 +5,15 @@
  * (C) 2017: Leiden University
  */
 
-#include "state_machine.h"
+#include "../include/haut/state_machine.h"
+#include "../include/haut/tag.h"
 #include "state.h"
-#include "tag.h"
+#include "entity.h"
 
 #include <inttypes.h>
+#include <stdio.h>
+
+#pragma pack(1)
 
 #define INPUT_BITS 8 // for now
 
@@ -48,18 +52,23 @@ static uint16_t _tag_transition[][TAG__N_INPUTS] = {
     #include "tag_transitions.h"
 };
 
+static uint32_t _entity_transitions[][ENTITY__N_INPUTS] = {
+    #include "entity_transitions.h"
+};
 
-inline int 
+
+int 
 lexer_next_state( int lexer_state, char c ) {
     return _lexer_transition[lexer_state][(unsigned char)c][0];
 }
 
-inline const char* 
+const char* 
 parser_next_state( int lexer_state, int next_lexer_state ) {
     return _parser_transition[lexer_state][next_lexer_state];
 }
 
-int decode_tag( const char* str, size_t len ) {
+int 
+decode_tag( const char* str, size_t len ) {
 
     int state =TAG_NONE;
 
@@ -74,4 +83,22 @@ int decode_tag( const char* str, size_t len ) {
         return state; 
 
     return TAG_UNKNOWN;
+}
+
+char32_t 
+decode_entity( const char* str, size_t len ) {
+
+    int state =ENTITY_NONE;
+
+    for( size_t i =0; i < len; i++ ) {
+        // This is the dangerous part: we expect str[i] to be 
+        // in the range [ENTITY__FIRST_CHAR, ENTITY__LAST_CHAR]
+        state = _entity_transitions[state][str[i]-ENTITY__FIRST_CHAR];
+        if( state & ENTITY_SUCCESS_BIT )
+            if( i == len -1 )
+                return state &~ENTITY_SUCCESS_BIT;
+            else
+                break;
+    }
+    return ENTITY_NONE;
 }

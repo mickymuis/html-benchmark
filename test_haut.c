@@ -6,22 +6,22 @@
  */
 
 #include "test_haut.h"
-#include "haut/haut.h"
-#include "haut/tag.h"
+#include <haut/haut.h>
+#include <haut/tag.h>
 
 #include <strings.h>
 
 typedef struct {
     int in_body;
     testresult_t* result;
-    string_t innertext;
+    strbuffer_t innertext;
     int images;
 } haut_data;
 
 void
-element_open( haut_t* p, tag_t tag, strfragment_t* name ) {
+element_open( haut_t* p, haut_tag_t tag, strfragment_t* name ) {
     
-    if( p->state.last_tag == TAG_BODY ) {
+    if( haut_currentElementTag( p ) == TAG_BODY ) {
         ((haut_data*)p->userdata)->in_body =1;
     }
     
@@ -31,11 +31,11 @@ void
 attribute( haut_t* p, strfragment_t* key, strfragment_t* value ) {
     if( ((haut_data*)p->userdata)->in_body != 1 )
         return;
-    if( p->state.last_tag == TAG_A ) {
+    if( haut_currentElementTag( p ) == TAG_A ) {
         if( strncasecmp( key->data, "href", key->size ) == 0 )
             ((haut_data*)p->userdata)->result->total_href++;
 
-    } else if( p->state.last_tag == TAG_IMG ) {
+    } else if( haut_currentElementTag( p ) == TAG_IMG ) {
         if( strncasecmp( key->data, "src", key->size ) == 0 ) {
             ((haut_data*)p->userdata)->images++;
             ((haut_data*)p->userdata)->result->total_src++;
@@ -49,14 +49,13 @@ attribute( haut_t* p, strfragment_t* key, strfragment_t* value ) {
 void 
 innertext( haut_t* p, strfragment_t* text ) {
     if( ((haut_data*)p->userdata)->in_body == 1 && text) {
-        string_t* buf = &((haut_data*)p->userdata)->innertext;
-        string_append( buf, " ", 1 );
-        string_append( buf, text->data, text->size );
+        strbuffer_t* buf = &((haut_data*)p->userdata)->innertext;
+        strbuffer_append( buf, " ", 1 );
+        strbuffer_append( buf, text->data, text->size );
         return;
     } 
 
-    strfragment_t elem =p->state.last_elem;
-    if( p->state.last_tag == TAG_TITLE ) {
+    if( haut_currentElementTag( p ) == TAG_TITLE ) {
         // We have a title!
     }
 }
@@ -66,14 +65,14 @@ test_haut( testresult_t* result, const char* htmlpage, size_t length ){
     
     // User data
     haut_data state ={ .in_body =0, .result =result, .images =0 };
-    string_init( &state.innertext );
+    strbuffer_init( &state.innertext );
 
     // Construct parser object
     haut_t p;
     haut_init( &p );
 
-    // Set the buffer and allow it to be modified (speedup)
-    haut_set_input_mutable( &p, (char*)htmlpage, length );
+    // Set the buffer
+    haut_setInput( &p, (char*)htmlpage, length );
 
     // Setup event handlers
     p.events.element_open =element_open;
@@ -89,7 +88,7 @@ test_haut( testresult_t* result, const char* htmlpage, size_t length ){
     // Cleanup
     result->total_innertext_bytes += state.innertext.size;
     //printf( "\n%.*s\n", state.innertext.size, state.innertext.data );
-    string_free( &state.innertext );
+    strbuffer_free( &state.innertext );
 
 //    printf( "Total images: %d\n", state.images );
 

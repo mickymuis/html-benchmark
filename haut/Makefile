@@ -1,8 +1,11 @@
 #
 # libhaut, Lightweight HTML tokenizer
 #
+# https://github.com/mickymuis/haut-html
+#
 # Micky Faas <micky@edukitty.org>
-# Copyright (C) 2017  Leiden University, The Netherlands.
+# Copyright 2017-2018
+# Leiden Institute of Advanced Computer Science, The Netherlands.
 #
 
 CC = gcc
@@ -10,19 +13,21 @@ CFLAGS = -Wall -std=c99 -O2 -g
 AR = ar rcs
 LDFLAGS =
 
-OBJS = haut.o string_util.o state_machine.o
-HEADERS = haut.h string_util.h state_machine.h parser_transitions.h lexer_transitions.h tag_transitions.h state.h
+OBJS = build/haut.o build/string_util.o build/state_machine.o
+HEADERS = include/haut/haut.h include/haut/string_util.h include/haut/state_machine.h 
+SOURCES = src/parser_transitions.h src/lexer_transitions.h src/tag_transitions.h
 
-all:		libhaut.a
+all:		lib/libhaut.a
 
-libhaut.a:	$(OBJS)
+lib/libhaut.a:	$(OBJS)
 		$(AR) $@ $^
 
-%.o:		%.c $(HEADERS)
+build/%.o:	src/%.c $(HEADERS) $(HEADERS_INT)
+		mkdir -p build
 		$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-		rm -f libhaut.a
-		rm -f *.o
+		rm -rf build
+		rm -f lib/libhaut.a
 
 

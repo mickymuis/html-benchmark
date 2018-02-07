@@ -10,14 +10,15 @@
 
 #include "string_util.h"
 
-enum error {
+enum haut_error {
     ERROR_NONE          =0,
-    ERROR_TRUNCATED,
-    ERROR_SYNTAX_ERROR
+    ERROR_SYNTAX_ERROR,
+    ERROR_UNKNOWN_TAG,
+    ERROR_UNKNOWN_ENTITY
 };
 
-typedef enum error error_t;
-typedef int tag_t;
+typedef enum haut_error haut_error_t;
+typedef int haut_tag_t;
 
 struct haut;
 
@@ -27,8 +28,8 @@ typedef void            (*deallocatorfunc)       ( void* userdata, void* ptr );
 typedef void            (*document_begin_event)  ( struct haut* );
 typedef void            (*document_end_event)    ( struct haut* );
 
-typedef void            (*element_open_event)    ( struct haut*, tag_t tag, strfragment_t* name );
-typedef void            (*element_close_event)   ( struct haut*, tag_t tag, strfragment_t* name );
+typedef void            (*element_open_event)    ( struct haut*, haut_tag_t tag, strfragment_t* name );
+typedef void            (*element_close_event)   ( struct haut*, haut_tag_t tag, strfragment_t* name );
 
 typedef void            (*attribute_event)       ( struct haut*, strfragment_t* key, strfragment_t* value );
 
@@ -38,9 +39,7 @@ typedef void            (*cdata_event)           ( struct haut*, strfragment_t* 
 typedef void            (*doctype_event)         ( struct haut*, strfragment_t* text );
 typedef void            (*script_event)          ( struct haut*, strfragment_t* text );
 
-typedef void            (*error_event)           ( struct haut*, error_t err );
-
-typedef string_t        (*entity_event)          ( struct haut*, strfragment_t* html_entity );
+typedef void            (*error_event)           ( struct haut*, haut_error_t err );
 
 
 typedef struct {
@@ -55,7 +54,6 @@ typedef struct {
     doctype_event       doctype;
     script_event        script;
     error_event         error;
-    entity_event        entity;
 } haut_event_handler_t;
 
 extern const haut_event_handler_t DEFAULT_EVENT_HANDLER;
@@ -70,9 +68,7 @@ extern const haut_opts_t DEFAULT_PARSER_OPTS;
 
 typedef enum {
     FLAG_NONE                   = 0,
-    FLAG_COMPACT_WHITESPACE     = 1,
-    FLAG_STRICT                 = 2,
-    FLAG_MUTABLE_BUFFER         = 3        
+    FLAG_ACCUMULATE_INNERTEXT   = 1
 } haut_flag_t;
 
 typedef struct {
@@ -83,25 +79,16 @@ typedef struct {
 
 extern const haut_position_t POSITION_BEGIN;
 
-typedef struct {
-    int last_tag;
-    strfragment_t last_elem;
-    strfragment_t attr_key;
-    strfragment_t current_token;
-    int depth;
-    int last_error;
-    int last_warning;
-} haut_state_t;
-
+struct haut_state;
 struct haut {
 	haut_event_handler_t events;
 	haut_opts_t opts;
 
         void* userdata;
 
-        haut_state_t state;
+        struct haut_state* state;
 
-        char* buffer;
+        char* input;
         size_t length;
 
         haut_position_t position;
@@ -115,19 +102,22 @@ void
 haut_destroy( haut_t* p );
 
 void
-haut_set_input( haut_t* p, const char* buffer, size_t len );
-
-void
-haut_set_input_mutable( haut_t* p, char* buffer, size_t len );
+haut_setInput( haut_t* p, const char* buffer, size_t len );
 
 void
 haut_parse( haut_t* p );
 
 void
-haut_set_opts( haut_t* p, haut_opts_t opts );
+haut_parseChunk( haut_t* p, const char* buffer, size_t len );
+
+haut_tag_t
+haut_currentElementTag( haut_t* p );
 
 void
-haut_set_eventhandler( haut_t* p, haut_event_handler_t e );
+haut_setOpts( haut_t* p, haut_opts_t opts );
+
+void
+haut_setEventHandler( haut_t* p, haut_event_handler_t e );
 
 void
 haut_enable( haut_t* p, haut_flag_t flag );

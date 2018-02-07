@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 #define ENUM_PREFIX "TAG_"
-// The range of printable basic ASCII characters, a-z A-Z 0-9 < > ; : / ?
+// The range of HTML basic ASCII characters, a-z A-Z 0-9 < > ; : / ?
 #define FIRST_CHAR 47 // '/'
 #define LAST_CHAR 122 // 'z'
 

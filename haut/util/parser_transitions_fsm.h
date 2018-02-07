@@ -49,6 +49,9 @@ L_DOCTYPE_E, L_DOCTYPE_DECLARATION => { P_TOKEN_BEGIN }
 L_CDATA_LBRACKET2, L_CDATA      => { P_TOKEN_BEGIN }
 L_CDATA, L_CDATA_RBRACKET1      => { P_TOKEN_END }
 
+// Entities
+^L_ENTITY, L_ENTITY             => { P_ENTITY_BEGIN }
+
 //
 // Transitions that result in a complete token
 //
@@ -88,7 +91,9 @@ L_CLOSE_ELEM, L_CLOSE_ELEM_END   => { P_ELEMENT_CLOSE }
 L_CLOSE_ELEM, L_CLOSE_ELEM_SKIP  => { P_ELEMENT_CLOSE }
 
 // Inner text
-L_INNERTEXT, ^L_INNERTEXT        => { P_INNERTEXT }
+L_INNERTEXT, **                  => { P_INNERTEXT, P_TEXT }
+L_INNERTEXT, L_INNERTEXT         => { P_NONE }
+L_INNERTEXT, L_WHITESPACE        => { P_INNERTEXT }
 
 // Comment
 L_COMMENT_END_DASH2, L_ELEM_END  => { P_COMMENT }
@@ -99,11 +104,12 @@ L_DOCTYPE_DECLARATION, L_ELEM_END => { P_DOCTYPE }
 // CDATA
 L_CDATA_RBRACKET2, L_ELEM_END   => { P_CDATA }
 
+// Entity
+L_ENTITY, L_ENTITY_END          => { P_ENTITY }
+
 //
 // Internal parser events
 //
-
-**, L_ENTITY_BEGIN              => { P_ENTITY_BEGIN }
 
 L_SCRIPT, L_SCRIPT_LT           => { P_TOKEN_END }
 L_SCRIPT_T, L_ELEM_END        => { P_SCRIPT_END }

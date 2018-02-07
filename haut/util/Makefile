@@ -1,17 +1,18 @@
 #
-# Haut-HTML, Lightweight HTML lexer
+# libhaut, Lightweight HTML tokenizer
 #
 # https://github.com/mickymuis/haut-html
 #
 # Micky Faas <micky@edukitty.org>
-# Copyright (C) 2017  Leiden University, The Netherlands.
+# Copyright 2017-2018
+# Leiden Institute of Advanced Computer Science, The Netherlands.
 #
 
 CC = gcc
 CFLAGS = -Wall -std=c99 -O2
 FSM = build/fsm2array
 
-all:		build/fsm2array example lexer parser tag
+all:		build/fsm2array example lexer parser tag entities
 
 build/fsm2array:	fsm2array.c
 			$(CC) $(CFLAGS) fsm2array.c -o $(FSM)
@@ -20,7 +21,7 @@ build/gen_tags:	gen_tags.c
 		$(CC) $(CFLAGS) gen_tags.c -o build/gen_tags
 
 build/gen_entities:	gen_entities.c
-		$(CC) $(CFLAGS) gen_entities.c json.c -o build/gen_entities
+		$(CC) $(CFLAGS) gen_entities.c json.c -o build/gen_entities -lm
 
 example:	build/fsm2array example_fsm.h
 		$(CC) -E -P example_fsm.h -o build/example_fsm.in
@@ -38,6 +39,11 @@ tag:		build/fsm2array build/gen_tags html5_tags.in
 parser:		build/fsm2array parser_transitions_fsm.h
 		$(CC) -E -P parser_transitions_fsm.h -o build/parser_transitions_fsm.in
 		cat build/parser_transitions_fsm.in | $(FSM) > ../parser_transitions.h
+
+entities:	build/fsm2array build/gen_entities entities.json entities.c
+		build/gen_entities entities.json ../entity.h build/entity_transitions_fsm.in
+		cat build/entity_transitions_fsm.in | $(FSM) -i -b 59 > ../entity_transitions.h
+
 clean:
 		rm -f build/*
 
