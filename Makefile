@@ -14,7 +14,7 @@ MYHTML_DIR = myhtml
 .PHONY: myhtml
 
 # for Haut parser
-HAUT_DIR = haut
+HAUT_DIR = haut-html
 .PHONY: haut
 
 # for libxml2

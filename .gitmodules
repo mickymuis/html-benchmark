@@ -1,0 +1,3 @@
+[submodule "haut-html"]
+	path = haut-html
+	url = https://github.com/mickymuis/haut-html.git
