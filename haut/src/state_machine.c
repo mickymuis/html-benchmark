@@ -72,6 +72,8 @@ decode_tag( const char* str, size_t len ) {
 
     int state =TAG_NONE;
 
+    //printf( "decode_tag: `%.*s'\n", (int)len, str );
+
     for( size_t i =0; i < len; i++ ) {
         // This is the dangerous part: we expect str[i] to be 
         // in the range [TAG__FIRST_CHAR, TAG__LAST_CHAR]
@@ -94,11 +96,12 @@ decode_entity( const char* str, size_t len ) {
         // This is the dangerous part: we expect str[i] to be 
         // in the range [ENTITY__FIRST_CHAR, ENTITY__LAST_CHAR]
         state = _entity_transitions[state][str[i]-ENTITY__FIRST_CHAR];
-        if( state & ENTITY_SUCCESS_BIT )
+        if( state & ENTITY_SUCCESS_BIT ) {
             if( i == len -1 )
                 return state &~ENTITY_SUCCESS_BIT;
             else
                 break;
+        }
     }
     return ENTITY_NONE;
 }

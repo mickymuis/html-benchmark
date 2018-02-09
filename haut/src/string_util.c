@@ -65,8 +65,10 @@ strbuffer_ncopy( strbuffer_t* d, size_t dest_offset, const strbuffer_t* src, siz
 
 void 
 strbuffer_copyFragment( strbuffer_t* d, size_t offset, strfragment_t* str ) {
-    if( d->size <= offset + str->size + 1 )
+    if( d->size <= offset + str->size + 1 ) {
         strbuffer_reserve( d, (offset + str->size + 1) - d->size );
+        d->size = offset + str->size;
+    }
     memcpy( d->data+offset, str->data, str->size );
 }
 

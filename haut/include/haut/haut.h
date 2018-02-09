@@ -10,6 +10,7 @@
 
 #include "string_util.h"
 
+/** Enumeration of all possible errors thrown by the error event */
 enum haut_error {
     ERROR_NONE          =0,
     ERROR_SYNTAX_ERROR,
@@ -18,13 +19,15 @@ enum haut_error {
 };
 
 typedef enum haut_error haut_error_t;
-typedef int haut_tag_t;
 
+/* List of possible standard HTML5 tags is defined in haut/tag.h */
+typedef int haut_tag_t;
 struct haut;
 
 typedef void*           (*allocatorfunc)         ( void* userdata, size_t size );
 typedef void            (*deallocatorfunc)       ( void* userdata, void* ptr );
 
+/* Function definitions for event handlers */
 typedef void            (*document_begin_event)  ( struct haut* );
 typedef void            (*document_end_event)    ( struct haut* );
 
@@ -58,6 +61,8 @@ typedef struct {
 
 extern const haut_event_handler_t DEFAULT_EVENT_HANDLER;
 
+/** This structure is used to pass optional options to the parser.
+ *  It is reserved for future use */
 typedef struct {
     allocatorfunc       allocator;
     deallocatorfunc     deallocator;
@@ -66,9 +71,10 @@ typedef struct {
 
 extern const haut_opts_t DEFAULT_PARSER_OPTS;
 
+/** List of optional flags to the parser */
 typedef enum {
     FLAG_NONE                   = 0,
-    FLAG_ACCUMULATE_INNERTEXT   = 1
+    FLAG_ACCUMULATE_INNERTEXT   = 1 // Reserved for future use
 } haut_flag_t;
 
 typedef struct {
@@ -80,6 +86,8 @@ typedef struct {
 extern const haut_position_t POSITION_BEGIN;
 
 struct haut_state;
+/** haut_t defines the principle parser object that holds all state information.
+ *  Initialize this structure used haut_init() */
 struct haut {
 	haut_event_handler_t events;
 	haut_opts_t opts;
@@ -118,6 +126,9 @@ haut_setOpts( haut_t* p, haut_opts_t opts );
 
 void
 haut_setEventHandler( haut_t* p, haut_event_handler_t e );
+
+
+// These functions are reserved for future use
 
 void
 haut_enable( haut_t* p, haut_flag_t flag );

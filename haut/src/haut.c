@@ -32,8 +32,8 @@ struct haut_state {
     strbuffer_t token_buffer;
     // Fragment that points to the current token in the current chunk
     strfragment_t token_chunk_ptr;
-    // Special token pointer when we are parsing an entity (character reference)
-    strfragment_t entity_token_ptr;
+    // Offset used when we are parsing an entity (character reference)
+    int entity_token_offset;
     // Whether we are collecting a token at all (true)
     // false if token_ptr points to a meaningfull token
     bool in_token;
@@ -114,11 +114,21 @@ default_script_event          ( struct haut* p, strfragment_t* text ){
 void            
 default_error_event           ( struct haut* p, haut_error_t err ){
 #ifdef DEBUG_PRINT
-    printf( "Debug: Syntax error on line %d, column %d:\n", 
+    printf( "Debug: Syntax error (%d) on line %d, column %d:\n", (int)err, 
             p->position.row, p->position.col );
 
-    printf( "\t`%.*s%.*s'\n", 40, (p->input + p->position.offset) - 20, 20, (p->input + p->position.offset));
-    printf( "\t                                          ^\n" );
+    const int max_width = 20;
+    int before = p->position.offset;
+    before = before >= max_width ? max_width : before;
+    int after = p->length - p->position.offset;
+    after = after < 0 ? 0 : after;
+    after = after >= max_width ? max_width : after;
+
+
+    printf( "\t`%.*s%.*s'\n", before, (p->input + p->position.offset) - before, after, (p->input + p->position.offset));
+    printf( "\t" );
+    for( int i =0; i < before; i++ ) printf( " " );
+    printf( "^\n" );
 #endif
 }
 
@@ -158,16 +168,19 @@ const haut_position_t POSITION_BEGIN ={
     .offset        =0
 };
 
+/** Returns the char corresponding to the current offset in @p */
 static inline char
 current_char( haut_t* p ) {
     return *( p->input + p->position.offset );
 }
 
+/** Returns true if the offset in @p is past the end of the buffer */
 static inline int
 at_end( haut_t* p ) {
-    return (p->length == p->position.offset + 1);
+    return (p->length <= p->position.offset);
 }
 
+/** Call the error event in @p's event handler, if any */
 static inline void
 emit_error( haut_t* p, int error ) {
     p->state->last_error =error;
@@ -175,6 +188,8 @@ emit_error( haut_t* p, int error ) {
         p->events.error( p, error );
 }
 
+/** Set the token chunk pointer to the current position in @p + @offs
+ *  The chunk pointer deals with the input buffer only, not with any locally stored data. */
 static inline void
 set_token_chunk_begin( haut_t* p, int offs ) {
     p->state->token_chunk_ptr.data = p->input + p->position.offset + offs;
@@ -182,49 +197,84 @@ set_token_chunk_begin( haut_t* p, int offs ) {
     p->state->in_token =true;
 }
 
+/** Complete the current token by setting the end of the chunk to the current position in @p + offs
+ */
 static inline void
 set_token_chunk_end( haut_t* p, int offs ) {
     p->state->token_chunk_ptr.size = ((p->input + p->position.offset) - p->state->token_chunk_ptr.data) + offs;
     p->state->in_token =false;
 }
 
-static inline void store_current_token( haut_t* p, int offs );
+static inline void store_current_token( haut_t* p );
 static inline void clear_current_token( haut_t* p );
 
+/** Returns true whether @p has a token that is stored locally, as opposed to inside the input buffer */ 
+static inline bool
+has_stored_token( haut_t* p ) {
+    return (p->state->token_ptr.data == p->state->token_buffer.data);
+}
+
+/** Begin a new token by setting the token chunck pointer to the current position in @p + offs
+ *  This function is called whenever a new token is encountered in the input. */
 static inline void
 begin_token( haut_t* p, int offs ) {
     set_token_chunk_begin( p, offs );
+    p->state->token_ptr = p->state->token_chunk_ptr;
 }
 
+/** Ends the current token by either pointing to its position in the input buffer,
+ *  or storing it locally. This function is called whenever a token ends in the input. */
 static inline void
 end_token( haut_t* p, int offs ) {
-    if( p->state->token_buffer.size > 0 ) {
+    set_token_chunk_end( p, offs );
+    
+    if( has_stored_token( p ) ) {
         // We have a (partial) token stored locally
-        store_current_token( p, offs );
-        p->state->token_ptr = strbuffer_to_fragment( p->state->token_buffer );
-        p->state->in_token =false;
+        store_current_token( p );
     } else {
         // The entire token is inside this chunk
-        set_token_chunk_end( p, offs );
         p->state->token_ptr = p->state->token_chunk_ptr;
     }
 }
 
+/** Append the token pointed to by the token chunk pointer, to the local token buffer.
+ *  After calling this function, the current token is stored locally.
+ *  Before and after a call to this function, the token chunk pointer should be adjusted
+ *  by calling set_token_chuck_*() */
 static inline void
-store_current_token( haut_t* p, int offs ) {
-    set_token_chunk_end( p, offs );
+store_current_token( haut_t* p ) {
     strbuffer_append( 
             &p->state->token_buffer,
             p->state->token_chunk_ptr.data,
             p->state->token_chunk_ptr.size );
-    set_token_chunk_begin( p, offs );
+    p->state->token_ptr.data = p->state->token_buffer.data;
+    p->state->token_ptr.size = p->state->token_buffer.size;
 }
 
+/** Make a local copy of the data pointed to by attr_key_buffer in @p 
+ *  This function is called when parsing an attribute and the key that has been parsed,
+ *  needs to be saved - either if the chunk ends or and entity is encountered. */
+static inline void
+store_attr_key( haut_t* p ) { 
+    strbuffer_clear( &p->state->attr_key_buffer );
+    strbuffer_copyFragment( &p->state->attr_key_buffer, 0, &p->state->attr_key_ptr );
+    if( p->state->attr_key_ptr.data == p->state->token_buffer.data )
+        clear_current_token( p );
+    p->state->attr_key_ptr.data = p->state->attr_key_buffer.data;
+    p->state->attr_key_ptr.size = p->state->attr_key_buffer.size;
+}
+
+/** Clear both the token chunk pointer and the locally stored token, if any */ 
 static inline void
 clear_current_token( haut_t* p ) {
     strbuffer_clear( &p->state->token_buffer );
+    p->state->token_chunk_ptr.size =0;
+    p->state->token_ptr = p->state->token_chunk_ptr;
+    p->state->in_token =false;
 }
 
+/** Given the new state of the parser, performs the action corresponding to the semantics of that state,
+ *  Additionally, the lexer's next state may be modified (for example, if it was stored previously). */
 static inline void
 dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
     size_t offset;
@@ -260,13 +310,13 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
             end_token( p, 0 );
             p->events.attribute( p, &p->state->attr_key_ptr, &p->state->token_ptr );
             p->state->attr_key_ptr.data = NULL;
-            strbuffer_clear( &p->state->attr_key_buffer );
             clear_current_token( p );
             break;
         
         case P_ATTRIBUTE_VOID:
             end_token( p, 0 );
             p->events.attribute( p, &p->state->token_ptr, NULL );
+            p->state->attr_key_ptr.data = NULL;
             clear_current_token( p );
             break;
 
@@ -280,13 +330,11 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
             break;
 
         case P_COMMENT:
-            end_token( p, 0 );
             p->events.comment( p, &p->state->token_ptr );
             clear_current_token( p );
             break;
         
         case P_CDATA:
-            end_token( p, 0 );
             p->events.cdata( p, &p->state->token_ptr );
             clear_current_token( p );
             break;
@@ -297,30 +345,39 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
             clear_current_token( p );
             break;
 
+        case P_INNERTEXT_ENTITY_BEGIN:
+                p->state->lexer_saved_state = L_INNERTEXT;
         case P_ENTITY_BEGIN:
             if( !p->state->in_token ) {
-                begin_token( p, 0 );
-                p->state->lexer_saved_state = L_INNERTEXT;
-            } else
+                begin_token( p, 1 );
+                p->state->entity_token_offset =0;
+            } else {
+                set_token_chunk_end( p, 0 );
+                store_current_token( p );       
+                p->state->entity_token_offset = p->state->token_buffer.size;
+                set_token_chunk_begin( p, 1 );
+            }
+            if( state != P_INNERTEXT_ENTITY_BEGIN )
                 p->state->lexer_saved_state = p->state->lexer_state;
-            store_current_token( p, 1 );
-            //fprintf( stderr, "DEBUG: entity begin `%.*s'\n", p->state->token_buffer.size, p->state->token_buffer.data );
             break;
 
         case P_ENTITY:
-            offset = p->state->token_buffer.size;
             end_token( p, 0 );
-            p->state->entity_token_ptr.data = p->state->token_buffer.data + offset;
-            p->state->entity_token_ptr.size = p->state->token_buffer.size - offset;
-            //fprintf( stderr, "DEBUG: entity token `%.*s' (%d)\n", p->state->entity_token_ptr.size, p->state->entity_token_ptr.data, p->state->entity_token_ptr.size);
-            char32_t entity = decode_entity( p->state->entity_token_ptr.data, p->state->entity_token_ptr.size );
+            /*fprintf( stderr, "DEBUG: entity token `%.*s' (%d)\n", 
+                    p->state->token_ptr.size - p->state->entity_token_offset,
+                    p->state->token_ptr.data + p->state->entity_token_offset,
+                    p->state->token_ptr.size - p->state->entity_token_offset );*/
+            char32_t entity = decode_entity( 
+                    p->state->token_ptr.data + p->state->entity_token_offset, 
+                    p->state->token_ptr.size - p->state->entity_token_offset );
             strbuffer_t tmp;
             u32toUTF8( &tmp, entity );
-            //fprintf( stderr, "DEBUG: decoded HTML-entity with Unicode %d (%s)\n", entity, tmp.data );
             // Append the decoded entity to whatever token we were parsing
-            p->state->token_buffer.size =offset -1;
+            if( has_stored_token( p ) )
+                p->state->token_buffer.size =p->state->entity_token_offset;
             strbuffer_append( &p->state->token_buffer, tmp.data, tmp.size );
             strbuffer_free( &tmp );
+            p->state->token_ptr = strbuffer_to_fragment( p->state->token_buffer );
             // Return the lexer to the token we were parsing before the entity was encountered
             *lexer_next_state = p->state->lexer_saved_state;
             set_token_chunk_begin( p, 1 );
@@ -337,12 +394,14 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
         case P_TOKEN_END:
             end_token( p, 0 );
             break;
-        case P_SAVE_TOKEN:
-            store_current_token( p, -1 );
-            break;
         case P_ATTRIBUTE_KEY:
             end_token( p, 0 );
-            p->state->attr_key_ptr = p->state->token_ptr;
+            //p->state->attr_key_ptr = p->state->token_ptr;
+            p->state->attr_key_ptr.data = p->state->token_ptr.data;
+            p->state->attr_key_ptr.size = p->state->token_ptr.size;
+            if( p->state->token_ptr.data == p->state->token_buffer.data ) {
+                store_attr_key( p );
+            }
             break;
         case P_ELEMENT_END:
             if( p->state->last_tag == TAG_SCRIPT ) {
@@ -354,6 +413,12 @@ dispatch_parser_action( haut_t* p, int state, int* lexer_next_state ) {
             break;
         case P_SCRIPT_END:
             p->events.script( p, &p->state->token_ptr );
+            clear_current_token( p );
+            break;
+        // These two are currently unused and reserved for future use.
+        case P_SAVE_TOKEN:
+            set_token_chunk_end( p, -1 );
+            store_current_token( p );
             break;
         case P_SAVE_LEXER_STATE:
             p->state->lexer_saved_state = p->state->lexer_state;
@@ -398,16 +463,20 @@ haut_parse( haut_t* p ) {
     
     while( !at_end( p ) ) {
         c =current_char( p );
-
+        /* Insert the character into the lexer's FSM */
         next_lexer_state =lexer_next_state( p->state->lexer_state, c );
 
+        /* We now have two lexer states: the current and the next.
+         * The parser's FSM responds on this transition by generating (a)
+         * state(s) that semantically describes this transition */
         parser_state =parser_next_state( p->state->lexer_state, next_lexer_state );
 
+        /* The parser FSM gives either zero, one or two new states that define serialized actions */
         for( int k =0; k < 2; k++ )
             dispatch_parser_action( p, parser_state[k], &next_lexer_state );
         
+        /* Lastly, make the lexer's next state current and advance the counters */
         p->state->lexer_state =next_lexer_state;
-
         p->position.offset++;
         if( c == '\n' ) {
             p->position.row++;
@@ -419,16 +488,33 @@ haut_parse( haut_t* p ) {
 
 void
 haut_parseChunk( haut_t* p, const char* buffer, size_t len ) {
+    /* In this function, we parse a part of the input (chunk)
+     * and save the state for future calls */
+    
     haut_setInput( p, buffer, len );
+
+    /* We were inside a token the last time, continue it by correcting the pointer
+     */
     if( p->state->in_token )
         set_token_chunk_begin( p, 0 );
     haut_parse( p );
-    if( p->state->attr_key_ptr.data ) {
-        strbuffer_copyFragment( &p->state->attr_key_buffer, 0, &p->state->attr_key_ptr );
-        p->state->attr_key_ptr.data = p->state->attr_key_buffer.data;
-        p->state->attr_key_ptr.size = p->state->attr_key_buffer.size;
+    /* Attributes consist of two tokens (key, value). The key needs to be saved separately
+     */
+    if( p->state->attr_key_ptr.data && p->state->attr_key_ptr.data != p->state->attr_key_buffer.data ) {
+        store_attr_key( p );
     }
-    store_current_token( p, 0 );
+    /* Save the current token, if any */
+    if( p->state->in_token ) {
+        // Partial token
+        set_token_chunk_end( p, 0 );
+        store_current_token( p );
+        set_token_chunk_begin( p, 0 );
+    }
+    else if( !has_stored_token( p ) && p->state->token_ptr.size ) {
+        // Completed token
+        clear_current_token( p );
+        store_current_token( p );
+    }
 }
 
 haut_tag_t

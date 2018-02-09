@@ -17,7 +17,7 @@ CC = gcc
 CFLAGS = -Wall -std=c99 -O2 -g -I$(HAUT_DIR)/include
 LDFLAGS = -lhaut -lm -L$(HAUT_DIR)/lib
 
-EXAMPLES = getlinks getlinks_curl html2text
+EXAMPLES = getlinks getlinks_stream html2text
 
 all:		$(EXAMPLES)
 

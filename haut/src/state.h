@@ -127,19 +127,21 @@
 
 #define P_DOCTYPE               12
 #define P_ENTITY_BEGIN          13
-#define P_ENTITY                14
+#define P_INNERTEXT_ENTITY_BEGIN 14
+#define P_ENTITY                15
 
-#define P_ERROR                 15      /* Syntax error */
+#define P_ERROR                 16      /* Syntax error */
 
-#define P_TOKEN_BEGIN           16      /* We begun parsing some token */
-#define P_TOKEN_END             17      /* We have completed parsing some token */
+#define P_TOKEN_BEGIN           17      /* We begun parsing some token */
+#define P_TOKEN_END             18      /* We have completed parsing some token */
 
-#define P_ELEMENT_END           18      /* The definition of the current element is completed (including attributes) */
-#define P_VOID_ELEMENT_END      19      /* The definition of the current void element is completed (including attributes) */
+#define P_ELEMENT_END           19      /* The definition of the current element is completed (including attributes) */
+#define P_VOID_ELEMENT_END      20      /* The definition of the current void element is completed (including attributes) */
 
-#define P_SCRIPT_END            20      /* We were lexing through a <script> and have reached its end */
+#define P_SCRIPT_END            21      /* We were lexing through a <script> and have reached its end */
 
-#define P_SAVE_LEXER_STATE      21      /* On a rare occasion we need to store the lexer's state */
-#define P_SAVE_TOKEN            22      /* Save the current token to a separate buffer - we do this already in streaming mode */
+// For future use
+#define P_SAVE_LEXER_STATE      22      /* On a rare occasion we need to store the lexer's state */
+#define P_SAVE_TOKEN            23      /* Save the current token to a separate buffer - we do this already in streaming mode */
 
 #endif

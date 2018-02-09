@@ -2,7 +2,7 @@
 // In order to build it, it has to be pre-processed using `gcc -E -P'
 // The preprocessed file can then be fed to fsm2array
 // The resulting transition table can be included inside a C-style array notation
-#include "../state.h"
+#include "../src/state.h"
 // Define the number of states and the number of inputs (byte)
 %! L_N_STATES 256
 

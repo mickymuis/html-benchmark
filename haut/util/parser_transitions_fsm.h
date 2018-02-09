@@ -2,7 +2,7 @@
 // In order to build it, it has to be pre-processed using `gcc -E -P'
 // The preprocessed file can then be fed to fsm2array
 // The resulting transition table can be included inside a C-style array notation
-#include "../state.h"
+#include "../src/state.h"
 // Define the number of states and the number of inputs
 %! L_N_STATES L_N_STATES
 
@@ -51,6 +51,9 @@ L_CDATA, L_CDATA_RBRACKET1      => { P_TOKEN_END }
 
 // Entities
 ^L_ENTITY, L_ENTITY             => { P_ENTITY_BEGIN }
+L_WHITESPACE, L_ENTITY          => { P_INNERTEXT_ENTITY_BEGIN }
+L_INNERTEXT, L_ENTITY           => { P_INNERTEXT_ENTITY_BEGIN }
+L_ELEM_END, L_ENTITY            => { P_INNERTEXT_ENTITY_BEGIN }
 
 //
 // Transitions that result in a complete token
@@ -76,8 +79,8 @@ L_ATTR_VALUE, L_CLOSE_ELEM_SELF => { P_ATTRIBUTE }
 L_ATTR_SINGLE_QUOTE_VALUE,L_ELEM_WS => { P_ATTRIBUTE }
 L_ATTR_DOUBLE_QUOTE_VALUE,L_ELEM_WS => { P_ATTRIBUTE }
 // Empty attribute values
-L_ATTR_SINGLE_QUOTE_OPEN,L_ELEM_WS => { P_ATTRIBUTE }
-L_ATTR_DOUBLE_QUOTE_OPEN,L_ELEM_WS => { P_ATTRIBUTE }
+L_ATTR_SINGLE_QUOTE_OPEN,L_ELEM_WS => { P_TOKEN_BEGIN, P_ATTRIBUTE }
+L_ATTR_DOUBLE_QUOTE_OPEN,L_ELEM_WS => { P_TOKEN_BEGIN, P_ATTRIBUTE }
 
 // Opening tag
 L_ELEM, L_ELEM_WS               => { P_ELEMENT_OPEN }
